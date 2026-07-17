@@ -112,3 +112,13 @@ Les tests n’appellent aucun fournisseur payant.
 ## Limites actuelles
 
 Les contrats réels AAA Data, TecAlliance et Auto Ways ne peuvent pas être finalisés sans documentation et identifiants sous licence. Le cache normalisé multi-fournisseurs utilise encore les tables de résolution existantes pour la persistance VIN; une couche Redis peut être ajoutée à grande échelle. L’interface propose France, Belgique, Suisse et Luxembourg, mais la disponibilité réelle dépend du contrat fournisseur.
+
+## Déploiement Vercel et Railway
+
+- Vercel : connecter le dépôt avec `frontend` comme Root Directory.
+- Railway backend : connecter le même dépôt avec `/backend` comme Root Directory et `/backend/railway.toml` comme fichier de configuration.
+- Railway PostgreSQL : ajouter un service PostgreSQL et fournir sa `DATABASE_URL` au backend.
+- Vercel : définir `NEXT_PUBLIC_API_URL=https://<backend-railway>/api`.
+- Railway : définir `CORS_ORIGINS=https://<frontend-vercel>`, `LLM_PROVIDER=gemini` et `GEMINI_API_KEY`.
+
+La clé Gemini reste exclusivement dans les variables Railway.
