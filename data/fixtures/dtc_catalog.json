@@ -1,0 +1,6175 @@
+{
+  "schema_version": "1.0",
+  "source": {
+    "title": "Wal33D DTC Database — requested generic definitions",
+    "publisher": "Waleed Judah (Wal33D)",
+    "source_type": "open_source_dataset",
+    "source_url": "https://github.com/Wal33D/dtc-database",
+    "source_commit": "04c43d72e7db7197658b6f72fe582c5076d9eee8",
+    "license_type": "MIT",
+    "language": "en",
+    "trust_level": "community_open_data",
+    "review_status": "unreviewed",
+    "standard_claim": "Dataset describes its generic coverage as SAE J2012; not independently verified against the licensed current SAE J2012DA."
+  },
+  "input_report": {
+    "occurrences": 1236,
+    "unique_codes": 1230,
+    "duplicates_removed": 6,
+    "matched": 1230,
+    "missing": []
+  },
+  "definitions": [
+    {
+      "code": "P001A",
+      "description_en": "A Camshaft Profile Actuator A Control Circuit/Open Bank 1",
+      "category": "P"
+    },
+    {
+      "code": "P001B",
+      "description_en": "A Camshaft Profile Actuator A Control Circuit Low Bank 1",
+      "category": "P"
+    },
+    {
+      "code": "P001C",
+      "description_en": "A Camshaft Profile Actuator A Control Circuit High Bank 1",
+      "category": "P"
+    },
+    {
+      "code": "P001D",
+      "description_en": "A Camshaft Profile Actuator A Control Circuit/Open Bank 2",
+      "category": "P"
+    },
+    {
+      "code": "P001E",
+      "description_en": "A Camshaft Profile Actuator A Control Circuit Low Bank 2",
+      "category": "P"
+    },
+    {
+      "code": "P001F",
+      "description_en": "A Camshaft Profile Actuator A Control Circuit High Bank 2",
+      "category": "P"
+    },
+    {
+      "code": "P002A",
+      "description_en": "B Camshaft Profile Actuator A Control Circuit/Open Bank 1",
+      "category": "P"
+    },
+    {
+      "code": "P002B",
+      "description_en": "B Camshaft Profile Actuator A Control Circuit Low Bank 1",
+      "category": "P"
+    },
+    {
+      "code": "P002C",
+      "description_en": "B Camshaft Profile Actuator A Control Circuit High Bank 1",
+      "category": "P"
+    },
+    {
+      "code": "P002D",
+      "description_en": "B Camshaft Profile Actuator A Control Circuit/Open Bank 2",
+      "category": "P"
+    },
+    {
+      "code": "P002E",
+      "description_en": "B Camshaft Profile Actuator A Control Circuit Low Bank 2",
+      "category": "P"
+    },
+    {
+      "code": "P002F",
+      "description_en": "B Camshaft Profile Actuator A Control Circuit High Bank 2",
+      "category": "P"
+    },
+    {
+      "code": "P003A",
+      "description_en": "Turbocharger/Supercharger Boost Control A Position Exceeded Learning Limit",
+      "category": "P"
+    },
+    {
+      "code": "P003B",
+      "description_en": "Turbocharger/Supercharger Boost Control B Position Exceeded Learning Limit",
+      "category": "P"
+    },
+    {
+      "code": "P003C",
+      "description_en": "A Camshaft Profile Actuator A Control Performance/Stuck Off Bank 1",
+      "category": "P"
+    },
+    {
+      "code": "P003D",
+      "description_en": "A Camshaft Profile Actuator A Control Stuck On Bank 1",
+      "category": "P"
+    },
+    {
+      "code": "P003E",
+      "description_en": "A Camshaft Profile Actuator A Control Performance/Stuck Off Bank 2",
+      "category": "P"
+    },
+    {
+      "code": "P003F",
+      "description_en": "A Camshaft Profile Actuator A Control Stuck On Bank 2",
+      "category": "P"
+    },
+    {
+      "code": "P004A",
+      "description_en": "Turbocharger/Supercharger Boost Control B Circuit/Open",
+      "category": "P"
+    },
+    {
+      "code": "P004B",
+      "description_en": "Turbocharger/Supercharger Boost Control B Circuit Range/Performance",
+      "category": "P"
+    },
+    {
+      "code": "P004C",
+      "description_en": "Turbocharger/Supercharger Boost Control B Circuit Low",
+      "category": "P"
+    },
+    {
+      "code": "P004D",
+      "description_en": "Turbocharger/Supercharger Boost Control B Circuit High",
+      "category": "P"
+    },
+    {
+      "code": "P004E",
+      "description_en": "Turbocharger/Supercharger Boost Control A Circuit Intermittent/Erratic",
+      "category": "P"
+    },
+    {
+      "code": "P004F",
+      "description_en": "Turbocharger/Supercharger Boost Control B Circuit Intermittent/Erratic",
+      "category": "P"
+    },
+    {
+      "code": "P005A",
+      "description_en": "B Camshaft Profile Actuator A Control Performance/Stuck Off Bank 1",
+      "category": "P"
+    },
+    {
+      "code": "P005B",
+      "description_en": "B Camshaft Profile Actuator A Control Stuck On Bank 1",
+      "category": "P"
+    },
+    {
+      "code": "P005C",
+      "description_en": "B Camshaft Profile Actuator A Control Performance/Stuck Off Bank 2",
+      "category": "P"
+    },
+    {
+      "code": "P005D",
+      "description_en": "B Camshaft Profile Actuator A Control Stuck On Bank 2",
+      "category": "P"
+    },
+    {
+      "code": "P005E",
+      "description_en": "Turbocharger/Supercharger Boost Control B Supply Voltage Circuit Low",
+      "category": "P"
+    },
+    {
+      "code": "P005F",
+      "description_en": "Turbocharger/Supercharger Boost Control B Supply Voltage Circuit High",
+      "category": "P"
+    },
+    {
+      "code": "P006A",
+      "description_en": "MAP - Mass or Volume Air Flow Correlation Bank 1",
+      "category": "P"
+    },
+    {
+      "code": "P006B",
+      "description_en": "MAP - Exhaust Pressure Correlation",
+      "category": "P"
+    },
+    {
+      "code": "P006C",
+      "description_en": "MAP - Turbocharger/Supercharger Inlet Pressure Correlation",
+      "category": "P"
+    },
+    {
+      "code": "P006D",
+      "description_en": "Barometric Pressure - Turbocharger/Supercharger Inlet Pressure Correlation Bank 1",
+      "category": "P"
+    },
+    {
+      "code": "P006E",
+      "description_en": "Turbocharger/Supercharger Boost Control A Supply Voltage Circuit Low",
+      "category": "P"
+    },
+    {
+      "code": "P006F",
+      "description_en": "Turbocharger/Supercharger Boost Control A Supply Voltage Circuit High",
+      "category": "P"
+    },
+    {
+      "code": "P007A",
+      "description_en": "Charge Air Cooler Temperature Sensor Circuit Bank 1",
+      "category": "P"
+    },
+    {
+      "code": "P007B",
+      "description_en": "Charge Air Cooler Temperature Sensor Circuit Range/Performance Bank 1",
+      "category": "P"
+    },
+    {
+      "code": "P007C",
+      "description_en": "Charge Air Cooler Temperature Sensor Circuit Low Bank 1",
+      "category": "P"
+    },
+    {
+      "code": "P007D",
+      "description_en": "Charge Air Cooler Temperature Sensor Circuit High Bank 1",
+      "category": "P"
+    },
+    {
+      "code": "P007E",
+      "description_en": "Charge Air Cooler Temperature Sensor Circuit Intermittent/Erratic Bank 1",
+      "category": "P"
+    },
+    {
+      "code": "P007F",
+      "description_en": "Charge Air Cooler Temperature Sensor Bank1/Bank2 Correlation",
+      "category": "P"
+    },
+    {
+      "code": "P008A",
+      "description_en": "Low Pressure Fuel System Pressure - Too Low",
+      "category": "P"
+    },
+    {
+      "code": "P008B",
+      "description_en": "Low Pressure Fuel System Pressure - Too High",
+      "category": "P"
+    },
+    {
+      "code": "P008C",
+      "description_en": "Fuel Cooler Pump Control Circuit/Open",
+      "category": "P"
+    },
+    {
+      "code": "P008D",
+      "description_en": "Fuel Cooler Pump Control Circuit Low",
+      "category": "P"
+    },
+    {
+      "code": "P008E",
+      "description_en": "Fuel Cooler Pump Control Circuit High",
+      "category": "P"
+    },
+    {
+      "code": "P008F",
+      "description_en": "Engine Coolant Temperature/Fuel Temperature Correlation",
+      "category": "P"
+    },
+    {
+      "code": "P009A",
+      "description_en": "Intake Air Temperature/Ambient Air Temperature Correlation",
+      "category": "P"
+    },
+    {
+      "code": "P009B",
+      "description_en": "Fuel Pressure Relief Control Circuit/Open",
+      "category": "P"
+    },
+    {
+      "code": "P009C",
+      "description_en": "Fuel Pressure Relief Control Circuit Low",
+      "category": "P"
+    },
+    {
+      "code": "P009D",
+      "description_en": "Fuel Pressure Relief Control Circuit High",
+      "category": "P"
+    },
+    {
+      "code": "P009E",
+      "description_en": "Fuel Pressure Relief Control Performance/Stuck Off",
+      "category": "P"
+    },
+    {
+      "code": "P009F",
+      "description_en": "Fuel Pressure Relief Control Stuck On",
+      "category": "P"
+    },
+    {
+      "code": "P00A0",
+      "description_en": "Charge Air Cooler Temperature Sensor Circuit Bank 2",
+      "category": "P"
+    },
+    {
+      "code": "P00A1",
+      "description_en": "Charge Air Cooler Temperature Sensor Circuit Range/Performance Bank 2",
+      "category": "P"
+    },
+    {
+      "code": "P00A2",
+      "description_en": "Charge Air Cooler Temperature Sensor Circuit Low Bank 2",
+      "category": "P"
+    },
+    {
+      "code": "P00A3",
+      "description_en": "Charge Air Cooler Temperature Sensor Circuit High Bank 2",
+      "category": "P"
+    },
+    {
+      "code": "P00A4",
+      "description_en": "Charge Air Cooler Temperature Sensor Circuit Intermittent/Erratic Bank 2",
+      "category": "P"
+    },
+    {
+      "code": "P00A5",
+      "description_en": "Intake Air Temperature Sensor 2 Circuit Bank 2",
+      "category": "P"
+    },
+    {
+      "code": "P00A6",
+      "description_en": "Intake Air Temperature Sensor 2 Circuit Range/Performance Bank 2",
+      "category": "P"
+    },
+    {
+      "code": "P00A7",
+      "description_en": "Intake Air Temperature Sensor 2 Circuit Low Bank 2",
+      "category": "P"
+    },
+    {
+      "code": "P00A8",
+      "description_en": "Intake Air Temperature Sensor 2 Circuit High Bank 2",
+      "category": "P"
+    },
+    {
+      "code": "P00A9",
+      "description_en": "Intake Air Temperature Sensor 2 Circuit Intermittent/Erratic Bank 2",
+      "category": "P"
+    },
+    {
+      "code": "P00AA",
+      "description_en": "Intake Air Temperature Sensor 1 Circuit Bank 2",
+      "category": "P"
+    },
+    {
+      "code": "P00AB",
+      "description_en": "Intake Air Temperature Sensor 1 Circuit Range/Performance Bank 2",
+      "category": "P"
+    },
+    {
+      "code": "P00AC",
+      "description_en": "Intake Air Temperature Sensor 1 Circuit Low Bank 2",
+      "category": "P"
+    },
+    {
+      "code": "P00AD",
+      "description_en": "Intake Air Temperature Sensor 1 Circuit High Bank 2",
+      "category": "P"
+    },
+    {
+      "code": "P00AE",
+      "description_en": "Intake Air Temperature Sensor 1 Circuit Intermittent Bank 2",
+      "category": "P"
+    },
+    {
+      "code": "P00AF",
+      "description_en": "Turbocharger/Supercharger Boost Control A Module Performance",
+      "category": "P"
+    },
+    {
+      "code": "P00B0",
+      "description_en": "Turbocharger/Supercharger Boost Control B Module Performance",
+      "category": "P"
+    },
+    {
+      "code": "P00B1",
+      "description_en": "Radiator Coolant Temperature Sensor Circuit",
+      "category": "P"
+    },
+    {
+      "code": "P00B2",
+      "description_en": "Radiator Coolant Temperature Sensor Circuit Range/Performance",
+      "category": "P"
+    },
+    {
+      "code": "P00B3",
+      "description_en": "Radiator Coolant Temperature Sensor Circuit Low",
+      "category": "P"
+    },
+    {
+      "code": "P00B4",
+      "description_en": "Radiator Coolant Temperature Sensor Circuit High",
+      "category": "P"
+    },
+    {
+      "code": "P00B5",
+      "description_en": "Radiator Coolant Temperature Sensor Circuit Intermittent/Erratic",
+      "category": "P"
+    },
+    {
+      "code": "P00B6",
+      "description_en": "Radiator Coolant Temperature/Engine Coolant Temperature Correlation",
+      "category": "P"
+    },
+    {
+      "code": "P00B7",
+      "description_en": "Engine Coolant Flow Low/Performance",
+      "category": "P"
+    },
+    {
+      "code": "P00B8",
+      "description_en": "MAP - Mass or Volume Air Flow Correlation Bank 2",
+      "category": "P"
+    },
+    {
+      "code": "P00B9",
+      "description_en": "Low Pressure Fuel System Pressure - Too Low. Low Ambient Temperature",
+      "category": "P"
+    },
+    {
+      "code": "P00BA",
+      "description_en": "Low Fuel Pressure - Forced Limited Power",
+      "category": "P"
+    },
+    {
+      "code": "P00BB",
+      "description_en": "Fuel Injector Insufficient Flow - Forced Limited Power",
+      "category": "P"
+    },
+    {
+      "code": "P00BC",
+      "description_en": "Mass or Volume Air Flow A Circuit Range/Performance - Air Flow Too Low",
+      "category": "P"
+    },
+    {
+      "code": "P00BD",
+      "description_en": "Mass or Volume Air Flow A Circuit Range/Performance - Air Flow Too High",
+      "category": "P"
+    },
+    {
+      "code": "P00BE",
+      "description_en": "Mass or Volume Air Flow B Circuit Range/Performance - Air Flow Too Low",
+      "category": "P"
+    },
+    {
+      "code": "P00BF",
+      "description_en": "Mass or Volume Air Flow B Circuit Range/Performance - Air Flow Too High",
+      "category": "P"
+    },
+    {
+      "code": "P011A",
+      "description_en": "Engine Coolant Temperature Sensor 1/2 Correlation",
+      "category": "P"
+    },
+    {
+      "code": "P011B",
+      "description_en": "Engine Coolant Temperature/Intake Air Temperature Correlation",
+      "category": "P"
+    },
+    {
+      "code": "P011C",
+      "description_en": "Charge Air Cooler Temperature/Intake Air Temperature Correlation Bank 1",
+      "category": "P"
+    },
+    {
+      "code": "P011D",
+      "description_en": "Charge Air Cooler Temperature/Intake Air Temperature Correlation Bank 2",
+      "category": "P"
+    },
+    {
+      "code": "P012A",
+      "description_en": "Turbocharger/Supercharger Inlet Pressure Sensor A Circuit",
+      "category": "P"
+    },
+    {
+      "code": "P012B",
+      "description_en": "Turbocharger/Supercharger Inlet Pressure Sensor A Circuit Range/Performance",
+      "category": "P"
+    },
+    {
+      "code": "P012C",
+      "description_en": "Turbocharger/Supercharger Inlet Pressure Sensor A Circuit Low",
+      "category": "P"
+    },
+    {
+      "code": "P012D",
+      "description_en": "Turbocharger/Supercharger Inlet Pressure Sensor A Circuit High",
+      "category": "P"
+    },
+    {
+      "code": "P012E",
+      "description_en": "Turbocharger/Supercharger Inlet Pressure Sensor A Circuit Intermittent/Erratic",
+      "category": "P"
+    },
+    {
+      "code": "P013A",
+      "description_en": "O2 Sensor Slow Response - Rich to Lean Bank 1 Sensor 2",
+      "category": "P"
+    },
+    {
+      "code": "P013B",
+      "description_en": "O2 Sensor Slow Response - Lean to Rich Bank 1 Sensor 2",
+      "category": "P"
+    },
+    {
+      "code": "P013C",
+      "description_en": "O2 Sensor Slow Response - Rich to Lean Bank 2 Sensor 2",
+      "category": "P"
+    },
+    {
+      "code": "P013D",
+      "description_en": "O2 Sensor Slow Response - Lean to Rich Bank 2 Sensor 2",
+      "category": "P"
+    },
+    {
+      "code": "P013E",
+      "description_en": "O2 Sensor Delayed Response - Rich to Lean Bank 1 Sensor 2",
+      "category": "P"
+    },
+    {
+      "code": "P013F",
+      "description_en": "O2 Sensor Delayed Response - Lean to Rich Bank 1 Sensor 2",
+      "category": "P"
+    },
+    {
+      "code": "P014A",
+      "description_en": "O2 Sensor Delayed Response - Rich to Lean Bank 2 Sensor 2",
+      "category": "P"
+    },
+    {
+      "code": "P014B",
+      "description_en": "O2 Sensor Delayed Response - Lean to Rich Bank 2 Sensor 2",
+      "category": "P"
+    },
+    {
+      "code": "P014C",
+      "description_en": "O2 Sensor Slow Response - Rich to Lean Bank 1 Sensor 1",
+      "category": "P"
+    },
+    {
+      "code": "P014D",
+      "description_en": "O2 Sensor Slow Response - Lean to Rich Bank 1 Sensor 1",
+      "category": "P"
+    },
+    {
+      "code": "P014E",
+      "description_en": "O2 Sensor Slow Response - Rich to Lean Bank 2 Sensor 1",
+      "category": "P"
+    },
+    {
+      "code": "P014F",
+      "description_en": "O2 Sensor Slow Response - Lean to Rich Bank 2 Sensor 1",
+      "category": "P"
+    },
+    {
+      "code": "P015A",
+      "description_en": "O2 Sensor Delayed Response - Rich to Lean Bank 1 Sensor 1",
+      "category": "P"
+    },
+    {
+      "code": "P015B",
+      "description_en": "O2 Sensor Delayed Response - Lean to Rich Bank 1 Sensor 1",
+      "category": "P"
+    },
+    {
+      "code": "P015C",
+      "description_en": "O2 Sensor Delayed Response - Rich to Lean Bank 2 Sensor 1",
+      "category": "P"
+    },
+    {
+      "code": "P015D",
+      "description_en": "O2 Sensor Delayed Response - Lean to Rich Bank 2 Sensor 1",
+      "category": "P"
+    },
+    {
+      "code": "P018A",
+      "description_en": "Fuel Pressure Sensor B Circuit",
+      "category": "P"
+    },
+    {
+      "code": "P018B",
+      "description_en": "Fuel Pressure Sensor B Circuit Range/Performance",
+      "category": "P"
+    },
+    {
+      "code": "P018C",
+      "description_en": "Fuel Pressure Sensor B Circuit Low",
+      "category": "P"
+    },
+    {
+      "code": "P018D",
+      "description_en": "Fuel Pressure Sensor B Circuit High",
+      "category": "P"
+    },
+    {
+      "code": "P018E",
+      "description_en": "Fuel Pressure Sensor B Circuit Intermittent/Erratic",
+      "category": "P"
+    },
+    {
+      "code": "P018F",
+      "description_en": "Fuel System Over Pressure Relief Valve Frequent Activation",
+      "category": "P"
+    },
+    {
+      "code": "P020A",
+      "description_en": "Cylinder 1 Injection Timing",
+      "category": "P"
+    },
+    {
+      "code": "P020B",
+      "description_en": "Cylinder 2 Injection Timing",
+      "category": "P"
+    },
+    {
+      "code": "P020C",
+      "description_en": "Cylinder 3 Injection Timing",
+      "category": "P"
+    },
+    {
+      "code": "P020D",
+      "description_en": "Cylinder 4 Injection Timing",
+      "category": "P"
+    },
+    {
+      "code": "P020E",
+      "description_en": "Cylinder 5 Injection Timing",
+      "category": "P"
+    },
+    {
+      "code": "P020F",
+      "description_en": "Cylinder 6 Injection Timing",
+      "category": "P"
+    },
+    {
+      "code": "P021A",
+      "description_en": "Cylinder 7 Injection Timing",
+      "category": "P"
+    },
+    {
+      "code": "P021B",
+      "description_en": "Cylinder 8 Injection Timing",
+      "category": "P"
+    },
+    {
+      "code": "P021C",
+      "description_en": "Cylinder 9 Injection Timing",
+      "category": "P"
+    },
+    {
+      "code": "P021D",
+      "description_en": "Cylinder 10 Injection Timing",
+      "category": "P"
+    },
+    {
+      "code": "P021E",
+      "description_en": "Cylinder 11 Injection Timing",
+      "category": "P"
+    },
+    {
+      "code": "P021F",
+      "description_en": "Cylinder 12 Injection Timing",
+      "category": "P"
+    },
+    {
+      "code": "P022A",
+      "description_en": "Charge Air Cooler Bypass Control A Circuit /Open",
+      "category": "P"
+    },
+    {
+      "code": "P022B",
+      "description_en": "Charge Air Cooler Bypass Control A Circuit Low",
+      "category": "P"
+    },
+    {
+      "code": "P022C",
+      "description_en": "Charge Air Cooler Bypass Control A Circuit High",
+      "category": "P"
+    },
+    {
+      "code": "P022D",
+      "description_en": "Charge Air Cooler Bypass Control B Circuit /Open",
+      "category": "P"
+    },
+    {
+      "code": "P022E",
+      "description_en": "Charge Air Cooler Bypass Control B Circuit Low",
+      "category": "P"
+    },
+    {
+      "code": "P022F",
+      "description_en": "Charge Air Cooler Bypass Control B Circuit High",
+      "category": "P"
+    },
+    {
+      "code": "P023A",
+      "description_en": "Charge Air Cooler Coolant Pump A Control Circuit/Open",
+      "category": "P"
+    },
+    {
+      "code": "P023B",
+      "description_en": "Charge Air Cooler Coolant Pump A Control Circuit Low",
+      "category": "P"
+    },
+    {
+      "code": "P023C",
+      "description_en": "Charge Air Cooler Coolant Pump A Control Circuit High",
+      "category": "P"
+    },
+    {
+      "code": "P023D",
+      "description_en": "Manifold Absolute Pressure - Turbocharger/Supercharger Boost Sensor A Correlation",
+      "category": "P"
+    },
+    {
+      "code": "P023E",
+      "description_en": "Manifold Absolute Pressure - Turbocharger/Supercharger Boost Sensor B Correlation",
+      "category": "P"
+    },
+    {
+      "code": "P023F",
+      "description_en": "Fuel Pump Secondary Circuit/Open",
+      "category": "P"
+    },
+    {
+      "code": "P024A",
+      "description_en": "Charge Air Cooler Bypass Control A Range/Performance",
+      "category": "P"
+    },
+    {
+      "code": "P024B",
+      "description_en": "Charge Air Cooler Bypass Control A Stuck",
+      "category": "P"
+    },
+    {
+      "code": "P024C",
+      "description_en": "Charge Air Cooler Bypass Position Sensor A Circuit",
+      "category": "P"
+    },
+    {
+      "code": "P024D",
+      "description_en": "Charge Air Cooler Bypass Position Sensor A Circuit Range/Performance",
+      "category": "P"
+    },
+    {
+      "code": "P024E",
+      "description_en": "Charge Air Cooler Bypass Position Sensor A Circuit Low",
+      "category": "P"
+    },
+    {
+      "code": "P024F",
+      "description_en": "Charge Air Cooler Bypass Position Sensor A Circuit High",
+      "category": "P"
+    },
+    {
+      "code": "P025A",
+      "description_en": "Fuel Pump Module A Control Circuit/Open",
+      "category": "P"
+    },
+    {
+      "code": "P025B",
+      "description_en": "Fuel Pump Module A Control Circuit Range/Performance",
+      "category": "P"
+    },
+    {
+      "code": "P025C",
+      "description_en": "Fuel Pump Module A Control Circuit Low",
+      "category": "P"
+    },
+    {
+      "code": "P025D",
+      "description_en": "Fuel Pump Module A Control Circuit High",
+      "category": "P"
+    },
+    {
+      "code": "P029A",
+      "description_en": "Cylinder 1 - Fuel Trim at Max Limit",
+      "category": "P"
+    },
+    {
+      "code": "P029B",
+      "description_en": "Cylinder 1 - Fuel Trim at Min Limit",
+      "category": "P"
+    },
+    {
+      "code": "P029C",
+      "description_en": "Cylinder 1 - Injector Restricted",
+      "category": "P"
+    },
+    {
+      "code": "P029D",
+      "description_en": "Cylinder 1 - Injector Leaking",
+      "category": "P"
+    },
+    {
+      "code": "P029E",
+      "description_en": "Cylinder 2 - Fuel Trim at Max Limit",
+      "category": "P"
+    },
+    {
+      "code": "P029F",
+      "description_en": "Cylinder 2 - Fuel Trim at Min Limit",
+      "category": "P"
+    },
+    {
+      "code": "P02A0",
+      "description_en": "Cylinder 2 - Injector Restricted",
+      "category": "P"
+    },
+    {
+      "code": "P02A1",
+      "description_en": "Cylinder 2 - Injector Leaking",
+      "category": "P"
+    },
+    {
+      "code": "P02A2",
+      "description_en": "Cylinder 3 - Fuel Trim at Max Limit",
+      "category": "P"
+    },
+    {
+      "code": "P02A3",
+      "description_en": "Cylinder 3 - Fuel Trim at Min Limit",
+      "category": "P"
+    },
+    {
+      "code": "P02A4",
+      "description_en": "Cylinder 3 - Injector Restricted",
+      "category": "P"
+    },
+    {
+      "code": "P02A5",
+      "description_en": "Cylinder 3 - Injector Leaking",
+      "category": "P"
+    },
+    {
+      "code": "P02A6",
+      "description_en": "Cylinder 4 - Fuel Trim at Max Limit",
+      "category": "P"
+    },
+    {
+      "code": "P02A7",
+      "description_en": "Cylinder 4 - Fuel Trim at Min Limit",
+      "category": "P"
+    },
+    {
+      "code": "P02A8",
+      "description_en": "Cylinder 4 - Injector Restricted",
+      "category": "P"
+    },
+    {
+      "code": "P02A9",
+      "description_en": "Cylinder 4 - Injector Leaking",
+      "category": "P"
+    },
+    {
+      "code": "P02AA",
+      "description_en": "Cylinder 5 - Fuel Trim at Max Limit",
+      "category": "P"
+    },
+    {
+      "code": "P02AB",
+      "description_en": "Cylinder 5 - Fuel Trim at Min Limit",
+      "category": "P"
+    },
+    {
+      "code": "P02AC",
+      "description_en": "Cylinder 5 - Injector Restricted",
+      "category": "P"
+    },
+    {
+      "code": "P02AD",
+      "description_en": "Cylinder 5 - Injector Leaking",
+      "category": "P"
+    },
+    {
+      "code": "P02AE",
+      "description_en": "Cylinder 6 - Fuel Trim at Max Limit",
+      "category": "P"
+    },
+    {
+      "code": "P02AF",
+      "description_en": "Cylinder 6 - Fuel Trim at Min Limit",
+      "category": "P"
+    },
+    {
+      "code": "P02B0",
+      "description_en": "Cylinder 6 - Injector Restricted",
+      "category": "P"
+    },
+    {
+      "code": "P02B1",
+      "description_en": "Cylinder 6 - Injector Leaking",
+      "category": "P"
+    },
+    {
+      "code": "P02B2",
+      "description_en": "Cylinder 7 - Fuel Trim at Max Limit",
+      "category": "P"
+    },
+    {
+      "code": "P02B3",
+      "description_en": "Cylinder 7 - Fuel Trim at Min Limit",
+      "category": "P"
+    },
+    {
+      "code": "P02B4",
+      "description_en": "Cylinder 7 - Injector Restricted",
+      "category": "P"
+    },
+    {
+      "code": "P02B5",
+      "description_en": "Cylinder 7 - Injector Leaking",
+      "category": "P"
+    },
+    {
+      "code": "P02B6",
+      "description_en": "Cylinder 8 - Fuel Trim at Max Limit",
+      "category": "P"
+    },
+    {
+      "code": "P02B7",
+      "description_en": "Cylinder 8 - Fuel Trim at Min Limit",
+      "category": "P"
+    },
+    {
+      "code": "P02B8",
+      "description_en": "Cylinder 8 - Injector Restricted",
+      "category": "P"
+    },
+    {
+      "code": "P02B9",
+      "description_en": "Cylinder 8 - Injector Leaking",
+      "category": "P"
+    },
+    {
+      "code": "P02BA",
+      "description_en": "Cylinder 9 - Fuel Trim at Max Limit",
+      "category": "P"
+    },
+    {
+      "code": "P02BB",
+      "description_en": "Cylinder 9 - Fuel Trim at Min Limit",
+      "category": "P"
+    },
+    {
+      "code": "P02BC",
+      "description_en": "Cylinder 9 - Injector Restricted",
+      "category": "P"
+    },
+    {
+      "code": "P02BD",
+      "description_en": "Cylinder 9 - Injector Leaking",
+      "category": "P"
+    },
+    {
+      "code": "P02BE",
+      "description_en": "Cylinder 10 - Fuel Trim at Max Limit",
+      "category": "P"
+    },
+    {
+      "code": "P02BF",
+      "description_en": "Cylinder 10 - Fuel Trim at Min Limit",
+      "category": "P"
+    },
+    {
+      "code": "P02C0",
+      "description_en": "Cylinder 10 - Injector Restricted",
+      "category": "P"
+    },
+    {
+      "code": "P02C1",
+      "description_en": "Cylinder 10 - Injector Leaking",
+      "category": "P"
+    },
+    {
+      "code": "P02C2",
+      "description_en": "Cylinder 11 - Fuel Trim at Max Limit",
+      "category": "P"
+    },
+    {
+      "code": "P02C3",
+      "description_en": "Cylinder 11 - Fuel Trim at Min Limit",
+      "category": "P"
+    },
+    {
+      "code": "P02C4",
+      "description_en": "Cylinder 11 - Injector Restricted",
+      "category": "P"
+    },
+    {
+      "code": "P02C5",
+      "description_en": "Cylinder 11 - Injector Leaking",
+      "category": "P"
+    },
+    {
+      "code": "P02C6",
+      "description_en": "Cylinder 12 - Fuel Trim at Max Limit",
+      "category": "P"
+    },
+    {
+      "code": "P02C7",
+      "description_en": "Cylinder 12 - Fuel Trim at Min Limit",
+      "category": "P"
+    },
+    {
+      "code": "P02C8",
+      "description_en": "Cylinder 12 - Injector Restricted",
+      "category": "P"
+    },
+    {
+      "code": "P02C9",
+      "description_en": "Cylinder 12 - Injector Leaking",
+      "category": "P"
+    },
+    {
+      "code": "P02CA",
+      "description_en": "Turbocharger/Supercharger B Overboost Condition",
+      "category": "P"
+    },
+    {
+      "code": "P02CB",
+      "description_en": "Turbocharger/Supercharger B Underboost Condition",
+      "category": "P"
+    },
+    {
+      "code": "P02CC",
+      "description_en": "Cylinder 1 Fuel Injector A Offset Learning At Min Limit",
+      "category": "P"
+    },
+    {
+      "code": "P02CD",
+      "description_en": "Cylinder 1 Fuel Injector A Offset Learning At Max Limit",
+      "category": "P"
+    },
+    {
+      "code": "P02CE",
+      "description_en": "Cylinder 2 Fuel Injector A Offset Learning At Min Limit",
+      "category": "P"
+    },
+    {
+      "code": "P02CF",
+      "description_en": "Cylinder 2 Fuel Injector A Offset Learning At Max Limit",
+      "category": "P"
+    },
+    {
+      "code": "P02D0",
+      "description_en": "Cylinder 3 Fuel Injector A Offset Learning At Min Limit",
+      "category": "P"
+    },
+    {
+      "code": "P02D1",
+      "description_en": "Cylinder 3 Fuel Injector A Offset Learning At Max Limit",
+      "category": "P"
+    },
+    {
+      "code": "P02D2",
+      "description_en": "Cylinder 4 Fuel Injector A Offset Learning At Min Limit",
+      "category": "P"
+    },
+    {
+      "code": "P02D3",
+      "description_en": "Cylinder 4 Fuel Injector A Offset Learning At Max Limit",
+      "category": "P"
+    },
+    {
+      "code": "P02D4",
+      "description_en": "Cylinder 5 Fuel Injector A Offset Learning At Min Limit",
+      "category": "P"
+    },
+    {
+      "code": "P02D5",
+      "description_en": "Cylinder 5 Fuel Injector A Offset Learning At Max Limit",
+      "category": "P"
+    },
+    {
+      "code": "P02D6",
+      "description_en": "Cylinder 6 Fuel Injector A Offset Learning At Min Limit",
+      "category": "P"
+    },
+    {
+      "code": "P02D7",
+      "description_en": "Cylinder 6 Fuel Injector A Offset Learning At Max Limit",
+      "category": "P"
+    },
+    {
+      "code": "P02D8",
+      "description_en": "Cylinder 7 Fuel Injector A Offset Learning At Min Limit",
+      "category": "P"
+    },
+    {
+      "code": "P02D9",
+      "description_en": "Cylinder 7 Fuel Injector A Offset Learning At Max Limit",
+      "category": "P"
+    },
+    {
+      "code": "P02DA",
+      "description_en": "Cylinder 8 Fuel Injector A Offset Learning At Min Limit",
+      "category": "P"
+    },
+    {
+      "code": "P02DB",
+      "description_en": "Cylinder 8 Fuel Injector A Offset Learning At Max Limit",
+      "category": "P"
+    },
+    {
+      "code": "P02DC",
+      "description_en": "Cylinder 9 Fuel Injector A Offset Learning At Min Limit",
+      "category": "P"
+    },
+    {
+      "code": "P02DD",
+      "description_en": "Cylinder 9 Fuel Injector A Offset Learning At Max Limit",
+      "category": "P"
+    },
+    {
+      "code": "P02DE",
+      "description_en": "Cylinder 10 Fuel Injector A Offset Learning At Min Limit",
+      "category": "P"
+    },
+    {
+      "code": "P02DF",
+      "description_en": "Cylinder 10 Fuel Injector A Offset Learning At Max Limit",
+      "category": "P"
+    },
+    {
+      "code": "P02E0",
+      "description_en": "Diesel Intake Air Flow A Control Circuit/Open",
+      "category": "P"
+    },
+    {
+      "code": "P02E1",
+      "description_en": "Diesel Intake Air Flow A Control Performance",
+      "category": "P"
+    },
+    {
+      "code": "P02E2",
+      "description_en": "Diesel Intake Air Flow A Control Circuit Low",
+      "category": "P"
+    },
+    {
+      "code": "P02E3",
+      "description_en": "Diesel Intake Air Flow A Control Circuit High",
+      "category": "P"
+    },
+    {
+      "code": "P02E4",
+      "description_en": "Diesel Intake Air Flow A Control Stuck Open",
+      "category": "P"
+    },
+    {
+      "code": "P02E5",
+      "description_en": "Diesel Intake Air Flow A Control Stuck Closed",
+      "category": "P"
+    },
+    {
+      "code": "P02E6",
+      "description_en": "Diesel Intake Air Flow A Position Sensor Circuit",
+      "category": "P"
+    },
+    {
+      "code": "P02E7",
+      "description_en": "Diesel Intake Air Flow A Position Sensor Circuit Range/Performance",
+      "category": "P"
+    },
+    {
+      "code": "P02E8",
+      "description_en": "Diesel Intake Air Flow A Position Sensor Circuit Low",
+      "category": "P"
+    },
+    {
+      "code": "P02E9",
+      "description_en": "Diesel Intake Air Flow A Position Sensor Circuit High",
+      "category": "P"
+    },
+    {
+      "code": "P02EA",
+      "description_en": "Diesel Intake Air Flow A Position Sensor Circuit Intermittent/Erratic",
+      "category": "P"
+    },
+    {
+      "code": "P02EB",
+      "description_en": "Diesel Intake Air Flow A Control Motor Current Range/Performance",
+      "category": "P"
+    },
+    {
+      "code": "P02EC",
+      "description_en": "Diesel Intake Air Flow A Control System - High Air Flow Detected",
+      "category": "P"
+    },
+    {
+      "code": "P02ED",
+      "description_en": "Diesel Intake Air Flow A Control System - Low Air Flow Detected",
+      "category": "P"
+    },
+    {
+      "code": "P02EE",
+      "description_en": "Cylinder 1 Injector Circuit Range/Performance",
+      "category": "P"
+    },
+    {
+      "code": "P02EF",
+      "description_en": "Cylinder 2 Injector Circuit Range/Performance",
+      "category": "P"
+    },
+    {
+      "code": "P02F0",
+      "description_en": "Cylinder 3 Injector Circuit Range/Performance",
+      "category": "P"
+    },
+    {
+      "code": "P02F1",
+      "description_en": "Cylinder 4 Injector Circuit Range/Performance",
+      "category": "P"
+    },
+    {
+      "code": "P02F2",
+      "description_en": "Cylinder 5 Injector Circuit Range/Performance",
+      "category": "P"
+    },
+    {
+      "code": "P02F3",
+      "description_en": "Cylinder 6 Injector Circuit Range/Performance",
+      "category": "P"
+    },
+    {
+      "code": "P02F4",
+      "description_en": "Cylinder 7 Injector Circuit Range/Performance",
+      "category": "P"
+    },
+    {
+      "code": "P02F5",
+      "description_en": "Cylinder 8 Injector Circuit Range/Performance",
+      "category": "P"
+    },
+    {
+      "code": "P02F6",
+      "description_en": "Cylinder 9 Injector Circuit Range/Performance",
+      "category": "P"
+    },
+    {
+      "code": "P02F7",
+      "description_en": "Cylinder 10 Injector Circuit Range/Performance",
+      "category": "P"
+    },
+    {
+      "code": "P02F8",
+      "description_en": "Cylinder 11 Injector Circuit Range/Performance",
+      "category": "P"
+    },
+    {
+      "code": "P02F9",
+      "description_en": "Cylinder 12 Injector Circuit Range/Performance",
+      "category": "P"
+    },
+    {
+      "code": "P02FA",
+      "description_en": "Diesel Intake Air Flow Position Sensor Minimum/Maximum Stop Performance",
+      "category": "P"
+    },
+    {
+      "code": "P032A",
+      "description_en": "Knock/Combustion Vibration Sensor C Circuit",
+      "category": "P"
+    },
+    {
+      "code": "P032B",
+      "description_en": "Knock/Combustion Vibration Sensor C Circuit Range/Performance",
+      "category": "P"
+    },
+    {
+      "code": "P032C",
+      "description_en": "Knock/Combustion Vibration Sensor C Circuit Low",
+      "category": "P"
+    },
+    {
+      "code": "P032D",
+      "description_en": "Knock/Combustion Vibration Sensor C Circuit High",
+      "category": "P"
+    },
+    {
+      "code": "P032E",
+      "description_en": "Knock/Combustion Vibration Sensor C Circuit Intermittent",
+      "category": "P"
+    },
+    {
+      "code": "P033A",
+      "description_en": "Knock/Combustion Vibration Sensor D Circuit",
+      "category": "P"
+    },
+    {
+      "code": "P033B",
+      "description_en": "Knock/Combustion Vibration Sensor D Circuit Range/Performance",
+      "category": "P"
+    },
+    {
+      "code": "P033C",
+      "description_en": "Knock/Combustion Vibration Sensor D Circuit Low",
+      "category": "P"
+    },
+    {
+      "code": "P033D",
+      "description_en": "Knock/Combustion Vibration Sensor D Circuit High",
+      "category": "P"
+    },
+    {
+      "code": "P033E",
+      "description_en": "Knock/Combustion Vibration Sensor D Circuit Intermittent",
+      "category": "P"
+    },
+    {
+      "code": "P037D",
+      "description_en": "Glow Plug Sense Circuit",
+      "category": "P"
+    },
+    {
+      "code": "P037E",
+      "description_en": "Glow Plug Sense Circuit Low",
+      "category": "P"
+    },
+    {
+      "code": "P037F",
+      "description_en": "Glow Plug Sense Circuit High",
+      "category": "P"
+    },
+    {
+      "code": "P040A",
+      "description_en": "EGR Temperature Sensor A Circuit",
+      "category": "P"
+    },
+    {
+      "code": "P040B",
+      "description_en": "EGR Temperature Sensor A Circuit Range/Performance",
+      "category": "P"
+    },
+    {
+      "code": "P040C",
+      "description_en": "EGR Temperature Sensor A Circuit Low",
+      "category": "P"
+    },
+    {
+      "code": "P040D",
+      "description_en": "EGR Temperature Sensor A Circuit High",
+      "category": "P"
+    },
+    {
+      "code": "P040E",
+      "description_en": "EGR Temperature Sensor A Circuit Intermittent/Erratic",
+      "category": "P"
+    },
+    {
+      "code": "P040F",
+      "description_en": "EGR Temperature Sensor A/B Correlation",
+      "category": "P"
+    },
+    {
+      "code": "P041A",
+      "description_en": "EGR Temperature Sensor B Circuit",
+      "category": "P"
+    },
+    {
+      "code": "P041B",
+      "description_en": "EGR Temperature Sensor B Circuit Range/Performance",
+      "category": "P"
+    },
+    {
+      "code": "P041C",
+      "description_en": "EGR Temperature Sensor B Circuit Low",
+      "category": "P"
+    },
+    {
+      "code": "P041D",
+      "description_en": "EGR Temperature Sensor B Circuit High",
+      "category": "P"
+    },
+    {
+      "code": "P041E",
+      "description_en": "EGR Temperature Sensor B Circuit Intermittent/Erratic",
+      "category": "P"
+    },
+    {
+      "code": "P041F",
+      "description_en": "AIR System Switching Valve A Circuit Low",
+      "category": "P"
+    },
+    {
+      "code": "P042A",
+      "description_en": "Catalyst Temperature Sensor Circuit Bank 1 Sensor 2",
+      "category": "P"
+    },
+    {
+      "code": "P042B",
+      "description_en": "Catalyst Temperature Sensor Circuit Range/Performance Bank 1 Sensor 2",
+      "category": "P"
+    },
+    {
+      "code": "P042C",
+      "description_en": "Catalyst Temperature Sensor Circuit Low Bank 1 Sensor 2",
+      "category": "P"
+    },
+    {
+      "code": "P042D",
+      "description_en": "Catalyst Temperature Sensor Circuit High Bank 1 Sensor 2",
+      "category": "P"
+    },
+    {
+      "code": "P042E",
+      "description_en": "EGR A Control Stuck Open",
+      "category": "P"
+    },
+    {
+      "code": "P042F",
+      "description_en": "EGR A Control Stuck Closed",
+      "category": "P"
+    },
+    {
+      "code": "P043A",
+      "description_en": "Catalyst Temperature Sensor Circuit Bank 2 Sensor 2",
+      "category": "P"
+    },
+    {
+      "code": "P043B",
+      "description_en": "Catalyst Temperature Sensor Circuit Range/Performance Bank 2 Sensor 2",
+      "category": "P"
+    },
+    {
+      "code": "P043C",
+      "description_en": "Catalyst Temperature Sensor Circuit Low Bank 2 Sensor 2",
+      "category": "P"
+    },
+    {
+      "code": "P043D",
+      "description_en": "Catalyst Temperature Sensor Circuit High Bank 2 Sensor 2",
+      "category": "P"
+    },
+    {
+      "code": "P043E",
+      "description_en": "EVAP System Leak Detection Reference Orifice Low Flow",
+      "category": "P"
+    },
+    {
+      "code": "P043F",
+      "description_en": "EVAP System Leak Detection Reference Orifice High Flow",
+      "category": "P"
+    },
+    {
+      "code": "P044A",
+      "description_en": "EGR Sensor C Circuit",
+      "category": "P"
+    },
+    {
+      "code": "P044B",
+      "description_en": "EGR Sensor C Circuit Range/Performance",
+      "category": "P"
+    },
+    {
+      "code": "P044C",
+      "description_en": "EGR Sensor C Circuit Low",
+      "category": "P"
+    },
+    {
+      "code": "P044D",
+      "description_en": "EGR Sensor C Circuit High",
+      "category": "P"
+    },
+    {
+      "code": "P044E",
+      "description_en": "EGR Sensor C Circuit Intermittent/Erratic",
+      "category": "P"
+    },
+    {
+      "code": "P044F",
+      "description_en": "AIR System Switching Valve A Circuit High",
+      "category": "P"
+    },
+    {
+      "code": "P046A",
+      "description_en": "Catalyst Temperature Sensor 1/2 Correlation Bank 1",
+      "category": "P"
+    },
+    {
+      "code": "P046B",
+      "description_en": "Catalyst Temperature Sensor 1/2 Correlation Bank 2",
+      "category": "P"
+    },
+    {
+      "code": "P046C",
+      "description_en": "EGR Sensor A Circuit Range/Performance",
+      "category": "P"
+    },
+    {
+      "code": "P046D",
+      "description_en": "EGR Sensor A Circuit Intermittent/Erratic",
+      "category": "P"
+    },
+    {
+      "code": "P046E",
+      "description_en": "EGR Sensor B Circuit Range/Performance",
+      "category": "P"
+    },
+    {
+      "code": "P046F",
+      "description_en": "EGR Sensor B Circuit Intermittent/Erratic",
+      "category": "P"
+    },
+    {
+      "code": "P047A",
+      "description_en": "Exhaust Pressure Sensor B Circuit",
+      "category": "P"
+    },
+    {
+      "code": "P047B",
+      "description_en": "Exhaust Pressure Sensor B Circuit Range/Performance",
+      "category": "P"
+    },
+    {
+      "code": "P047C",
+      "description_en": "Exhaust Pressure Sensor B Circuit Low",
+      "category": "P"
+    },
+    {
+      "code": "P047D",
+      "description_en": "Exhaust Pressure Sensor B Circuit High",
+      "category": "P"
+    },
+    {
+      "code": "P047E",
+      "description_en": "Exhaust Pressure Sensor B Circuit Intermittent/Erratic",
+      "category": "P"
+    },
+    {
+      "code": "P047F",
+      "description_en": "Exhaust Pressure Control Valve A Stuck Open",
+      "category": "P"
+    },
+    {
+      "code": "P048A",
+      "description_en": "Exhaust Pressure Control Valve A Stuck Closed",
+      "category": "P"
+    },
+    {
+      "code": "P048B",
+      "description_en": "Exhaust Pressure Control Valve A Position Sensor/Switch Circuit",
+      "category": "P"
+    },
+    {
+      "code": "P048C",
+      "description_en": "Exhaust Pressure Control Valve A Position Sensor/Switch Circuit Range/Performance",
+      "category": "P"
+    },
+    {
+      "code": "P048D",
+      "description_en": "Exhaust Pressure Control Valve A Position Sensor/Switch Circuit Low",
+      "category": "P"
+    },
+    {
+      "code": "P048E",
+      "description_en": "Exhaust Pressure Control Valve A Position Sensor/Switch Circuit High",
+      "category": "P"
+    },
+    {
+      "code": "P048F",
+      "description_en": "Exhaust Pressure Control Valve A Position Sensor/Switch Circuit Intermittent/Erratic",
+      "category": "P"
+    },
+    {
+      "code": "P049A",
+      "description_en": "EGR B Flow",
+      "category": "P"
+    },
+    {
+      "code": "P049B",
+      "description_en": "EGR B Flow Insufficient Detected",
+      "category": "P"
+    },
+    {
+      "code": "P049C",
+      "description_en": "EGR B Flow Excessive Detected",
+      "category": "P"
+    },
+    {
+      "code": "P049D",
+      "description_en": "EGR A Control Position Exceeded Learning Limit",
+      "category": "P"
+    },
+    {
+      "code": "P049E",
+      "description_en": "EGR B Control Position Exceeded Learning Limit",
+      "category": "P"
+    },
+    {
+      "code": "P049F",
+      "description_en": "Exhaust Pressure Control Valve B",
+      "category": "P"
+    },
+    {
+      "code": "P04A0",
+      "description_en": "Exhaust Pressure Control Valve B Range/Performance",
+      "category": "P"
+    },
+    {
+      "code": "P04A1",
+      "description_en": "Exhaust Pressure Control Valve B Low",
+      "category": "P"
+    },
+    {
+      "code": "P04A2",
+      "description_en": "Exhaust Pressure Control Valve B High",
+      "category": "P"
+    },
+    {
+      "code": "P04A3",
+      "description_en": "Exhaust Pressure Control Valve B Intermittent",
+      "category": "P"
+    },
+    {
+      "code": "P04A4",
+      "description_en": "Exhaust Pressure Control Valve B Stuck Open",
+      "category": "P"
+    },
+    {
+      "code": "P04A5",
+      "description_en": "Exhaust Pressure Control Valve B Stuck Closed",
+      "category": "P"
+    },
+    {
+      "code": "P04A6",
+      "description_en": "Exhaust Pressure Control Valve B Position Sensor/Switch Circuit",
+      "category": "P"
+    },
+    {
+      "code": "P04A7",
+      "description_en": "Exhaust Pressure Control Valve B Position Sensor/Switch Circuit Range/Performance",
+      "category": "P"
+    },
+    {
+      "code": "P04A8",
+      "description_en": "Exhaust Pressure Control Valve B Position Sensor/Switch Circuit Low",
+      "category": "P"
+    },
+    {
+      "code": "P04A9",
+      "description_en": "Exhaust Pressure Control Valve B Position Sensor/Switch Circuit High",
+      "category": "P"
+    },
+    {
+      "code": "P04AA",
+      "description_en": "Exhaust Pressure Control Valve B Position Sensor/Switch Circuit Intermittent/Erratic",
+      "category": "P"
+    },
+    {
+      "code": "P050A",
+      "description_en": "Cold Start Idle Control System Performance",
+      "category": "P"
+    },
+    {
+      "code": "P050B",
+      "description_en": "Cold Start Ignition Timing Performance",
+      "category": "P"
+    },
+    {
+      "code": "P050C",
+      "description_en": "Cold Start Engine Coolant Temperature Performance",
+      "category": "P"
+    },
+    {
+      "code": "P050D",
+      "description_en": "Cold Start Rough Idle",
+      "category": "P"
+    },
+    {
+      "code": "P050E",
+      "description_en": "Cold Start Engine Exhaust Temperature Too Low",
+      "category": "P"
+    },
+    {
+      "code": "P050F",
+      "description_en": "Brake Assist Vacuum Too Low",
+      "category": "P"
+    },
+    {
+      "code": "P051A",
+      "description_en": "Crankcase Pressure Sensor A Circuit",
+      "category": "P"
+    },
+    {
+      "code": "P051B",
+      "description_en": "Crankcase Pressure Sensor A Circuit Range/Performance",
+      "category": "P"
+    },
+    {
+      "code": "P051C",
+      "description_en": "Crankcase Pressure Sensor A Circuit Low",
+      "category": "P"
+    },
+    {
+      "code": "P051D",
+      "description_en": "Crankcase Pressure Sensor A Circuit High",
+      "category": "P"
+    },
+    {
+      "code": "P051E",
+      "description_en": "Crankcase Pressure Sensor A Circuit Intermittent/Erratic",
+      "category": "P"
+    },
+    {
+      "code": "P051F",
+      "description_en": "PCV Filter Restriction",
+      "category": "P"
+    },
+    {
+      "code": "P052A",
+      "description_en": "Cold Start A Camshaft Position Timing Over-Advanced Bank 1",
+      "category": "P"
+    },
+    {
+      "code": "P052B",
+      "description_en": "Cold Start A Camshaft Position Timing Over-Retarded Bank 1",
+      "category": "P"
+    },
+    {
+      "code": "P052C",
+      "description_en": "Cold Start A Camshaft Position Timing Over-Advanced Bank 2",
+      "category": "P"
+    },
+    {
+      "code": "P052D",
+      "description_en": "Cold Start A Camshaft Position Timing Over-Retarded Bank 2",
+      "category": "P"
+    },
+    {
+      "code": "P052E",
+      "description_en": "PCV Regulator Valve Performance",
+      "category": "P"
+    },
+    {
+      "code": "P053A",
+      "description_en": "PCV Heater A Control Circuit /Open",
+      "category": "P"
+    },
+    {
+      "code": "P053B",
+      "description_en": "PCV Heater A Control Circuit Low",
+      "category": "P"
+    },
+    {
+      "code": "P053C",
+      "description_en": "PCV Heater A Control Circuit High",
+      "category": "P"
+    },
+    {
+      "code": "P054A",
+      "description_en": "Cold Start B Camshaft Position Timing Over-Advanced Bank 1",
+      "category": "P"
+    },
+    {
+      "code": "P054B",
+      "description_en": "Cold Start B Camshaft Position Timing Over-Retarded Bank 1",
+      "category": "P"
+    },
+    {
+      "code": "P054C",
+      "description_en": "Cold Start B Camshaft Position Timing Over-Advanced Bank 2",
+      "category": "P"
+    },
+    {
+      "code": "P054D",
+      "description_en": "Cold Start B Camshaft Position Timing Over-Retarded Bank 2",
+      "category": "P"
+    },
+    {
+      "code": "P056A",
+      "description_en": "Cruise Control Increase Distance Signal",
+      "category": "P"
+    },
+    {
+      "code": "P056B",
+      "description_en": "Cruise Control Decrease Distance Signal",
+      "category": "P"
+    },
+    {
+      "code": "P060A",
+      "description_en": "Internal Control Module Monitoring Processor Performance",
+      "category": "P"
+    },
+    {
+      "code": "P060B",
+      "description_en": "Internal Control Module A/D Processing Performance",
+      "category": "P"
+    },
+    {
+      "code": "P060C",
+      "description_en": "Internal Control Module Main Processor Performance",
+      "category": "P"
+    },
+    {
+      "code": "P060D",
+      "description_en": "Internal Control Module Accelerator Pedal Position Performance",
+      "category": "P"
+    },
+    {
+      "code": "P060E",
+      "description_en": "Internal Control Module Throttle Position Performance",
+      "category": "P"
+    },
+    {
+      "code": "P060F",
+      "description_en": "Internal Control Module Coolant Temperature Performance",
+      "category": "P"
+    },
+    {
+      "code": "P061A",
+      "description_en": "Internal Control Module Torque Performance",
+      "category": "P"
+    },
+    {
+      "code": "P061B",
+      "description_en": "Internal Control Module Torque Calculation Performance",
+      "category": "P"
+    },
+    {
+      "code": "P061C",
+      "description_en": "Internal Control Module Engine RPM Performance",
+      "category": "P"
+    },
+    {
+      "code": "P061D",
+      "description_en": "Internal Control Module Engine Air Mass Performance",
+      "category": "P"
+    },
+    {
+      "code": "P061E",
+      "description_en": "Internal Control Module Brake Signal Performance",
+      "category": "P"
+    },
+    {
+      "code": "P061F",
+      "description_en": "Internal Control Module Throttle Actuator Controller Performance",
+      "category": "P"
+    },
+    {
+      "code": "P062B",
+      "description_en": "Internal Control Module Fuel Injector Control Performance",
+      "category": "P"
+    },
+    {
+      "code": "P062C",
+      "description_en": "Internal Control Module Vehicle Speed Performance",
+      "category": "P"
+    },
+    {
+      "code": "P062D",
+      "description_en": "Fuel Injector Driver Circuit Performance Bank 1",
+      "category": "P"
+    },
+    {
+      "code": "P062E",
+      "description_en": "Fuel Injector Driver Circuit Performance Bank 2",
+      "category": "P"
+    },
+    {
+      "code": "P062F",
+      "description_en": "Internal Control Module EEPROM Error",
+      "category": "P"
+    },
+    {
+      "code": "P063A",
+      "description_en": "Generator Voltage Sense Circuit A",
+      "category": "P"
+    },
+    {
+      "code": "P063B",
+      "description_en": "Generator Voltage Sense Circuit A Range/Performance",
+      "category": "P"
+    },
+    {
+      "code": "P063C",
+      "description_en": "Generator Voltage Sense Circuit A Low",
+      "category": "P"
+    },
+    {
+      "code": "P063D",
+      "description_en": "Generator Voltage Sense Circuit A High",
+      "category": "P"
+    },
+    {
+      "code": "P063E",
+      "description_en": "Auto Configuration Throttle Input Not Present Bank 1",
+      "category": "P"
+    },
+    {
+      "code": "P063F",
+      "description_en": "Auto Configuration Engine Coolant Temperature Input Not Present",
+      "category": "P"
+    },
+    {
+      "code": "P064A",
+      "description_en": "Fuel Pump Control Module A",
+      "category": "P"
+    },
+    {
+      "code": "P064B",
+      "description_en": "PTO Control Module",
+      "category": "P"
+    },
+    {
+      "code": "P064C",
+      "description_en": "Glow Plug Control Module 1",
+      "category": "P"
+    },
+    {
+      "code": "P064D",
+      "description_en": "Internal Control Module O2 Sensor Processor Performance Bank 1",
+      "category": "P"
+    },
+    {
+      "code": "P064E",
+      "description_en": "Internal Control Module O2 Sensor Processor Performance Bank 2",
+      "category": "P"
+    },
+    {
+      "code": "P064F",
+      "description_en": "Unauthorized Software/Calibration Detected",
+      "category": "P"
+    },
+    {
+      "code": "P065A",
+      "description_en": "Generator System Performance",
+      "category": "P"
+    },
+    {
+      "code": "P065B",
+      "description_en": "Generator A Control Circuit Range/Performance",
+      "category": "P"
+    },
+    {
+      "code": "P065C",
+      "description_en": "Generator A Mechanical Performance",
+      "category": "P"
+    },
+    {
+      "code": "P065D",
+      "description_en": "Reductant System Malfunction Lamp Control Circuit",
+      "category": "P"
+    },
+    {
+      "code": "P065E",
+      "description_en": "Intake Manifold Tuning Valve Performance Bank 1",
+      "category": "P"
+    },
+    {
+      "code": "P065F",
+      "description_en": "Intake Manifold Tuning Valve Performance Bank 2",
+      "category": "P"
+    },
+    {
+      "code": "P066A",
+      "description_en": "Cylinder 1 Glow Plug Control Circuit Low",
+      "category": "P"
+    },
+    {
+      "code": "P066B",
+      "description_en": "Cylinder 1 Glow Plug Control Circuit High",
+      "category": "P"
+    },
+    {
+      "code": "P066C",
+      "description_en": "Cylinder 2 Glow Plug Control Circuit Low",
+      "category": "P"
+    },
+    {
+      "code": "P066D",
+      "description_en": "Cylinder 2 Glow Plug Control Circuit High",
+      "category": "P"
+    },
+    {
+      "code": "P066E",
+      "description_en": "Cylinder 3 Glow Plug Control Circuit Low",
+      "category": "P"
+    },
+    {
+      "code": "P066F",
+      "description_en": "Cylinder 3 Glow Plug Control Circuit High",
+      "category": "P"
+    },
+    {
+      "code": "P067A",
+      "description_en": "Cylinder 4 Glow Plug Control Circuit Low",
+      "category": "P"
+    },
+    {
+      "code": "P067B",
+      "description_en": "Cylinder 4 Glow Plug Control Circuit High",
+      "category": "P"
+    },
+    {
+      "code": "P067C",
+      "description_en": "Cylinder 5 Glow Plug Control Circuit Low",
+      "category": "P"
+    },
+    {
+      "code": "P067D",
+      "description_en": "Cylinder 5 Glow Plug Control Circuit High",
+      "category": "P"
+    },
+    {
+      "code": "P067E",
+      "description_en": "Cylinder 6 Glow Plug Control Circuit Low",
+      "category": "P"
+    },
+    {
+      "code": "P067F",
+      "description_en": "Cylinder 6 Glow Plug Control Circuit High",
+      "category": "P"
+    },
+    {
+      "code": "P068A",
+      "description_en": "ECM/PCM Power Relay De-Energized Performance - Too Early",
+      "category": "P"
+    },
+    {
+      "code": "P068B",
+      "description_en": "ECM/PCM Power Relay De-Energized Performance - Too Late",
+      "category": "P"
+    },
+    {
+      "code": "P068C",
+      "description_en": "Cylinder 7 Glow Plug Control Circuit Low",
+      "category": "P"
+    },
+    {
+      "code": "P068D",
+      "description_en": "Cylinder 7 Glow Plug Control Circuit High",
+      "category": "P"
+    },
+    {
+      "code": "P068E",
+      "description_en": "Cylinder 8 Glow Plug Control Circuit Low",
+      "category": "P"
+    },
+    {
+      "code": "P068F",
+      "description_en": "Cylinder 8 Glow Plug Control Circuit High",
+      "category": "P"
+    },
+    {
+      "code": "P069A",
+      "description_en": "Cylinder 9 Glow Plug Control Circuit Low",
+      "category": "P"
+    },
+    {
+      "code": "P069B",
+      "description_en": "Cylinder 9 Glow Plug Control Circuit High",
+      "category": "P"
+    },
+    {
+      "code": "P069C",
+      "description_en": "Cylinder 10 Glow Plug Control Circuit Low",
+      "category": "P"
+    },
+    {
+      "code": "P069D",
+      "description_en": "Cylinder 10 Glow Plug Control Circuit High",
+      "category": "P"
+    },
+    {
+      "code": "P069E",
+      "description_en": "Fuel Pump Control Module Requested MIL Illumination",
+      "category": "P"
+    },
+    {
+      "code": "P069F",
+      "description_en": "Throttle Actuator Control Lamp Control Circuit",
+      "category": "P"
+    },
+    {
+      "code": "P06A0",
+      "description_en": "Variable A/C Compressor Control Circuit",
+      "category": "P"
+    },
+    {
+      "code": "P06A1",
+      "description_en": "Variable A/C Compressor Control Circuit Low",
+      "category": "P"
+    },
+    {
+      "code": "P06A2",
+      "description_en": "Variable A/C Compressor Control Circuit High",
+      "category": "P"
+    },
+    {
+      "code": "P06A3",
+      "description_en": "Sensor Reference Voltage D Circuit/Open",
+      "category": "P"
+    },
+    {
+      "code": "P06A4",
+      "description_en": "Sensor Reference Voltage D Circuit Low",
+      "category": "P"
+    },
+    {
+      "code": "P06A5",
+      "description_en": "Sensor Reference Voltage D Circuit High",
+      "category": "P"
+    },
+    {
+      "code": "P06A6",
+      "description_en": "Sensor Reference Voltage A Circuit Range/Performance",
+      "category": "P"
+    },
+    {
+      "code": "P06A7",
+      "description_en": "Sensor Reference Voltage B Circuit Range/Performance",
+      "category": "P"
+    },
+    {
+      "code": "P06A8",
+      "description_en": "Sensor Reference Voltage C Circuit Range/Performance",
+      "category": "P"
+    },
+    {
+      "code": "P06A9",
+      "description_en": "Sensor Reference Voltage D Circuit Range/Performance",
+      "category": "P"
+    },
+    {
+      "code": "P06AA",
+      "description_en": "Control Module Internal Temperature B Too High",
+      "category": "P"
+    },
+    {
+      "code": "P06AB",
+      "description_en": "Control Module Internal Temperature Sensor B Circuit",
+      "category": "P"
+    },
+    {
+      "code": "P06AC",
+      "description_en": "Control Module Internal Temperature Sensor B Range/Performance",
+      "category": "P"
+    },
+    {
+      "code": "P06AD",
+      "description_en": "Control Module Internal Temperature Sensor B Circuit Low",
+      "category": "P"
+    },
+    {
+      "code": "P06AE",
+      "description_en": "Control Module Internal Temperature Sensor B Circuit High",
+      "category": "P"
+    },
+    {
+      "code": "P06AF",
+      "description_en": "Torque Management System - Forced Engine Shutdown",
+      "category": "P"
+    },
+    {
+      "code": "P06B0",
+      "description_en": "Sensor Power Supply A Circuit/Open",
+      "category": "P"
+    },
+    {
+      "code": "P06B1",
+      "description_en": "Sensor Power Supply A Circuit Low",
+      "category": "P"
+    },
+    {
+      "code": "P06B2",
+      "description_en": "Sensor Power Supply A Circuit High",
+      "category": "P"
+    },
+    {
+      "code": "P06B3",
+      "description_en": "Sensor Power Supply B Circuit/Open",
+      "category": "P"
+    },
+    {
+      "code": "P06B4",
+      "description_en": "Sensor Power Supply B Circuit Low",
+      "category": "P"
+    },
+    {
+      "code": "P06B5",
+      "description_en": "Sensor Power Supply B Circuit High",
+      "category": "P"
+    },
+    {
+      "code": "P06B6",
+      "description_en": "Internal Control Module Knock/Combustion Vibration Sensor Processor 1 Performance",
+      "category": "P"
+    },
+    {
+      "code": "P06B7",
+      "description_en": "Internal Control Module Knock/Combustion Vibration Sensor Processor 2 Performance",
+      "category": "P"
+    },
+    {
+      "code": "P06B8",
+      "description_en": "Internal Control Module Non-Volatile Random Access Memory (NVRAM) Error",
+      "category": "P"
+    },
+    {
+      "code": "P06B9",
+      "description_en": "Cylinder 1 Glow Plug Circuit Range/Performance",
+      "category": "P"
+    },
+    {
+      "code": "P06BA",
+      "description_en": "Cylinder 2 Glow Plug Circuit Range/Performance",
+      "category": "P"
+    },
+    {
+      "code": "P06BB",
+      "description_en": "Cylinder 3 Glow Plug Circuit Range/Performance",
+      "category": "P"
+    },
+    {
+      "code": "P06BC",
+      "description_en": "Cylinder 4 Glow Plug Circuit Range/Performance",
+      "category": "P"
+    },
+    {
+      "code": "P06BD",
+      "description_en": "Cylinder 5 Glow Plug Circuit Range/Performance",
+      "category": "P"
+    },
+    {
+      "code": "P06BE",
+      "description_en": "Cylinder 6 Glow Plug Circuit Range/Performance",
+      "category": "P"
+    },
+    {
+      "code": "P06BF",
+      "description_en": "Cylinder 7 Glow Plug Circuit Range/Performance",
+      "category": "P"
+    },
+    {
+      "code": "P06C0",
+      "description_en": "Cylinder 8 Glow Plug Circuit Range/Performance",
+      "category": "P"
+    },
+    {
+      "code": "P06C1",
+      "description_en": "Cylinder 9 Glow Plug Circuit Range/Performance",
+      "category": "P"
+    },
+    {
+      "code": "P06C2",
+      "description_en": "Cylinder 10 Glow Plug Circuit Range/Performance",
+      "category": "P"
+    },
+    {
+      "code": "P06C3",
+      "description_en": "Cylinder 11 Glow Plug Circuit Range/Performance",
+      "category": "P"
+    },
+    {
+      "code": "P06C4",
+      "description_en": "Cylinder 12 Glow Plug Circuit Range/Performance",
+      "category": "P"
+    },
+    {
+      "code": "P06C5",
+      "description_en": "Cylinder 1 Glow Plug Incorrect",
+      "category": "P"
+    },
+    {
+      "code": "P06C6",
+      "description_en": "Cylinder 2 Glow Plug Incorrect",
+      "category": "P"
+    },
+    {
+      "code": "P06C7",
+      "description_en": "Cylinder 3 Glow Plug Incorrect",
+      "category": "P"
+    },
+    {
+      "code": "P06C8",
+      "description_en": "Cylinder 4 Glow Plug Incorrect",
+      "category": "P"
+    },
+    {
+      "code": "P06C9",
+      "description_en": "Cylinder 5 Glow Plug Incorrect",
+      "category": "P"
+    },
+    {
+      "code": "P06CA",
+      "description_en": "Cylinder 6 Glow Plug Incorrect",
+      "category": "P"
+    },
+    {
+      "code": "P06CB",
+      "description_en": "Cylinder 7 Glow Plug Incorrect",
+      "category": "P"
+    },
+    {
+      "code": "P06CC",
+      "description_en": "Cylinder 8 Glow Plug Incorrect",
+      "category": "P"
+    },
+    {
+      "code": "P06CD",
+      "description_en": "Cylinder 9 Glow Plug Incorrect",
+      "category": "P"
+    },
+    {
+      "code": "P06CE",
+      "description_en": "Cylinder 10 Glow Plug Incorrect",
+      "category": "P"
+    },
+    {
+      "code": "P06CF",
+      "description_en": "Cylinder 11 Glow Plug Incorrect",
+      "category": "P"
+    },
+    {
+      "code": "P06D0",
+      "description_en": "Cylinder 12 Glow Plug Incorrect",
+      "category": "P"
+    },
+    {
+      "code": "P06D1",
+      "description_en": "Internal Control Module Ignition Coil Control Performance",
+      "category": "P"
+    },
+    {
+      "code": "P070A",
+      "description_en": "Transmission Fluid Level Sensor Circuit",
+      "category": "P"
+    },
+    {
+      "code": "P070B",
+      "description_en": "Transmission Fluid Level Sensor Circuit Range/Performance",
+      "category": "P"
+    },
+    {
+      "code": "P070C",
+      "description_en": "Transmission Fluid Level Sensor Circuit Low",
+      "category": "P"
+    },
+    {
+      "code": "P070D",
+      "description_en": "Transmission Fluid Level Sensor Circuit High",
+      "category": "P"
+    },
+    {
+      "code": "P070E",
+      "description_en": "Transmission Fluid Level Sensor Circuit intermittent/Erratic",
+      "category": "P"
+    },
+    {
+      "code": "P070F",
+      "description_en": "Transmission Fluid Level Too Low",
+      "category": "P"
+    },
+    {
+      "code": "P071A",
+      "description_en": "Transmission Mode Switch A Circuit",
+      "category": "P"
+    },
+    {
+      "code": "P071B",
+      "description_en": "Transmission Mode Switch A Circuit Low",
+      "category": "P"
+    },
+    {
+      "code": "P071C",
+      "description_en": "Transmission Mode Switch A Circuit High",
+      "category": "P"
+    },
+    {
+      "code": "P071D",
+      "description_en": "Transmission Mode Switch B Circuit",
+      "category": "P"
+    },
+    {
+      "code": "P071E",
+      "description_en": "Transmission Mode Switch B Circuit Low",
+      "category": "P"
+    },
+    {
+      "code": "P071F",
+      "description_en": "Transmission Mode Switch B Circuit High",
+      "category": "P"
+    },
+    {
+      "code": "P072A",
+      "description_en": "Stuck in Neutral",
+      "category": "P"
+    },
+    {
+      "code": "P072B",
+      "description_en": "Stuck In Reverse",
+      "category": "P"
+    },
+    {
+      "code": "P072C",
+      "description_en": "Stuck in Gear 1",
+      "category": "P"
+    },
+    {
+      "code": "P072D",
+      "description_en": "Stuck in Gear 2",
+      "category": "P"
+    },
+    {
+      "code": "P072E",
+      "description_en": "Stuck in Gear 3",
+      "category": "P"
+    },
+    {
+      "code": "P072F",
+      "description_en": "Stuck in Gear 4",
+      "category": "P"
+    },
+    {
+      "code": "P073A",
+      "description_en": "Stuck in Gear 5",
+      "category": "P"
+    },
+    {
+      "code": "P073B",
+      "description_en": "Stuck in Gear 6",
+      "category": "P"
+    },
+    {
+      "code": "P073C",
+      "description_en": "Stuck in Gear 7",
+      "category": "P"
+    },
+    {
+      "code": "P073D",
+      "description_en": "Unable to Engage Neutral",
+      "category": "P"
+    },
+    {
+      "code": "P073E",
+      "description_en": "Unable to Engage Reverse",
+      "category": "P"
+    },
+    {
+      "code": "P073F",
+      "description_en": "Unable to Engage Gear 1",
+      "category": "P"
+    },
+    {
+      "code": "P074A",
+      "description_en": "Unable To Engage Gear 2",
+      "category": "P"
+    },
+    {
+      "code": "P074B",
+      "description_en": "Unable To Engage Gear 3",
+      "category": "P"
+    },
+    {
+      "code": "P074C",
+      "description_en": "Unable To Engage Gear 4",
+      "category": "P"
+    },
+    {
+      "code": "P074D",
+      "description_en": "Unable To Engage Gear 5",
+      "category": "P"
+    },
+    {
+      "code": "P074E",
+      "description_en": "Unable To Engage Gear 6",
+      "category": "P"
+    },
+    {
+      "code": "P074F",
+      "description_en": "Unable To Engage Gear 7",
+      "category": "P"
+    },
+    {
+      "code": "P075A",
+      "description_en": "Shift Solenoid G",
+      "category": "P"
+    },
+    {
+      "code": "P075B",
+      "description_en": "Shift Solenoid G Performance/Stuck Off",
+      "category": "P"
+    },
+    {
+      "code": "P075C",
+      "description_en": "Shift Solenoid G Stuck On",
+      "category": "P"
+    },
+    {
+      "code": "P075D",
+      "description_en": "Shift Solenoid G Electrical",
+      "category": "P"
+    },
+    {
+      "code": "P075E",
+      "description_en": "Shift Solenoid G Intermittent",
+      "category": "P"
+    },
+    {
+      "code": "P075F",
+      "description_en": "Transmission Fluid Level Too High",
+      "category": "P"
+    },
+    {
+      "code": "P076A",
+      "description_en": "Shift Solenoid H",
+      "category": "P"
+    },
+    {
+      "code": "P076B",
+      "description_en": "Shift Solenoid H Performance/Stuck Off",
+      "category": "P"
+    },
+    {
+      "code": "P076C",
+      "description_en": "Shift Solenoid H Stuck On",
+      "category": "P"
+    },
+    {
+      "code": "P076D",
+      "description_en": "Shift Solenoid H Electrical",
+      "category": "P"
+    },
+    {
+      "code": "P076E",
+      "description_en": "Shift Solenoid H Intermittent",
+      "category": "P"
+    },
+    {
+      "code": "P076F",
+      "description_en": "Gear 7 Incorrect Ratio",
+      "category": "P"
+    },
+    {
+      "code": "P077A",
+      "description_en": "Output Shaft Speed Sensor Circuit - Loss of Direction Signal",
+      "category": "P"
+    },
+    {
+      "code": "P077B",
+      "description_en": "Output Shaft Speed Sensor Circuit - Direction Error",
+      "category": "P"
+    },
+    {
+      "code": "P079A",
+      "description_en": "Transmission Friction Element A Slip Detected",
+      "category": "P"
+    },
+    {
+      "code": "P079B",
+      "description_en": "Transmission Friction Element B Slip Detected",
+      "category": "P"
+    },
+    {
+      "code": "P079C",
+      "description_en": "Transmission Friction Element C Slip Detected",
+      "category": "P"
+    },
+    {
+      "code": "P079D",
+      "description_en": "Transmission Friction Element D Slip Detected",
+      "category": "P"
+    },
+    {
+      "code": "P079E",
+      "description_en": "Transmission Friction Element E Slip Detected",
+      "category": "P"
+    },
+    {
+      "code": "P079F",
+      "description_en": "Transmission Friction Element F Slip Detected",
+      "category": "P"
+    },
+    {
+      "code": "P07A0",
+      "description_en": "Transmission Friction Element G Slip Detected",
+      "category": "P"
+    },
+    {
+      "code": "P07A1",
+      "description_en": "Transmission Friction Element H Slip Detected",
+      "category": "P"
+    },
+    {
+      "code": "P07A2",
+      "description_en": "Transmission Friction Element A Performance/Stuck Off",
+      "category": "P"
+    },
+    {
+      "code": "P07A3",
+      "description_en": "Transmission Friction Element A Stuck On",
+      "category": "P"
+    },
+    {
+      "code": "P07A4",
+      "description_en": "Transmission Friction Element B Performance/Stuck Off",
+      "category": "P"
+    },
+    {
+      "code": "P07A5",
+      "description_en": "Transmission Friction Element B Stuck On",
+      "category": "P"
+    },
+    {
+      "code": "P07A6",
+      "description_en": "Transmission Friction Element C Performance/Stuck Off",
+      "category": "P"
+    },
+    {
+      "code": "P07A7",
+      "description_en": "Transmission Friction Element C Stuck On",
+      "category": "P"
+    },
+    {
+      "code": "P07A8",
+      "description_en": "Transmission Friction Element D Performance/Stuck Off",
+      "category": "P"
+    },
+    {
+      "code": "P07A9",
+      "description_en": "Transmission Friction Element D Stuck On",
+      "category": "P"
+    },
+    {
+      "code": "P07AA",
+      "description_en": "Transmission Friction Element E Performance/Stuck Off",
+      "category": "P"
+    },
+    {
+      "code": "P07AB",
+      "description_en": "Transmission Friction Element E Stuck On",
+      "category": "P"
+    },
+    {
+      "code": "P07AC",
+      "description_en": "Transmission Friction Element F Performance/Stuck Off",
+      "category": "P"
+    },
+    {
+      "code": "P07AD",
+      "description_en": "Transmission Friction Element F Stuck On",
+      "category": "P"
+    },
+    {
+      "code": "P07AE",
+      "description_en": "Transmission Friction Element G Performance/Stuck Off",
+      "category": "P"
+    },
+    {
+      "code": "P07AF",
+      "description_en": "Transmission Friction Element G Stuck On",
+      "category": "P"
+    },
+    {
+      "code": "P07B0",
+      "description_en": "Transmission Friction Element H Performance/Stuck Off",
+      "category": "P"
+    },
+    {
+      "code": "P07B1",
+      "description_en": "Transmission Friction Element H Stuck On",
+      "category": "P"
+    },
+    {
+      "code": "P07B2",
+      "description_en": "Transmission Park Position Sensor/Switch A Circuit/Open",
+      "category": "P"
+    },
+    {
+      "code": "P07B3",
+      "description_en": "Transmission Park Position Sensor/Switch A Circuit Low",
+      "category": "P"
+    },
+    {
+      "code": "P07B4",
+      "description_en": "Transmission Park Position Sensor/Switch A Circuit High",
+      "category": "P"
+    },
+    {
+      "code": "P07B5",
+      "description_en": "Transmission Park Position Sensor/Switch A Circuit Performance/Low",
+      "category": "P"
+    },
+    {
+      "code": "P07B6",
+      "description_en": "Transmission Park Position Sensor/Switch A Circuit Performance High",
+      "category": "P"
+    },
+    {
+      "code": "P07B7",
+      "description_en": "Transmission Park Position Sensor/Switch A Circuit Intermittent/Erratic",
+      "category": "P"
+    },
+    {
+      "code": "P07B8",
+      "description_en": "Transmission Park Position Sensor/Switch B Circuit/Open",
+      "category": "P"
+    },
+    {
+      "code": "P07B9",
+      "description_en": "Transmission Park Position Sensor/Switch B Circuit Low",
+      "category": "P"
+    },
+    {
+      "code": "P07BA",
+      "description_en": "Transmission Park Position Sensor/Switch B Circuit High",
+      "category": "P"
+    },
+    {
+      "code": "P07BB",
+      "description_en": "Transmission Park Position Sensor/Switch B Circuit Performance/Low",
+      "category": "P"
+    },
+    {
+      "code": "P07BC",
+      "description_en": "Transmission Park Position Sensor/Switch B Circuit Performance High",
+      "category": "P"
+    },
+    {
+      "code": "P07BD",
+      "description_en": "Transmission Park Position Sensor/Switch B Circuit Intermittent/Erratic",
+      "category": "P"
+    },
+    {
+      "code": "P07BE",
+      "description_en": "Transmission Park Position Sensor/Switch A/B Correlation",
+      "category": "P"
+    },
+    {
+      "code": "P080A",
+      "description_en": "Clutch Position Not Learned",
+      "category": "P"
+    },
+    {
+      "code": "P080B",
+      "description_en": "Upshift/Skip Shift Solenoid Control Circuit Range/Performance",
+      "category": "P"
+    },
+    {
+      "code": "P080C",
+      "description_en": "Upshift/Skip Shift Solenoid Control Circuit Low",
+      "category": "P"
+    },
+    {
+      "code": "P080D",
+      "description_en": "Upshift/Skip Shift Solenoid Control Circuit High",
+      "category": "P"
+    },
+    {
+      "code": "P081A",
+      "description_en": "Starter Disable Circuit Low",
+      "category": "P"
+    },
+    {
+      "code": "P081B",
+      "description_en": "Starter Disable Circuit High",
+      "category": "P"
+    },
+    {
+      "code": "P081C",
+      "description_en": "Park Input Circuit",
+      "category": "P"
+    },
+    {
+      "code": "P081D",
+      "description_en": "Neutral Input Circuit",
+      "category": "P"
+    },
+    {
+      "code": "P081E",
+      "description_en": "Excessive Clutch B Slippage",
+      "category": "P"
+    },
+    {
+      "code": "P081F",
+      "description_en": "Brake Transmission Shift Interlock (BTSI) Signal Correlation",
+      "category": "P"
+    },
+    {
+      "code": "P082A",
+      "description_en": "Gear Lever X Position Sensor 1 Circuit Range/Performance",
+      "category": "P"
+    },
+    {
+      "code": "P082B",
+      "description_en": "Gear Lever X Position Sensor 1 Circuit Low",
+      "category": "P"
+    },
+    {
+      "code": "P082C",
+      "description_en": "Gear Lever X Position Sensor 1 Circuit High",
+      "category": "P"
+    },
+    {
+      "code": "P082D",
+      "description_en": "Gear Lever Y Position Sensor 1 Circuit Range/Performance",
+      "category": "P"
+    },
+    {
+      "code": "P082E",
+      "description_en": "Gear Lever Y Position Sensor 1 Circuit Low",
+      "category": "P"
+    },
+    {
+      "code": "P082F",
+      "description_en": "Gear Lever Y Position Sensor 1 Circuit High",
+      "category": "P"
+    },
+    {
+      "code": "P083A",
+      "description_en": "Transmission Fluid Pressure Sensor/Switch G Circuit",
+      "category": "P"
+    },
+    {
+      "code": "P083B",
+      "description_en": "Transmission Fluid Pressure Sensor/Switch G Circuit Range/Performance",
+      "category": "P"
+    },
+    {
+      "code": "P083C",
+      "description_en": "Transmission Fluid Pressure Sensor/Switch G Circuit Low",
+      "category": "P"
+    },
+    {
+      "code": "P083D",
+      "description_en": "Transmission Fluid Pressure Sensor/Switch G Circuit High",
+      "category": "P"
+    },
+    {
+      "code": "P083E",
+      "description_en": "Transmission Fluid Pressure Sensor/Switch G Circuit Intermittent",
+      "category": "P"
+    },
+    {
+      "code": "P083F",
+      "description_en": "Clutch Pedal Switch A/B Correlation",
+      "category": "P"
+    },
+    {
+      "code": "P084A",
+      "description_en": "Transmission Fluid Pressure Sensor/Switch H Circuit",
+      "category": "P"
+    },
+    {
+      "code": "P084B",
+      "description_en": "Transmission Fluid Pressure Sensor/Switch H Circuit Range/Performance",
+      "category": "P"
+    },
+    {
+      "code": "P084C",
+      "description_en": "Transmission Fluid Pressure Sensor/Switch H Circuit Low",
+      "category": "P"
+    },
+    {
+      "code": "P084D",
+      "description_en": "Transmission Fluid Pressure Sensor/Switch H Circuit High",
+      "category": "P"
+    },
+    {
+      "code": "P084E",
+      "description_en": "Transmission Fluid Pressure Sensor/Switch H Circuit Intermittent",
+      "category": "P"
+    },
+    {
+      "code": "P084F",
+      "description_en": "Park/Neutral Switch Output Circuit",
+      "category": "P"
+    },
+    {
+      "code": "P0850",
+      "description_en": "Park/Neutral Switch Input Circuit",
+      "category": "P"
+    },
+    {
+      "code": "P085A",
+      "description_en": "Gear Shift Control Module B Communication Circuit",
+      "category": "P"
+    },
+    {
+      "code": "P085B",
+      "description_en": "Gear Shift Control Module B Communication Circuit Low",
+      "category": "P"
+    },
+    {
+      "code": "P085C",
+      "description_en": "Gear Shift Control Module B Communication Circuit High",
+      "category": "P"
+    },
+    {
+      "code": "P085D",
+      "description_en": "Gear Shift Control Module A Performance",
+      "category": "P"
+    },
+    {
+      "code": "P085E",
+      "description_en": "Gear Shift Control Module B Performance",
+      "category": "P"
+    },
+    {
+      "code": "P088A",
+      "description_en": "Transmission Fluid Filter Deteriorated",
+      "category": "P"
+    },
+    {
+      "code": "P088B",
+      "description_en": "Transmission Fluid Filter Very Deteriorated",
+      "category": "P"
+    },
+    {
+      "code": "P092A",
+      "description_en": "Gear Shift Lock Solenoid/Actuator Control Circuit B/Open",
+      "category": "P"
+    },
+    {
+      "code": "P092B",
+      "description_en": "Gear Shift Lock Solenoid/Actuator Control Circuit B Range/Performance",
+      "category": "P"
+    },
+    {
+      "code": "P092C",
+      "description_en": "Gear Shift Lock Solenoid/Actuator Control Circuit B Low",
+      "category": "P"
+    },
+    {
+      "code": "P092D",
+      "description_en": "Gear Shift Lock Solenoid/Actuator Control Circuit B High",
+      "category": "P"
+    },
+    {
+      "code": "P0A00",
+      "description_en": "Motor Electronics Coolant Temperature Sensor A Circuit",
+      "category": "P"
+    },
+    {
+      "code": "P0A01",
+      "description_en": "Motor Electronics Coolant Temperature Sensor A Circuit Range/Performance",
+      "category": "P"
+    },
+    {
+      "code": "P0A02",
+      "description_en": "Motor Electronics Coolant Temperature Sensor A Circuit Low",
+      "category": "P"
+    },
+    {
+      "code": "P0A03",
+      "description_en": "Motor Electronics Coolant Temperature Sensor A Circuit High",
+      "category": "P"
+    },
+    {
+      "code": "P0A04",
+      "description_en": "Motor Electronics Coolant Temperature Sensor A Circuit Intermittent",
+      "category": "P"
+    },
+    {
+      "code": "P0A05",
+      "description_en": "Motor Electronics Coolant Pump A Control Circuit/Open",
+      "category": "P"
+    },
+    {
+      "code": "P0A06",
+      "description_en": "Motor Electronics Coolant Pump A Control Circuit Low",
+      "category": "P"
+    },
+    {
+      "code": "P0A07",
+      "description_en": "Motor Electronics Coolant Pump A Control Circuit High",
+      "category": "P"
+    },
+    {
+      "code": "P0A08",
+      "description_en": "DC/DC Converter Status Circuit",
+      "category": "P"
+    },
+    {
+      "code": "P0A09",
+      "description_en": "DC/DC Converter Status Circuit Low",
+      "category": "P"
+    },
+    {
+      "code": "P0A0A",
+      "description_en": "High Voltage System Interlock Circuit A",
+      "category": "P"
+    },
+    {
+      "code": "P0A0B",
+      "description_en": "High Voltage System Interlock Circuit A Performance",
+      "category": "P"
+    },
+    {
+      "code": "P0A0C",
+      "description_en": "High Voltage System Interlock Circuit A Low",
+      "category": "P"
+    },
+    {
+      "code": "P0A0D",
+      "description_en": "High Voltage System Interlock Circuit A High",
+      "category": "P"
+    },
+    {
+      "code": "P0A0E",
+      "description_en": "High Voltage System Interlock Circuit A Intermittent",
+      "category": "P"
+    },
+    {
+      "code": "P0A0F",
+      "description_en": "Engine Failed to Start",
+      "category": "P"
+    },
+    {
+      "code": "P0A10",
+      "description_en": "DC/DC Converter Status Circuit High",
+      "category": "P"
+    },
+    {
+      "code": "P0A11",
+      "description_en": "DC/DC Converter Enable Circuit/Open",
+      "category": "P"
+    },
+    {
+      "code": "P0A12",
+      "description_en": "DC/DC Converter Enable Circuit Low",
+      "category": "P"
+    },
+    {
+      "code": "P0A13",
+      "description_en": "DC/DC Converter Enable Circuit High",
+      "category": "P"
+    },
+    {
+      "code": "P0A14",
+      "description_en": "Engine Mount A Control Circuit/Open",
+      "category": "P"
+    },
+    {
+      "code": "P0A15",
+      "description_en": "Engine Mount A Control Circuit Low",
+      "category": "P"
+    },
+    {
+      "code": "P0A16",
+      "description_en": "Engine Mount A Control Circuit High",
+      "category": "P"
+    },
+    {
+      "code": "P0A17",
+      "description_en": "Motor Torque Sensor Circuit",
+      "category": "P"
+    },
+    {
+      "code": "P0A18",
+      "description_en": "Motor Torque Sensor Circuit Range/Performance",
+      "category": "P"
+    },
+    {
+      "code": "P0A19",
+      "description_en": "Motor Torque Sensor Circuit Low",
+      "category": "P"
+    },
+    {
+      "code": "P0A1A",
+      "description_en": "Generator Control Module",
+      "category": "P"
+    },
+    {
+      "code": "P0A1B",
+      "description_en": "Drive Motor A Control Module Performance",
+      "category": "P"
+    },
+    {
+      "code": "P0A1C",
+      "description_en": "Drive Motor B Control Module Performance",
+      "category": "P"
+    },
+    {
+      "code": "P0A1D",
+      "description_en": "Hybrid/EV Powertrain Control Module A",
+      "category": "P"
+    },
+    {
+      "code": "P0A1E",
+      "description_en": "Starter/Generator Control Module",
+      "category": "P"
+    },
+    {
+      "code": "P0A1F",
+      "description_en": "Battery Energy Control Module A Performance",
+      "category": "P"
+    },
+    {
+      "code": "P0A20",
+      "description_en": "Motor Torque Sensor Circuit High",
+      "category": "P"
+    },
+    {
+      "code": "P0A21",
+      "description_en": "Motor Torque Sensor Circuit Intermittent",
+      "category": "P"
+    },
+    {
+      "code": "P0A22",
+      "description_en": "Generator Torque Sensor Circuit",
+      "category": "P"
+    },
+    {
+      "code": "P0A23",
+      "description_en": "Generator Torque Sensor Circuit Range/Performance",
+      "category": "P"
+    },
+    {
+      "code": "P0A24",
+      "description_en": "Generator Torque Sensor Circuit Low",
+      "category": "P"
+    },
+    {
+      "code": "P0A25",
+      "description_en": "Generator Torque Sensor Circuit High",
+      "category": "P"
+    },
+    {
+      "code": "P0A26",
+      "description_en": "Generator Torque Sensor Circuit Intermittent",
+      "category": "P"
+    },
+    {
+      "code": "P0A27",
+      "description_en": "Hybrid/EV Battery Power Off Circuit",
+      "category": "P"
+    },
+    {
+      "code": "P0A28",
+      "description_en": "Hybrid/EV Battery Power Off Circuit Low",
+      "category": "P"
+    },
+    {
+      "code": "P0A29",
+      "description_en": "Hybrid/EV Battery Power Off Circuit High",
+      "category": "P"
+    },
+    {
+      "code": "P0A2A",
+      "description_en": "Drive Motor A Temperature Sensor A Circuit",
+      "category": "P"
+    },
+    {
+      "code": "P0A2B",
+      "description_en": "Drive Motor A Temperature Sensor A Circuit Range/Performance",
+      "category": "P"
+    },
+    {
+      "code": "P0A2C",
+      "description_en": "Drive Motor A Temperature Sensor A Circuit Low",
+      "category": "P"
+    },
+    {
+      "code": "P0A2D",
+      "description_en": "Drive Motor A Temperature Sensor A Circuit High",
+      "category": "P"
+    },
+    {
+      "code": "P0A2E",
+      "description_en": "Drive Motor A Temperature Sensor A Circuit Intermittent",
+      "category": "P"
+    },
+    {
+      "code": "P0A2F",
+      "description_en": "Drive Motor A Over Temperature",
+      "category": "P"
+    },
+    {
+      "code": "P0A30",
+      "description_en": "Drive Motor B Temperature Sensor Circuit",
+      "category": "P"
+    },
+    {
+      "code": "P0A31",
+      "description_en": "Drive Motor B Temperature Sensor Circuit Range/Performance",
+      "category": "P"
+    },
+    {
+      "code": "P0A32",
+      "description_en": "Drive Motor B Temperature Sensor Circuit Low",
+      "category": "P"
+    },
+    {
+      "code": "P0A33",
+      "description_en": "Drive Motor B Temperature Sensor Circuit High",
+      "category": "P"
+    },
+    {
+      "code": "P0A34",
+      "description_en": "Drive Motor B Temperature Sensor Circuit Intermittent",
+      "category": "P"
+    },
+    {
+      "code": "P0A35",
+      "description_en": "Drive Motor B Over Temperature",
+      "category": "P"
+    },
+    {
+      "code": "P0A36",
+      "description_en": "Generator Temperature Sensor Circuit",
+      "category": "P"
+    },
+    {
+      "code": "P0A37",
+      "description_en": "Generator Temperature Sensor Circuit Range/Performance",
+      "category": "P"
+    },
+    {
+      "code": "P0A38",
+      "description_en": "Generator Temperature Sensor Circuit Low",
+      "category": "P"
+    },
+    {
+      "code": "P0A39",
+      "description_en": "Generator Temperature Sensor Circuit High",
+      "category": "P"
+    },
+    {
+      "code": "P0A3A",
+      "description_en": "Generator Temperature Sensor Circuit Intermittent",
+      "category": "P"
+    },
+    {
+      "code": "P0A3B",
+      "description_en": "Generator A Over Temperature",
+      "category": "P"
+    },
+    {
+      "code": "P0A3C",
+      "description_en": "Drive Motor A Inverter Over Temperature",
+      "category": "P"
+    },
+    {
+      "code": "P0A3D",
+      "description_en": "Drive Motor B Inverter Over Temperature",
+      "category": "P"
+    },
+    {
+      "code": "P0A3E",
+      "description_en": "Generator Inverter Over Temperature",
+      "category": "P"
+    },
+    {
+      "code": "P0A3F",
+      "description_en": "Drive Motor A Position Sensor Circuit",
+      "category": "P"
+    },
+    {
+      "code": "P0A40",
+      "description_en": "Drive Motor A Position Sensor Circuit Range/Performance",
+      "category": "P"
+    },
+    {
+      "code": "P0A41",
+      "description_en": "Drive Motor A Position Sensor Circuit Low",
+      "category": "P"
+    },
+    {
+      "code": "P0A42",
+      "description_en": "Drive Motor A Position Sensor Circuit High",
+      "category": "P"
+    },
+    {
+      "code": "P0A43",
+      "description_en": "Drive Motor A Position Sensor Circuit Intermittent",
+      "category": "P"
+    },
+    {
+      "code": "P0A44",
+      "description_en": "Drive Motor A Position Sensor Circuit Overspeed",
+      "category": "P"
+    },
+    {
+      "code": "P0A45",
+      "description_en": "Drive Motor B Position Sensor Circuit",
+      "category": "P"
+    },
+    {
+      "code": "P0A46",
+      "description_en": "Drive Motor B Position Sensor Circuit Range/Performance",
+      "category": "P"
+    },
+    {
+      "code": "P0A47",
+      "description_en": "Drive Motor B Position Sensor Circuit Low",
+      "category": "P"
+    },
+    {
+      "code": "P0A48",
+      "description_en": "Drive Motor B Position Sensor Circuit High",
+      "category": "P"
+    },
+    {
+      "code": "P0A49",
+      "description_en": "Drive Motor B Position Sensor Circuit Intermittent",
+      "category": "P"
+    },
+    {
+      "code": "P0A4A",
+      "description_en": "Drive Motor B Position Sensor Circuit Overspeed",
+      "category": "P"
+    },
+    {
+      "code": "P0A4B",
+      "description_en": "Generator Position Sensor Circuit",
+      "category": "P"
+    },
+    {
+      "code": "P0A4C",
+      "description_en": "Generator Position Sensor Circuit Range/Performance",
+      "category": "P"
+    },
+    {
+      "code": "P0A4D",
+      "description_en": "Generator Position Sensor Circuit Low",
+      "category": "P"
+    },
+    {
+      "code": "P0A4E",
+      "description_en": "Generator Position Sensor Circuit High",
+      "category": "P"
+    },
+    {
+      "code": "P0A4F",
+      "description_en": "Generator Position Sensor Circuit Intermittent",
+      "category": "P"
+    },
+    {
+      "code": "P0A50",
+      "description_en": "Generator Position Sensor Circuit Overspeed",
+      "category": "P"
+    },
+    {
+      "code": "P0A51",
+      "description_en": "Drive Motor A Current Sensor Circuit",
+      "category": "P"
+    },
+    {
+      "code": "P0A52",
+      "description_en": "Drive Motor A Current Sensor Circuit Range/Performance",
+      "category": "P"
+    },
+    {
+      "code": "P0A53",
+      "description_en": "Drive Motor A Current Sensor Circuit Low",
+      "category": "P"
+    },
+    {
+      "code": "P0A54",
+      "description_en": "Drive Motor A Current Sensor Circuit High",
+      "category": "P"
+    },
+    {
+      "code": "P0A55",
+      "description_en": "Drive Motor B Current Sensor Circuit",
+      "category": "P"
+    },
+    {
+      "code": "P0A56",
+      "description_en": "Drive Motor B Current Sensor Circuit Range/Performance",
+      "category": "P"
+    },
+    {
+      "code": "P0A57",
+      "description_en": "Drive Motor B Current Sensor Circuit Low",
+      "category": "P"
+    },
+    {
+      "code": "P0A58",
+      "description_en": "Drive Motor B Current Sensor Circuit High",
+      "category": "P"
+    },
+    {
+      "code": "P0A59",
+      "description_en": "Generator Current Sensor Circuit",
+      "category": "P"
+    },
+    {
+      "code": "P0A5A",
+      "description_en": "Generator Current Sensor Circuit Range/Performance",
+      "category": "P"
+    },
+    {
+      "code": "P0A5B",
+      "description_en": "Generator Current Sensor Circuit Low",
+      "category": "P"
+    },
+    {
+      "code": "P0A5C",
+      "description_en": "Generator Current Sensor Circuit High",
+      "category": "P"
+    },
+    {
+      "code": "P0A5D",
+      "description_en": "Drive Motor A Phase U Current",
+      "category": "P"
+    },
+    {
+      "code": "P0A5E",
+      "description_en": "Drive Motor A Phase U Current Low",
+      "category": "P"
+    },
+    {
+      "code": "P0A5F",
+      "description_en": "Drive Motor A Phase U Current High",
+      "category": "P"
+    },
+    {
+      "code": "P0A60",
+      "description_en": "Drive Motor A Phase V Current",
+      "category": "P"
+    },
+    {
+      "code": "P0A61",
+      "description_en": "Drive Motor A Phase V Current Low",
+      "category": "P"
+    },
+    {
+      "code": "P0A62",
+      "description_en": "Drive Motor A Phase V Current High",
+      "category": "P"
+    },
+    {
+      "code": "P0A63",
+      "description_en": "Drive Motor A Phase W Current",
+      "category": "P"
+    },
+    {
+      "code": "P0A64",
+      "description_en": "Drive Motor A Phase W Current Low",
+      "category": "P"
+    },
+    {
+      "code": "P0A65",
+      "description_en": "Drive Motor A Phase W Current High",
+      "category": "P"
+    },
+    {
+      "code": "P0A66",
+      "description_en": "Drive Motor B Phase U Current",
+      "category": "P"
+    },
+    {
+      "code": "P0A67",
+      "description_en": "Drive Motor B Phase U Current Low",
+      "category": "P"
+    },
+    {
+      "code": "P0A68",
+      "description_en": "Drive Motor B Phase U Current High",
+      "category": "P"
+    },
+    {
+      "code": "P0A69",
+      "description_en": "Drive Motor B Phase V Current",
+      "category": "P"
+    },
+    {
+      "code": "P0A6A",
+      "description_en": "Drive Motor B Phase V Current Low",
+      "category": "P"
+    },
+    {
+      "code": "P0A6B",
+      "description_en": "Drive Motor B Phase V Current High",
+      "category": "P"
+    },
+    {
+      "code": "P0A6C",
+      "description_en": "Drive Motor B Phase W Current",
+      "category": "P"
+    },
+    {
+      "code": "P0A6D",
+      "description_en": "Drive Motor B Phase W Current Low",
+      "category": "P"
+    },
+    {
+      "code": "P0A6E",
+      "description_en": "Drive Motor B Phase W Current High",
+      "category": "P"
+    },
+    {
+      "code": "P0A6F",
+      "description_en": "Generator Phase U Current",
+      "category": "P"
+    },
+    {
+      "code": "P0A70",
+      "description_en": "Generator Phase U Current Low",
+      "category": "P"
+    },
+    {
+      "code": "P0A71",
+      "description_en": "Generator Phase U Current High",
+      "category": "P"
+    },
+    {
+      "code": "P0A72",
+      "description_en": "Generator Phase V Current",
+      "category": "P"
+    },
+    {
+      "code": "P0A73",
+      "description_en": "Generator Phase V Current Low",
+      "category": "P"
+    },
+    {
+      "code": "P0A74",
+      "description_en": "Generator Phase V Current High",
+      "category": "P"
+    },
+    {
+      "code": "P0A75",
+      "description_en": "Generator Phase W Current",
+      "category": "P"
+    },
+    {
+      "code": "P0A76",
+      "description_en": "Generator Phase W Current Low",
+      "category": "P"
+    },
+    {
+      "code": "P0A77",
+      "description_en": "Generator Phase W Current High",
+      "category": "P"
+    },
+    {
+      "code": "P0A78",
+      "description_en": "Drive Motor A Inverter Performance",
+      "category": "P"
+    },
+    {
+      "code": "P0A79",
+      "description_en": "Drive Motor B Inverter Performance",
+      "category": "P"
+    },
+    {
+      "code": "P0A7A",
+      "description_en": "Generator Inverter Performance",
+      "category": "P"
+    },
+    {
+      "code": "P0A7B",
+      "description_en": "Battery Energy Control Module Requested MIL Illumination",
+      "category": "P"
+    },
+    {
+      "code": "P0A7C",
+      "description_en": "Motor Electronics Over Temperature",
+      "category": "P"
+    },
+    {
+      "code": "P0A7D",
+      "description_en": "Hybrid/EV Battery Pack State of Charge Low",
+      "category": "P"
+    },
+    {
+      "code": "P0A7E",
+      "description_en": "Hybrid/EV Battery Pack A Over Temperature",
+      "category": "P"
+    },
+    {
+      "code": "P0A7F",
+      "description_en": "Hybrid/EV Battery Pack A Deterioration",
+      "category": "P"
+    },
+    {
+      "code": "P0A80",
+      "description_en": "Replace Hybrid/EV Battery Pack",
+      "category": "P"
+    },
+    {
+      "code": "P0A81",
+      "description_en": "Hybrid/EV Battery Pack Cooling Fan 1 Control Circuit/Open",
+      "category": "P"
+    },
+    {
+      "code": "P0A82",
+      "description_en": "Hybrid/EV Battery Pack Cooling Fan 1 Performance/Stuck Off",
+      "category": "P"
+    },
+    {
+      "code": "P0A83",
+      "description_en": "Hybrid/EV Battery Pack Cooling Fan 1 Stuck On",
+      "category": "P"
+    },
+    {
+      "code": "P0A84",
+      "description_en": "Hybrid/EV Battery Pack Cooling Fan 1 Control Circuit Low",
+      "category": "P"
+    },
+    {
+      "code": "P0A85",
+      "description_en": "Hybrid/EV Battery Pack Cooling Fan 1 Control Circuit High",
+      "category": "P"
+    },
+    {
+      "code": "P0A86",
+      "description_en": "14 Volt Power Module Current Sensor A Circuit",
+      "category": "P"
+    },
+    {
+      "code": "P0A87",
+      "description_en": "14 Volt Power Module Current Sensor A Circuit Range/Performance",
+      "category": "P"
+    },
+    {
+      "code": "P0A88",
+      "description_en": "14 Volt Power Module Current Sensor A Circuit Low",
+      "category": "P"
+    },
+    {
+      "code": "P0A89",
+      "description_en": "14 Volt Power Module Current Sensor A Circuit High",
+      "category": "P"
+    },
+    {
+      "code": "P0A8A",
+      "description_en": "14 Volt Power Module Current Sensor A Circuit Intermittent",
+      "category": "P"
+    },
+    {
+      "code": "P0A8B",
+      "description_en": "14 Volt Power Module System Voltage",
+      "category": "P"
+    },
+    {
+      "code": "P0A8C",
+      "description_en": "14 Volt Power Module System Voltage Unstable",
+      "category": "P"
+    },
+    {
+      "code": "P0A8D",
+      "description_en": "14 Volt Power Module System Voltage Low",
+      "category": "P"
+    },
+    {
+      "code": "P0A8E",
+      "description_en": "14 Volt Power Module System Voltage High",
+      "category": "P"
+    },
+    {
+      "code": "P0A8F",
+      "description_en": "14 Volt Power Module System Performance",
+      "category": "P"
+    },
+    {
+      "code": "P0A90",
+      "description_en": "Drive Motor A Performance",
+      "category": "P"
+    },
+    {
+      "code": "P0A91",
+      "description_en": "Drive Motor B Performance",
+      "category": "P"
+    },
+    {
+      "code": "P0A92",
+      "description_en": "Hybrid Generator Performance",
+      "category": "P"
+    },
+    {
+      "code": "P0A93",
+      "description_en": "Inverter A Cooling System Performance",
+      "category": "P"
+    },
+    {
+      "code": "P0A94",
+      "description_en": "DC/DC Converter A Performance",
+      "category": "P"
+    },
+    {
+      "code": "P0A95",
+      "description_en": "High Voltage Fuse A",
+      "category": "P"
+    },
+    {
+      "code": "P0A96",
+      "description_en": "Hybrid/EV Battery Pack Cooling Fan 2 Control Circuit/Open",
+      "category": "P"
+    },
+    {
+      "code": "P0A97",
+      "description_en": "Hybrid/EV Battery Pack Cooling Fan 2 Performance/Stuck Off",
+      "category": "P"
+    },
+    {
+      "code": "P0A98",
+      "description_en": "Hybrid/EV Battery Pack Cooling Fan 2 Stuck On",
+      "category": "P"
+    },
+    {
+      "code": "P0A99",
+      "description_en": "Hybrid/EV Battery Pack Cooling Fan 2 Control Circuit Low",
+      "category": "P"
+    },
+    {
+      "code": "P0A9A",
+      "description_en": "Hybrid/EV Battery Pack Cooling Fan 2 Control Circuit High",
+      "category": "P"
+    },
+    {
+      "code": "P0A9B",
+      "description_en": "Hybrid/EV Battery Temperature Sensor A Circuit",
+      "category": "P"
+    },
+    {
+      "code": "P0A9C",
+      "description_en": "Hybrid/EV Battery Temperature Sensor A Circuit Range/Performance",
+      "category": "P"
+    },
+    {
+      "code": "P0A9D",
+      "description_en": "Hybrid/EV Battery Temperature Sensor A Circuit Low",
+      "category": "P"
+    },
+    {
+      "code": "P0A9E",
+      "description_en": "Hybrid/EV Battery Temperature Sensor A Circuit High",
+      "category": "P"
+    },
+    {
+      "code": "P0A9F",
+      "description_en": "Hybrid/EV Battery Temperature Sensor A Circuit Intermittent/Erratic",
+      "category": "P"
+    },
+    {
+      "code": "P0AA0",
+      "description_en": "Hybrid/EV Battery Positive Contactor Circuit",
+      "category": "P"
+    },
+    {
+      "code": "P0AA1",
+      "description_en": "Hybrid/EV Battery Positive Contactor Circuit Stuck Closed",
+      "category": "P"
+    },
+    {
+      "code": "P0AA2",
+      "description_en": "Hybrid/EV Battery Positive Contactor Circuit Stuck Open",
+      "category": "P"
+    },
+    {
+      "code": "P0AA3",
+      "description_en": "Hybrid/EV Battery Negative Contactor Circuit",
+      "category": "P"
+    },
+    {
+      "code": "P0AA4",
+      "description_en": "Hybrid/EV Battery Negative Contactor Circuit Stuck Closed",
+      "category": "P"
+    },
+    {
+      "code": "P0AA5",
+      "description_en": "Hybrid/EV Battery Negative Contactor Circuit Stuck Open",
+      "category": "P"
+    },
+    {
+      "code": "P0AA6",
+      "description_en": "Hybrid/EV Battery Voltage System Isolation Fault",
+      "category": "P"
+    },
+    {
+      "code": "P0AA7",
+      "description_en": "Hybrid/EV Battery Voltage Isolation Sensor Circuit",
+      "category": "P"
+    },
+    {
+      "code": "P0AA8",
+      "description_en": "Hybrid/EV Battery Voltage Isolation Sensor Circuit Range/Performance",
+      "category": "P"
+    },
+    {
+      "code": "P0AA9",
+      "description_en": "Hybrid/EV Battery Voltage Isolation Sensor Circuit Low",
+      "category": "P"
+    },
+    {
+      "code": "P0AAA",
+      "description_en": "Hybrid/EV Battery Voltage Isolation Sensor Circuit High",
+      "category": "P"
+    },
+    {
+      "code": "P0AAB",
+      "description_en": "Hybrid/EV Battery Voltage Isolation Sensor Circuit Intermittent/Erratic",
+      "category": "P"
+    },
+    {
+      "code": "P0AAC",
+      "description_en": "Hybrid/EV Battery Pack Air Temperature Sensor A Circuit",
+      "category": "P"
+    },
+    {
+      "code": "P0AAD",
+      "description_en": "Hybrid/EV Battery Pack Air Temperature Sensor A Circuit Range/Performance",
+      "category": "P"
+    },
+    {
+      "code": "P0AAE",
+      "description_en": "Hybrid/EV Battery Pack Air Temperature Sensor A Circuit Low",
+      "category": "P"
+    },
+    {
+      "code": "P0AAF",
+      "description_en": "Hybrid/EV Battery Pack Air Temperature Sensor A Circuit High",
+      "category": "P"
+    },
+    {
+      "code": "P0AB0",
+      "description_en": "Hybrid/EV Battery Pack Air Temperature Sensor A Circuit Intermittent/Erratic",
+      "category": "P"
+    },
+    {
+      "code": "P0AB1",
+      "description_en": "Hybrid/EV Battery Pack Air Temperature Sensor B Circuit",
+      "category": "P"
+    },
+    {
+      "code": "P0AB2",
+      "description_en": "Hybrid/EV Battery Pack Air Temperature Sensor B Circuit Range/Performance",
+      "category": "P"
+    },
+    {
+      "code": "P0AB3",
+      "description_en": "Hybrid/EV Battery Pack Air Temperature Sensor B Circuit Low",
+      "category": "P"
+    },
+    {
+      "code": "P0AB4",
+      "description_en": "Hybrid/EV Battery Pack Air Temperature Sensor B Circuit High",
+      "category": "P"
+    },
+    {
+      "code": "P0AB5",
+      "description_en": "Hybrid/EV Battery Pack Air Temperature Sensor B Circuit Intermittent/Erratic",
+      "category": "P"
+    },
+    {
+      "code": "P0AB6",
+      "description_en": "Engine Mount B Control Circuit/Open",
+      "category": "P"
+    },
+    {
+      "code": "P0AB7",
+      "description_en": "Engine Mount B Control Circuit Low",
+      "category": "P"
+    },
+    {
+      "code": "P0AB8",
+      "description_en": "Engine Mount B Control Circuit High",
+      "category": "P"
+    },
+    {
+      "code": "P0AB9",
+      "description_en": "Hybrid/EV System Performance",
+      "category": "P"
+    },
+    {
+      "code": "P0ABA",
+      "description_en": "Hybrid/EV Battery Pack Voltage Sense A Circuit",
+      "category": "P"
+    },
+    {
+      "code": "P0ABB",
+      "description_en": "Hybrid/EV Battery Pack Voltage Sense A Circuit Range/Performance",
+      "category": "P"
+    },
+    {
+      "code": "P0ABC",
+      "description_en": "Hybrid/EV Battery Pack Voltage Sense A Circuit Low",
+      "category": "P"
+    },
+    {
+      "code": "P0ABD",
+      "description_en": "Hybrid/EV Battery Pack Voltage Sense A Circuit High",
+      "category": "P"
+    },
+    {
+      "code": "P0ABE",
+      "description_en": "Hybrid/EV Battery Pack Voltage Sense A Circuit Intermittent/Erratic",
+      "category": "P"
+    },
+    {
+      "code": "P0ABF",
+      "description_en": "Hybrid/EV Battery Pack Current Sensor A Circuit",
+      "category": "P"
+    },
+    {
+      "code": "P0AC0",
+      "description_en": "Hybrid/EV Battery Pack Current Sensor A Circuit Range/Performance",
+      "category": "P"
+    },
+    {
+      "code": "P0AC1",
+      "description_en": "Hybrid/EV Battery Pack Current Sensor A Circuit Low",
+      "category": "P"
+    },
+    {
+      "code": "P0AC2",
+      "description_en": "Hybrid/EV Battery Pack Current Sensor A Circuit High",
+      "category": "P"
+    },
+    {
+      "code": "P0AC3",
+      "description_en": "Hybrid/EV Battery Pack Current Sensor A Circuit Intermittent/Erratic",
+      "category": "P"
+    },
+    {
+      "code": "P0AC4",
+      "description_en": "Hybrid/EV Powertrain Control Module Requested MIL Illumination",
+      "category": "P"
+    },
+    {
+      "code": "P0AC5",
+      "description_en": "Hybrid/EV Battery Temperature Sensor B Circuit",
+      "category": "P"
+    },
+    {
+      "code": "P0AC6",
+      "description_en": "Hybrid/EV Battery Temperature Sensor B Circuit Range/Performance",
+      "category": "P"
+    },
+    {
+      "code": "P0AC7",
+      "description_en": "Hybrid/EV Battery Temperature Sensor B Circuit Low",
+      "category": "P"
+    },
+    {
+      "code": "P0AC8",
+      "description_en": "Hybrid/EV Battery Temperature Sensor B Circuit High",
+      "category": "P"
+    },
+    {
+      "code": "P0AC9",
+      "description_en": "Hybrid/EV Battery Temperature Sensor B Circuit Intermittent/Erratic",
+      "category": "P"
+    },
+    {
+      "code": "P0ACA",
+      "description_en": "Hybrid/EV Battery Temperature Sensor C Circuit",
+      "category": "P"
+    },
+    {
+      "code": "P0ACB",
+      "description_en": "Hybrid/EV Battery Temperature Sensor C Circuit Range/Performance",
+      "category": "P"
+    },
+    {
+      "code": "P0ACC",
+      "description_en": "Hybrid/EV Battery Temperature Sensor C Circuit Low",
+      "category": "P"
+    },
+    {
+      "code": "P0ACD",
+      "description_en": "Hybrid/EV Battery Temperature Sensor C Circuit High",
+      "category": "P"
+    },
+    {
+      "code": "P0ACE",
+      "description_en": "Hybrid/EV Battery Temperature Sensor C Circuit Intermittent/Erratic",
+      "category": "P"
+    },
+    {
+      "code": "P0ACF",
+      "description_en": "Hybrid/EV Battery Pack Cooling Fan 3 Control Circuit/Open",
+      "category": "P"
+    },
+    {
+      "code": "P0AD0",
+      "description_en": "Hybrid/EV Battery Pack Cooling Fan 3 Performance/Stuck Off",
+      "category": "P"
+    },
+    {
+      "code": "P0AD1",
+      "description_en": "Hybrid/EV Battery Pack Cooling Fan 3 Stuck On",
+      "category": "P"
+    },
+    {
+      "code": "P0AD2",
+      "description_en": "Hybrid/EV Battery Pack Cooling Fan 3 Control Circuit Low",
+      "category": "P"
+    },
+    {
+      "code": "P0AD3",
+      "description_en": "Hybrid/EV Battery Pack Cooling Fan 3 Control Circuit High",
+      "category": "P"
+    },
+    {
+      "code": "P0AD4",
+      "description_en": "Hybrid/EV Battery Pack Air Flow System Insufficient Air Flow",
+      "category": "P"
+    },
+    {
+      "code": "P0AD5",
+      "description_en": "Hybrid/EV Battery Pack Air Flow Valve A Control Circuit/Open",
+      "category": "P"
+    },
+    {
+      "code": "P0AD6",
+      "description_en": "Hybrid/EV Battery Pack Air Flow Valve A Control Circuit Range/Performance",
+      "category": "P"
+    },
+    {
+      "code": "P0AD7",
+      "description_en": "Hybrid/EV Battery Pack Air Flow Valve A Control Circuit Low",
+      "category": "P"
+    },
+    {
+      "code": "P0AD8",
+      "description_en": "Hybrid/EV Battery Pack Air Flow Valve A Control Circuit High",
+      "category": "P"
+    },
+    {
+      "code": "P0AD9",
+      "description_en": "Hybrid/EV Battery Positive Contactor Control Circuit/Open",
+      "category": "P"
+    },
+    {
+      "code": "P0ADA",
+      "description_en": "Hybrid/EV Battery Positive Contactor Control Circuit Range/Performance",
+      "category": "P"
+    },
+    {
+      "code": "P0ADB",
+      "description_en": "Hybrid/EV Battery Positive Contactor Control Circuit Low",
+      "category": "P"
+    },
+    {
+      "code": "P0ADC",
+      "description_en": "Hybrid/EV Battery Positive Contactor Control Circuit High",
+      "category": "P"
+    },
+    {
+      "code": "P0ADD",
+      "description_en": "Hybrid/EV Battery Negative Contactor Control Circuit/Open",
+      "category": "P"
+    },
+    {
+      "code": "P0ADE",
+      "description_en": "Hybrid/EV Battery Negative Contactor Control Circuit Range/Performance",
+      "category": "P"
+    },
+    {
+      "code": "P0ADF",
+      "description_en": "Hybrid/EV Battery Negative Contactor Control Circuit Low",
+      "category": "P"
+    },
+    {
+      "code": "P0AE0",
+      "description_en": "Hybrid/EV Battery Negative Contactor Control Circuit High",
+      "category": "P"
+    },
+    {
+      "code": "P0AE1",
+      "description_en": "Hybrid/EV Battery Precharge Contactor Circuit",
+      "category": "P"
+    },
+    {
+      "code": "P0AE2",
+      "description_en": "Hybrid/EV Battery Precharge Contactor Circuit Stuck Closed",
+      "category": "P"
+    },
+    {
+      "code": "P0AE3",
+      "description_en": "Hybrid/EV Battery Precharge Contactor Circuit Stuck Open",
+      "category": "P"
+    },
+    {
+      "code": "P0AE4",
+      "description_en": "Hybrid/EV Battery Precharge Contactor A Control Circuit/Open",
+      "category": "P"
+    },
+    {
+      "code": "P0AE5",
+      "description_en": "Hybrid/EV Battery Precharge Contactor A Control Circuit Range/Performance",
+      "category": "P"
+    },
+    {
+      "code": "P0AE6",
+      "description_en": "Hybrid/EV Battery Precharge Contactor A Control Circuit Low",
+      "category": "P"
+    },
+    {
+      "code": "P0AE7",
+      "description_en": "Hybrid/EV Battery Precharge Contactor A Control Circuit High",
+      "category": "P"
+    },
+    {
+      "code": "P0AE8",
+      "description_en": "Hybrid/EV Battery Temperature Sensor D Circuit",
+      "category": "P"
+    },
+    {
+      "code": "P0AE9",
+      "description_en": "Hybrid/EV Battery Temperature Sensor D Circuit Range/Performance",
+      "category": "P"
+    },
+    {
+      "code": "P0AEA",
+      "description_en": "Hybrid/EV Battery Temperature Sensor D Circuit Low",
+      "category": "P"
+    },
+    {
+      "code": "P0AEB",
+      "description_en": "Hybrid/EV Battery Temperature Sensor D Circuit High",
+      "category": "P"
+    },
+    {
+      "code": "P0AEC",
+      "description_en": "Hybrid/EV Battery Temperature Sensor D Circuit Intermittent/Erratic",
+      "category": "P"
+    },
+    {
+      "code": "P0AED",
+      "description_en": "Drive Motor Inverter Temperature Sensor A Circuit",
+      "category": "P"
+    },
+    {
+      "code": "P0AEE",
+      "description_en": "Drive Motor Inverter Temperature Sensor A Circuit Range/Performance",
+      "category": "P"
+    },
+    {
+      "code": "P0AEF",
+      "description_en": "Drive Motor Inverter Temperature Sensor A Circuit Low",
+      "category": "P"
+    },
+    {
+      "code": "P0AF0",
+      "description_en": "Drive Motor Inverter Temperature Sensor A Circuit High",
+      "category": "P"
+    },
+    {
+      "code": "P0AF1",
+      "description_en": "Drive Motor Inverter Temperature Sensor A Circuit Intermittent/Erratic",
+      "category": "P"
+    },
+    {
+      "code": "P0AF2",
+      "description_en": "Drive Motor Inverter Temperature Sensor B Circuit",
+      "category": "P"
+    },
+    {
+      "code": "P0AF3",
+      "description_en": "Drive Motor Inverter Temperature Sensor B Circuit Range/Performance",
+      "category": "P"
+    },
+    {
+      "code": "P0AF4",
+      "description_en": "Drive Motor Inverter Temperature Sensor B Circuit Low",
+      "category": "P"
+    },
+    {
+      "code": "P0AF5",
+      "description_en": "Drive Motor Inverter Temperature Sensor B Circuit High",
+      "category": "P"
+    },
+    {
+      "code": "P0AF6",
+      "description_en": "Drive Motor Inverter Temperature Sensor B Circuit Intermittent/Erratic",
+      "category": "P"
+    },
+    {
+      "code": "P0AF7",
+      "description_en": "14 Volt Power Module Internal Temperature Too High",
+      "category": "P"
+    },
+    {
+      "code": "P0AF8",
+      "description_en": "Hybrid/EV Battery System Voltage",
+      "category": "P"
+    },
+    {
+      "code": "P0AF9",
+      "description_en": "Hybrid/EV Battery System Voltage Unstable",
+      "category": "P"
+    },
+    {
+      "code": "P0AFA",
+      "description_en": "Hybrid/EV Battery System Voltage Low",
+      "category": "P"
+    },
+    {
+      "code": "P0AFB",
+      "description_en": "Hybrid/EV Battery System Voltage High",
+      "category": "P"
+    },
+    {
+      "code": "P0AFC",
+      "description_en": "Hybrid/EV Battery Pack Sensor Module",
+      "category": "P"
+    },
+    {
+      "code": "P0AFD",
+      "description_en": "Hybrid/EV Battery Pack Temperature Too Low",
+      "category": "P"
+    },
+    {
+      "code": "P0AFE",
+      "description_en": "Hybrid/EV Battery System Voltage Too Low for Voltage Step Up Conversion",
+      "category": "P"
+    },
+    {
+      "code": "P0AFF",
+      "description_en": "System Voltage Too Low for Voltage Step Down Conversion",
+      "category": "P"
+    },
+    {
+      "code": "P0B00",
+      "description_en": "Electric/Auxiliary Transmission Fluid Pump Motor Phase U Current",
+      "category": "P"
+    },
+    {
+      "code": "P0B01",
+      "description_en": "Electric/Auxiliary Transmission Fluid Pump Motor Phase U Current Low",
+      "category": "P"
+    },
+    {
+      "code": "P0B02",
+      "description_en": "Electric/Auxiliary Transmission Fluid Pump Motor Phase U Current High",
+      "category": "P"
+    },
+    {
+      "code": "P0B03",
+      "description_en": "Electric/Auxiliary Transmission Fluid Pump Motor Phase V Current",
+      "category": "P"
+    },
+    {
+      "code": "P0B04",
+      "description_en": "Electric/Auxiliary Transmission Fluid Pump Motor Phase V Current Low",
+      "category": "P"
+    },
+    {
+      "code": "P0B05",
+      "description_en": "Electric/Auxiliary Transmission Fluid Pump Motor Phase V Current High",
+      "category": "P"
+    },
+    {
+      "code": "P0B06",
+      "description_en": "Electric/Auxiliary Transmission Fluid Pump Motor Phase W Current",
+      "category": "P"
+    },
+    {
+      "code": "P0B07",
+      "description_en": "Electric/Auxiliary Transmission Fluid Pump Motor Phase W Current Low",
+      "category": "P"
+    },
+    {
+      "code": "P0B08",
+      "description_en": "Electric/Auxiliary Transmission Fluid Pump Motor Phase W Current High",
+      "category": "P"
+    },
+    {
+      "code": "P0B09",
+      "description_en": "Electric/Auxiliary Transmission Fluid Pump A Motor Supply Voltage Circuit/Open",
+      "category": "P"
+    },
+    {
+      "code": "P0B0A",
+      "description_en": "Electric/Auxiliary Transmission Fluid Pump A Motor Supply Voltage Circuit Low",
+      "category": "P"
+    },
+    {
+      "code": "P0B0B",
+      "description_en": "Electric/Auxiliary Transmission Fluid Pump A Motor Supply Voltage Circuit High",
+      "category": "P"
+    },
+    {
+      "code": "P0B0C",
+      "description_en": "Electric/Auxiliary Transmission Fluid Pump A Hydraulic Leakage",
+      "category": "P"
+    },
+    {
+      "code": "P0B0D",
+      "description_en": "Electric/Auxiliary Transmission Fluid Pump Motor Control Module",
+      "category": "P"
+    },
+    {
+      "code": "P0B0E",
+      "description_en": "Hybrid/EV Battery Pack Current Sensor B Circuit",
+      "category": "P"
+    },
+    {
+      "code": "P0B0F",
+      "description_en": "Hybrid/EV Battery Pack Current Sensor B Circuit Range/Performance",
+      "category": "P"
+    },
+    {
+      "code": "P0B10",
+      "description_en": "Hybrid/EV Battery Pack Current Sensor B Circuit Low",
+      "category": "P"
+    },
+    {
+      "code": "P0B11",
+      "description_en": "Hybrid/EV Battery Pack Current Sensor B Circuit High",
+      "category": "P"
+    },
+    {
+      "code": "P0B12",
+      "description_en": "Hybrid/EV Battery Pack Current Sensor B Circuit Intermittent/Erratic",
+      "category": "P"
+    },
+    {
+      "code": "P0B13",
+      "description_en": "Hybrid/EV Battery Pack Current Sensor A/B Correlation",
+      "category": "P"
+    },
+    {
+      "code": "P0B14",
+      "description_en": "Hybrid/EV Battery Pack Voltage Sense B Circuit",
+      "category": "P"
+    },
+    {
+      "code": "P0B15",
+      "description_en": "Hybrid/EV Battery Pack Voltage Sense B Circuit Range/Performance",
+      "category": "P"
+    },
+    {
+      "code": "P0B16",
+      "description_en": "Hybrid/EV Battery Pack Voltage Sense B Circuit Low",
+      "category": "P"
+    },
+    {
+      "code": "P0B17",
+      "description_en": "Hybrid/EV Battery Pack Voltage Sense B Circuit High",
+      "category": "P"
+    },
+    {
+      "code": "P0B18",
+      "description_en": "Hybrid/EV Battery Pack Voltage Sense B Circuit Intermittent/Erratic",
+      "category": "P"
+    },
+    {
+      "code": "P0B19",
+      "description_en": "Hybrid/EV Battery Pack Voltage Sense C Circuit",
+      "category": "P"
+    },
+    {
+      "code": "P0B1A",
+      "description_en": "Hybrid/EV Battery Pack Voltage Sense C Circuit Range/Performance",
+      "category": "P"
+    },
+    {
+      "code": "P0B1B",
+      "description_en": "Hybrid/EV Battery Pack Voltage Sense C Circuit Low",
+      "category": "P"
+    },
+    {
+      "code": "P0B1C",
+      "description_en": "Hybrid/EV Battery Pack Voltage Sense C Circuit High",
+      "category": "P"
+    },
+    {
+      "code": "P0B1D",
+      "description_en": "Hybrid/EV Battery Pack Voltage Sense C Circuit Intermittent/Erratic",
+      "category": "P"
+    },
+    {
+      "code": "P0B1E",
+      "description_en": "Hybrid/EV Battery Pack Voltage Sense D Circuit",
+      "category": "P"
+    },
+    {
+      "code": "P0B1F",
+      "description_en": "Hybrid/EV Battery Pack Voltage Sense D Circuit Range/Performance",
+      "category": "P"
+    },
+    {
+      "code": "P0B20",
+      "description_en": "Hybrid/EV Battery Pack Voltage Sense D Circuit Low",
+      "category": "P"
+    },
+    {
+      "code": "P0B21",
+      "description_en": "Hybrid/EV Battery Pack Voltage Sense D Circuit High",
+      "category": "P"
+    },
+    {
+      "code": "P0B22",
+      "description_en": "Hybrid/EV Battery Pack Voltage Sense D Circuit Intermittent/Erratic",
+      "category": "P"
+    },
+    {
+      "code": "P0B23",
+      "description_en": "Hybrid/EV Battery A Voltage",
+      "category": "P"
+    },
+    {
+      "code": "P0B24",
+      "description_en": "Hybrid/EV Battery A Voltage Unstable",
+      "category": "P"
+    },
+    {
+      "code": "P0B25",
+      "description_en": "Hybrid/EV Battery A Voltage Low",
+      "category": "P"
+    },
+    {
+      "code": "P0B26",
+      "description_en": "Hybrid/EV Battery A Voltage High",
+      "category": "P"
+    },
+    {
+      "code": "P0B27",
+      "description_en": "Hybrid/EV Battery B Voltage",
+      "category": "P"
+    },
+    {
+      "code": "P0B28",
+      "description_en": "Hybrid/EV Battery B Voltage Unstable",
+      "category": "P"
+    },
+    {
+      "code": "P0B29",
+      "description_en": "Hybrid/EV Battery B Voltage Low",
+      "category": "P"
+    },
+    {
+      "code": "P0B2A",
+      "description_en": "Hybrid/EV Battery B Voltage High",
+      "category": "P"
+    },
+    {
+      "code": "P0B2B",
+      "description_en": "Hybrid/EV Battery C Voltage",
+      "category": "P"
+    },
+    {
+      "code": "P0B2C",
+      "description_en": "Hybrid/EV Battery C Voltage Unstable",
+      "category": "P"
+    },
+    {
+      "code": "P0B2D",
+      "description_en": "Hybrid/EV Battery C Voltage Low",
+      "category": "P"
+    },
+    {
+      "code": "P0B2E",
+      "description_en": "Hybrid/EV Battery C Voltage High",
+      "category": "P"
+    },
+    {
+      "code": "P0B2F",
+      "description_en": "Hybrid/EV Battery D Voltage",
+      "category": "P"
+    },
+    {
+      "code": "P0B30",
+      "description_en": "Hybrid/EV Battery D Voltage Unstable",
+      "category": "P"
+    },
+    {
+      "code": "P0B31",
+      "description_en": "Hybrid/EV Battery D Voltage Low",
+      "category": "P"
+    },
+    {
+      "code": "P0B32",
+      "description_en": "Hybrid/EV Battery D Voltage High",
+      "category": "P"
+    },
+    {
+      "code": "P0B33",
+      "description_en": "High Voltage Service Disconnect Circuit",
+      "category": "P"
+    },
+    {
+      "code": "P0B34",
+      "description_en": "High Voltage Service Disconnect Circuit Performance",
+      "category": "P"
+    },
+    {
+      "code": "P0B35",
+      "description_en": "High Voltage Service Disconnect Circuit Low",
+      "category": "P"
+    },
+    {
+      "code": "P0B36",
+      "description_en": "High Voltage Service Disconnect Circuit High",
+      "category": "P"
+    },
+    {
+      "code": "P0B37",
+      "description_en": "High Voltage Service Disconnect Open",
+      "category": "P"
+    },
+    {
+      "code": "P0B38",
+      "description_en": "Motor Electronics Coolant Pump B Control Circuit/Open",
+      "category": "P"
+    },
+    {
+      "code": "P0B39",
+      "description_en": "Motor Electronics Coolant Pump B Control Circuit Low",
+      "category": "P"
+    },
+    {
+      "code": "P0B3A",
+      "description_en": "Motor Electronics Coolant Pump B Control Circuit High",
+      "category": "P"
+    },
+    {
+      "code": "P0B3B",
+      "description_en": "Hybrid/EV Battery Voltage Sense A Circuit",
+      "category": "P"
+    },
+    {
+      "code": "P0B3C",
+      "description_en": "Hybrid/EV Battery Voltage Sense A Circuit Range/Performance",
+      "category": "P"
+    },
+    {
+      "code": "P0B3D",
+      "description_en": "Hybrid/EV Battery Voltage Sense A Circuit Low",
+      "category": "P"
+    },
+    {
+      "code": "P0B3E",
+      "description_en": "Hybrid/EV Battery Voltage Sense A Circuit High",
+      "category": "P"
+    },
+    {
+      "code": "P0B3F",
+      "description_en": "Hybrid/EV Battery Voltage Sense A Circuit Intermittent/Erratic",
+      "category": "P"
+    },
+    {
+      "code": "P0B40",
+      "description_en": "Hybrid/EV Battery Voltage Sense B Circuit",
+      "category": "P"
+    },
+    {
+      "code": "P0B41",
+      "description_en": "Hybrid/EV Battery Voltage Sense B Circuit Range/Performance",
+      "category": "P"
+    },
+    {
+      "code": "P0B42",
+      "description_en": "Hybrid/EV Battery Voltage Sense B Circuit Low",
+      "category": "P"
+    },
+    {
+      "code": "P0B43",
+      "description_en": "Hybrid/EV Battery Voltage Sense B Circuit High",
+      "category": "P"
+    },
+    {
+      "code": "P0B44",
+      "description_en": "Hybrid/EV Battery Voltage Sense B Circuit Intermittent/Erratic",
+      "category": "P"
+    },
+    {
+      "code": "P0B45",
+      "description_en": "Hybrid/EV Battery Voltage Sense C Circuit",
+      "category": "P"
+    },
+    {
+      "code": "P0B46",
+      "description_en": "Hybrid/EV Battery Voltage Sense C Circuit Range/Performance",
+      "category": "P"
+    },
+    {
+      "code": "P0B47",
+      "description_en": "Hybrid/EV Battery Voltage Sense C Circuit Low",
+      "category": "P"
+    },
+    {
+      "code": "P0B48",
+      "description_en": "Hybrid/EV Battery Voltage Sense C Circuit High",
+      "category": "P"
+    },
+    {
+      "code": "P0B49",
+      "description_en": "Hybrid/EV Battery Voltage Sense C Circuit Intermittent/Erratic",
+      "category": "P"
+    },
+    {
+      "code": "P0B4A",
+      "description_en": "Hybrid/EV Battery Voltage Sense D Circuit",
+      "category": "P"
+    },
+    {
+      "code": "P0B4B",
+      "description_en": "Hybrid/EV Battery Voltage Sense D Circuit Range/Performance",
+      "category": "P"
+    },
+    {
+      "code": "P0B4C",
+      "description_en": "Hybrid/EV Battery Voltage Sense D Circuit Low",
+      "category": "P"
+    },
+    {
+      "code": "P0B4D",
+      "description_en": "Hybrid/EV Battery Voltage Sense D Circuit High",
+      "category": "P"
+    },
+    {
+      "code": "P0B4E",
+      "description_en": "Hybrid/EV Battery Voltage Sense D Circuit Intermittent/Erratic",
+      "category": "P"
+    },
+    {
+      "code": "P0B4F",
+      "description_en": "Hybrid/EV Battery Voltage Sense E Circuit",
+      "category": "P"
+    },
+    {
+      "code": "P0B50",
+      "description_en": "Hybrid/EV Battery Voltage Sense E Circuit Range/Performance",
+      "category": "P"
+    },
+    {
+      "code": "P0B51",
+      "description_en": "Hybrid/EV Battery Voltage Sense E Circuit Low",
+      "category": "P"
+    },
+    {
+      "code": "P0B52",
+      "description_en": "Hybrid/EV Battery Voltage Sense E Circuit High",
+      "category": "P"
+    },
+    {
+      "code": "P0B53",
+      "description_en": "Hybrid/EV Battery Voltage Sense E Circuit Intermittent/Erratic",
+      "category": "P"
+    },
+    {
+      "code": "P0B54",
+      "description_en": "Hybrid/EV Battery Voltage Sense F Circuit",
+      "category": "P"
+    },
+    {
+      "code": "P0B55",
+      "description_en": "Hybrid/EV Battery Voltage Sense F Circuit Range/Performance",
+      "category": "P"
+    },
+    {
+      "code": "P0B56",
+      "description_en": "Hybrid/EV Battery Voltage Sense F Circuit Low",
+      "category": "P"
+    },
+    {
+      "code": "P0B57",
+      "description_en": "Hybrid/EV Battery Voltage Sense F Circuit High",
+      "category": "P"
+    },
+    {
+      "code": "P0B58",
+      "description_en": "Hybrid/EV Battery Voltage Sense F Circuit Intermittent/Erratic",
+      "category": "P"
+    },
+    {
+      "code": "P0B59",
+      "description_en": "Hybrid/EV Battery Voltage Sense G Circuit",
+      "category": "P"
+    },
+    {
+      "code": "P0B5A",
+      "description_en": "Hybrid/EV Battery Voltage Sense G Circuit Range/Performance",
+      "category": "P"
+    },
+    {
+      "code": "P0B5B",
+      "description_en": "Hybrid/EV Battery Voltage Sense G Circuit Low",
+      "category": "P"
+    },
+    {
+      "code": "P0B5C",
+      "description_en": "Hybrid/EV Battery Voltage Sense G Circuit High",
+      "category": "P"
+    },
+    {
+      "code": "P0B5D",
+      "description_en": "Hybrid/EV Battery Voltage Sense G Circuit Intermittent/Erratic",
+      "category": "P"
+    },
+    {
+      "code": "P0B5E",
+      "description_en": "Hybrid/EV Battery Voltage Sense H Circuit",
+      "category": "P"
+    },
+    {
+      "code": "P0B5F",
+      "description_en": "Hybrid/EV Battery Voltage Sense H Circuit Range/Performance",
+      "category": "P"
+    },
+    {
+      "code": "P0B60",
+      "description_en": "Hybrid/EV Battery Voltage Sense H Circuit Low",
+      "category": "P"
+    },
+    {
+      "code": "P0B61",
+      "description_en": "Hybrid/EV Battery Voltage Sense H Circuit High",
+      "category": "P"
+    },
+    {
+      "code": "P0B62",
+      "description_en": "Hybrid/EV Battery Voltage Sense H Circuit Intermittent/Erratic",
+      "category": "P"
+    },
+    {
+      "code": "P0B63",
+      "description_en": "Hybrid/EV Battery Voltage Sense I Circuit",
+      "category": "P"
+    },
+    {
+      "code": "P0B64",
+      "description_en": "Hybrid/EV Battery Voltage Sense I Circuit Range/Performance",
+      "category": "P"
+    },
+    {
+      "code": "P0B65",
+      "description_en": "Hybrid/EV Battery Voltage Sense I Circuit Low",
+      "category": "P"
+    },
+    {
+      "code": "P0B66",
+      "description_en": "Hybrid/EV Battery Voltage Sense I Circuit High",
+      "category": "P"
+    },
+    {
+      "code": "P0B67",
+      "description_en": "Hybrid/EV Battery Voltage Sense I Circuit Intermittent/Erratic",
+      "category": "P"
+    },
+    {
+      "code": "P0B68",
+      "description_en": "Hybrid/EV Battery Voltage Sense J Circuit",
+      "category": "P"
+    },
+    {
+      "code": "P0B69",
+      "description_en": "Hybrid/EV Battery Voltage Sense J Circuit Range/Performance",
+      "category": "P"
+    },
+    {
+      "code": "P0B6A",
+      "description_en": "Hybrid/EV Battery Voltage Sense J Circuit Low",
+      "category": "P"
+    },
+    {
+      "code": "P0B6B",
+      "description_en": "Hybrid/EV Battery Voltage Sense J Circuit High",
+      "category": "P"
+    },
+    {
+      "code": "P0B6C",
+      "description_en": "Hybrid/EV Battery Voltage Sense J Circuit Intermittent/Erratic",
+      "category": "P"
+    },
+    {
+      "code": "P0B6D",
+      "description_en": "Hybrid/EV Battery Voltage Sense K Circuit",
+      "category": "P"
+    },
+    {
+      "code": "P0B6E",
+      "description_en": "Hybrid/EV Battery Voltage Sense K Circuit Range/Performance",
+      "category": "P"
+    },
+    {
+      "code": "P0B6F",
+      "description_en": "Hybrid/EV Battery Voltage Sense K Circuit Low",
+      "category": "P"
+    },
+    {
+      "code": "P0B70",
+      "description_en": "Hybrid/EV Battery Voltage Sense K Circuit High",
+      "category": "P"
+    },
+    {
+      "code": "P0B71",
+      "description_en": "Hybrid/EV Battery Voltage Sense K Circuit Intermittent/Erratic",
+      "category": "P"
+    },
+    {
+      "code": "P0B72",
+      "description_en": "Hybrid/EV Battery Voltage Sense L Circuit",
+      "category": "P"
+    },
+    {
+      "code": "P0B73",
+      "description_en": "Hybrid/EV Battery Voltage Sense L Circuit Range/Performance",
+      "category": "P"
+    },
+    {
+      "code": "P0B74",
+      "description_en": "Hybrid/EV Battery Voltage Sense L Circuit Low",
+      "category": "P"
+    },
+    {
+      "code": "P0B75",
+      "description_en": "Hybrid/EV Battery Voltage Sense L Circuit High",
+      "category": "P"
+    },
+    {
+      "code": "P0B76",
+      "description_en": "Hybrid/EV Battery Voltage Sense L Circuit Intermittent/Erratic",
+      "category": "P"
+    },
+    {
+      "code": "P0B77",
+      "description_en": "Hybrid/EV Battery Voltage Sense M Circuit",
+      "category": "P"
+    },
+    {
+      "code": "P0B78",
+      "description_en": "Hybrid/EV Battery Voltage Sense M Circuit Range/Performance",
+      "category": "P"
+    },
+    {
+      "code": "P0B79",
+      "description_en": "Hybrid/EV Battery Voltage Sense M Circuit Low",
+      "category": "P"
+    },
+    {
+      "code": "P0B7A",
+      "description_en": "Hybrid/EV Battery Voltage Sense M Circuit High",
+      "category": "P"
+    },
+    {
+      "code": "P0B7B",
+      "description_en": "Hybrid/EV Battery Voltage Sense M Circuit Intermittent/Erratic",
+      "category": "P"
+    },
+    {
+      "code": "P0B7C",
+      "description_en": "Hybrid/EV Battery Voltage Sense N Circuit",
+      "category": "P"
+    },
+    {
+      "code": "P0B7D",
+      "description_en": "Hybrid/EV Battery Voltage Sense N Circuit Range/Performance",
+      "category": "P"
+    },
+    {
+      "code": "P0B7E",
+      "description_en": "Hybrid/EV Battery Voltage Sense N Circuit Low",
+      "category": "P"
+    },
+    {
+      "code": "P0B7F",
+      "description_en": "Hybrid/EV Battery Voltage Sense N Circuit High",
+      "category": "P"
+    },
+    {
+      "code": "P0B80",
+      "description_en": "Hybrid/EV Battery Voltage Sense N Circuit Intermittent/Erratic",
+      "category": "P"
+    },
+    {
+      "code": "P0B81",
+      "description_en": "Hybrid/EV Battery Voltage Sense O Circuit",
+      "category": "P"
+    },
+    {
+      "code": "P0B82",
+      "description_en": "Hybrid/EV Battery Voltage Sense O Circuit Range/Performance",
+      "category": "P"
+    },
+    {
+      "code": "P0B83",
+      "description_en": "Hybrid/EV Battery Voltage Sense O Circuit Low",
+      "category": "P"
+    },
+    {
+      "code": "P0B84",
+      "description_en": "Hybrid/EV Battery Voltage Sense O Circuit High",
+      "category": "P"
+    },
+    {
+      "code": "P0B85",
+      "description_en": "Hybrid/EV Battery Voltage Sense O Circuit Intermittent/Erratic",
+      "category": "P"
+    },
+    {
+      "code": "P0B86",
+      "description_en": "Hybrid/EV Battery Voltage Sense P Circuit",
+      "category": "P"
+    },
+    {
+      "code": "P0B87",
+      "description_en": "Hybrid/EV Battery Voltage Sense P Circuit Range/Performance",
+      "category": "P"
+    },
+    {
+      "code": "P0B88",
+      "description_en": "Hybrid/EV Battery Voltage Sense P Circuit Low",
+      "category": "P"
+    },
+    {
+      "code": "P0B89",
+      "description_en": "Hybrid/EV Battery Voltage Sense P Circuit High",
+      "category": "P"
+    },
+    {
+      "code": "P0B8A",
+      "description_en": "Hybrid/EV Battery Voltage Sense P Circuit Intermittent/Erratic",
+      "category": "P"
+    },
+    {
+      "code": "P0B8B",
+      "description_en": "Hybrid/EV Battery Voltage Sense Q Circuit",
+      "category": "P"
+    },
+    {
+      "code": "P0B8C",
+      "description_en": "Hybrid/EV Battery Voltage Sense Q Circuit Range/Performance",
+      "category": "P"
+    },
+    {
+      "code": "P0B8D",
+      "description_en": "Hybrid/EV Battery Voltage Sense Q Circuit Low",
+      "category": "P"
+    },
+    {
+      "code": "P0B8E",
+      "description_en": "Hybrid/EV Battery Voltage Sense Q Circuit High",
+      "category": "P"
+    },
+    {
+      "code": "P0B8F",
+      "description_en": "Hybrid/EV Battery Voltage Sense Q Circuit Intermittent/Erratic",
+      "category": "P"
+    },
+    {
+      "code": "P0B90",
+      "description_en": "Hybrid/EV Battery Voltage Sense R Circuit",
+      "category": "P"
+    },
+    {
+      "code": "P0B91",
+      "description_en": "Hybrid/EV Battery Voltage Sense R Circuit Range/Performance",
+      "category": "P"
+    },
+    {
+      "code": "P0B92",
+      "description_en": "Hybrid/EV Battery Voltage Sense R Circuit Low",
+      "category": "P"
+    },
+    {
+      "code": "P0B93",
+      "description_en": "Hybrid/EV Battery Voltage Sense R Circuit High",
+      "category": "P"
+    },
+    {
+      "code": "P0B94",
+      "description_en": "Hybrid/EV Battery Voltage Sense R Circuit Intermittent/Erratic",
+      "category": "P"
+    },
+    {
+      "code": "P0B95",
+      "description_en": "Hybrid/EV Battery Voltage Sense S Circuit",
+      "category": "P"
+    },
+    {
+      "code": "P0B96",
+      "description_en": "Hybrid/EV Battery Voltage Sense S Circuit Range/Performance",
+      "category": "P"
+    },
+    {
+      "code": "P0B97",
+      "description_en": "Hybrid/EV Battery Voltage Sense S Circuit Low",
+      "category": "P"
+    },
+    {
+      "code": "P0B98",
+      "description_en": "Hybrid/EV Battery Voltage Sense S Circuit High",
+      "category": "P"
+    },
+    {
+      "code": "P0B99",
+      "description_en": "Hybrid/EV Battery Voltage Sense S Circuit Intermittent/Erratic",
+      "category": "P"
+    },
+    {
+      "code": "P0B9A",
+      "description_en": "Hybrid/EV Battery Voltage Sense T Circuit",
+      "category": "P"
+    },
+    {
+      "code": "P0B9B",
+      "description_en": "Hybrid/EV Battery Voltage Sense T Circuit Range/Performance",
+      "category": "P"
+    },
+    {
+      "code": "P0B9C",
+      "description_en": "Hybrid/EV Battery Voltage Sense T Circuit Low",
+      "category": "P"
+    },
+    {
+      "code": "P0B9D",
+      "description_en": "Hybrid/EV Battery Voltage Sense T Circuit High",
+      "category": "P"
+    },
+    {
+      "code": "P0B9E",
+      "description_en": "Hybrid/EV Battery Voltage Sense T Circuit Intermittent/Erratic",
+      "category": "P"
+    },
+    {
+      "code": "P0B9F",
+      "description_en": "Hybrid/EV Battery Voltage Sense U Circuit",
+      "category": "P"
+    },
+    {
+      "code": "P0BA0",
+      "description_en": "Hybrid/EV Battery Voltage Sense U Circuit Range/Performance",
+      "category": "P"
+    },
+    {
+      "code": "P0BA1",
+      "description_en": "Hybrid/EV Battery Voltage Sense U Circuit Low",
+      "category": "P"
+    },
+    {
+      "code": "P0BA2",
+      "description_en": "Hybrid/EV Battery Voltage Sense U Circuit High",
+      "category": "P"
+    },
+    {
+      "code": "P0BA3",
+      "description_en": "Hybrid/EV Battery Voltage Sense U Circuit Intermittent/Erratic",
+      "category": "P"
+    },
+    {
+      "code": "P0BA4",
+      "description_en": "Hybrid/EV Battery Voltage Sense V Circuit",
+      "category": "P"
+    },
+    {
+      "code": "P0BA5",
+      "description_en": "Hybrid/EV Battery Voltage Sense V Circuit Range/Performance",
+      "category": "P"
+    },
+    {
+      "code": "P0BA6",
+      "description_en": "Hybrid/EV Battery Voltage Sense V Circuit Low",
+      "category": "P"
+    },
+    {
+      "code": "P0BA7",
+      "description_en": "Hybrid/EV Battery Voltage Sense V Circuit High",
+      "category": "P"
+    },
+    {
+      "code": "P0BA8",
+      "description_en": "Hybrid/EV Battery Voltage Sense V Circuit Intermittent/Erratic",
+      "category": "P"
+    },
+    {
+      "code": "P0BA9",
+      "description_en": "Hybrid/EV Battery Voltage Sense W Circuit",
+      "category": "P"
+    },
+    {
+      "code": "P0BAA",
+      "description_en": "Hybrid/EV Battery Voltage Sense W Circuit Range/Performance",
+      "category": "P"
+    },
+    {
+      "code": "P0BAB",
+      "description_en": "Hybrid/EV Battery Voltage Sense W Circuit Low",
+      "category": "P"
+    },
+    {
+      "code": "P0BAC",
+      "description_en": "Hybrid/EV Battery Voltage Sense W Circuit High",
+      "category": "P"
+    },
+    {
+      "code": "P0BAD",
+      "description_en": "Hybrid/EV Battery Voltage Sense W Circuit Intermittent/Erratic",
+      "category": "P"
+    },
+    {
+      "code": "P0BAE",
+      "description_en": "Hybrid/EV Battery Voltage Sense X Circuit",
+      "category": "P"
+    },
+    {
+      "code": "P0BAF",
+      "description_en": "Hybrid/EV Battery Voltage Sense X Circuit Range/Performance",
+      "category": "P"
+    },
+    {
+      "code": "P0BB0",
+      "description_en": "Hybrid/EV Battery Voltage Sense X Circuit Low",
+      "category": "P"
+    },
+    {
+      "code": "P0BB1",
+      "description_en": "Hybrid/EV Battery Voltage Sense X Circuit High",
+      "category": "P"
+    },
+    {
+      "code": "P0BB2",
+      "description_en": "Hybrid/EV Battery Voltage Sense X Circuit Intermittent/Erratic",
+      "category": "P"
+    },
+    {
+      "code": "P0BB3",
+      "description_en": "Hybrid/EV Battery Voltage Sense Y Circuit",
+      "category": "P"
+    },
+    {
+      "code": "P0BB4",
+      "description_en": "Hybrid/EV Battery Voltage Sense Y Circuit Range/Performance",
+      "category": "P"
+    },
+    {
+      "code": "P0BB5",
+      "description_en": "Hybrid/EV Battery Voltage Sense Y Circuit Low",
+      "category": "P"
+    },
+    {
+      "code": "P0BB6",
+      "description_en": "Hybrid/EV Battery Voltage Sense Y Circuit High",
+      "category": "P"
+    },
+    {
+      "code": "P0BB7",
+      "description_en": "Hybrid/EV Battery Voltage Sense Y Circuit Intermittent/Erratic",
+      "category": "P"
+    },
+    {
+      "code": "P0BB8",
+      "description_en": "Hybrid/EV Battery Voltage Sense Z Circuit",
+      "category": "P"
+    },
+    {
+      "code": "P0BB9",
+      "description_en": "Hybrid/EV Battery Voltage Sense Z Circuit Range/Performance",
+      "category": "P"
+    },
+    {
+      "code": "P0BBA",
+      "description_en": "Hybrid/EV Battery Voltage Sense Z Circuit Low",
+      "category": "P"
+    },
+    {
+      "code": "P0BBB",
+      "description_en": "Hybrid/EV Battery Voltage Sense Z Circuit High",
+      "category": "P"
+    },
+    {
+      "code": "P0BBC",
+      "description_en": "Hybrid/EV Battery Voltage Sense Z Circuit Intermittent/Erratic",
+      "category": "P"
+    },
+    {
+      "code": "P0BBD",
+      "description_en": "Hybrid/EV Battery Pack Voltage Variation Exceeded Limit",
+      "category": "P"
+    },
+    {
+      "code": "P0BBE",
+      "description_en": "Hybrid/EV Battery Pack Voltage Variation",
+      "category": "P"
+    },
+    {
+      "code": "P0BBF",
+      "description_en": "Hybrid/EV Battery Pack Cooling Fan Supply Voltage Circuit/Open",
+      "category": "P"
+    },
+    {
+      "code": "P0BC0",
+      "description_en": "Hybrid/EV Battery Pack Cooling Fan Supply Voltage Circuit Low",
+      "category": "P"
+    },
+    {
+      "code": "P0BC1",
+      "description_en": "Hybrid/EV Battery Pack Cooling Fan Supply Voltage Circuit High",
+      "category": "P"
+    },
+    {
+      "code": "P0BC2",
+      "description_en": "Hybrid/EV Battery Temperature Sensor E Circuit",
+      "category": "P"
+    },
+    {
+      "code": "P0BC3",
+      "description_en": "Hybrid/EV Battery Temperature Sensor E Circuit Range/Performance",
+      "category": "P"
+    },
+    {
+      "code": "P0BC4",
+      "description_en": "Hybrid/EV Battery Temperature Sensor E Circuit Low",
+      "category": "P"
+    },
+    {
+      "code": "P0BC5",
+      "description_en": "Hybrid/EV Battery Temperature Sensor E Circuit High",
+      "category": "P"
+    },
+    {
+      "code": "P0BC6",
+      "description_en": "Hybrid/EV Battery Temperature Sensor E Circuit Intermittent/Erratic",
+      "category": "P"
+    },
+    {
+      "code": "P0BC7",
+      "description_en": "Hybrid/EV Battery Pack Cooling Fan 1 Sense Circuit/Open",
+      "category": "P"
+    },
+    {
+      "code": "P0BC8",
+      "description_en": "Hybrid/EV Battery Pack Cooling Fan 1 Sense Range/Performance",
+      "category": "P"
+    },
+    {
+      "code": "P0BC9",
+      "description_en": "Hybrid/EV Battery Pack Cooling Fan 1 Sense Circuit Low",
+      "category": "P"
+    },
+    {
+      "code": "P0BCA",
+      "description_en": "Hybrid/EV Battery Pack Cooling Fan 1 Sense Circuit High",
+      "category": "P"
+    },
+    {
+      "code": "P0BCB",
+      "description_en": "Hybrid/EV Battery Pack Cooling Fan 1 Sense Circuit Intermittent/Erratic",
+      "category": "P"
+    },
+    {
+      "code": "P0BCC",
+      "description_en": "Generator Inverter Temperature Sensor A Circuit",
+      "category": "P"
+    },
+    {
+      "code": "P0BCD",
+      "description_en": "Generator Inverter Temperature Sensor A Circuit Range/Performance",
+      "category": "P"
+    },
+    {
+      "code": "P0BCE",
+      "description_en": "Generator Inverter Temperature Sensor A Circuit Low",
+      "category": "P"
+    },
+    {
+      "code": "P0BCF",
+      "description_en": "Generator Inverter Temperature Sensor A Circuit High",
+      "category": "P"
+    },
+    {
+      "code": "P0BD0",
+      "description_en": "Generator Inverter Temperature Sensor A Circuit Intermittent/Erratic",
+      "category": "P"
+    },
+    {
+      "code": "P0BD1",
+      "description_en": "Drive Motor Inverter Temperature Sensor C Circuit",
+      "category": "P"
+    },
+    {
+      "code": "P0BD2",
+      "description_en": "Drive Motor Inverter Temperature Sensor C Circuit Range/Performance",
+      "category": "P"
+    },
+    {
+      "code": "P0BD3",
+      "description_en": "Drive Motor Inverter Temperature Sensor C Circuit Low",
+      "category": "P"
+    },
+    {
+      "code": "P0BD4",
+      "description_en": "Drive Motor Inverter Temperature Sensor C Circuit High",
+      "category": "P"
+    },
+    {
+      "code": "P0BD5",
+      "description_en": "Drive Motor Inverter Temperature Sensor C Circuit Intermittent/Erratic",
+      "category": "P"
+    },
+    {
+      "code": "P0BD6",
+      "description_en": "Drive Motor Inverter Temperature Sensor D Circuit",
+      "category": "P"
+    },
+    {
+      "code": "P0BD7",
+      "description_en": "Drive Motor Inverter Temperature Sensor D Circuit Range/Performance",
+      "category": "P"
+    },
+    {
+      "code": "P0BD8",
+      "description_en": "Drive Motor Inverter Temperature Sensor D Circuit Low",
+      "category": "P"
+    },
+    {
+      "code": "P0BD9",
+      "description_en": "Drive Motor Inverter Temperature Sensor D Circuit High",
+      "category": "P"
+    },
+    {
+      "code": "P0BDA",
+      "description_en": "Drive Motor Inverter Temperature Sensor D Circuit Intermittent/Erratic",
+      "category": "P"
+    },
+    {
+      "code": "P0BDB",
+      "description_en": "Drive Motor Inverter Temperature Sensor E Circuit",
+      "category": "P"
+    },
+    {
+      "code": "P0BDC",
+      "description_en": "Drive Motor Inverter Temperature Sensor E Circuit Range/Performance",
+      "category": "P"
+    },
+    {
+      "code": "P0BDD",
+      "description_en": "Drive Motor Inverter Temperature Sensor E Circuit Low",
+      "category": "P"
+    },
+    {
+      "code": "P0BDE",
+      "description_en": "Drive Motor Inverter Temperature Sensor E Circuit High",
+      "category": "P"
+    },
+    {
+      "code": "P0BDF",
+      "description_en": "Drive Motor Inverter Temperature Sensor E Circuit Intermittent/Erratic",
+      "category": "P"
+    },
+    {
+      "code": "P0BE0",
+      "description_en": "Drive Motor Inverter Temperature Sensor F Circuit",
+      "category": "P"
+    },
+    {
+      "code": "P0BE1",
+      "description_en": "Drive Motor Inverter Temperature Sensor F Circuit Range/Performance",
+      "category": "P"
+    },
+    {
+      "code": "P0BE2",
+      "description_en": "Drive Motor Inverter Temperature Sensor F Circuit Low",
+      "category": "P"
+    },
+    {
+      "code": "P0BE3",
+      "description_en": "Drive Motor Inverter Temperature Sensor F Circuit High",
+      "category": "P"
+    },
+    {
+      "code": "P0BE4",
+      "description_en": "Drive Motor Inverter Temperature Sensor F Circuit Intermittent/Erratic",
+      "category": "P"
+    },
+    {
+      "code": "P0BE5",
+      "description_en": "Drive Motor A Phase U Current Sensor Circuit",
+      "category": "P"
+    },
+    {
+      "code": "P0BE6",
+      "description_en": "Drive Motor A Phase U Current Sensor Circuit Range/Performance",
+      "category": "P"
+    },
+    {
+      "code": "P0BE7",
+      "description_en": "Drive Motor A Phase U Current Sensor Circuit Low",
+      "category": "P"
+    },
+    {
+      "code": "P0BE8",
+      "description_en": "Drive Motor A Phase U Current Sensor Circuit High",
+      "category": "P"
+    },
+    {
+      "code": "P0BE9",
+      "description_en": "Drive Motor A Phase V Current Sensor Circuit",
+      "category": "P"
+    },
+    {
+      "code": "P0BEA",
+      "description_en": "Drive Motor A Phase V Current Sensor Circuit Range/Performance",
+      "category": "P"
+    },
+    {
+      "code": "P0BEB",
+      "description_en": "Drive Motor A Phase V Current Sensor Circuit Low",
+      "category": "P"
+    },
+    {
+      "code": "P0BEC",
+      "description_en": "Drive Motor A Phase V Current Sensor Circuit High",
+      "category": "P"
+    },
+    {
+      "code": "P0BED",
+      "description_en": "Drive Motor A Phase W Current Sensor Circuit",
+      "category": "P"
+    },
+    {
+      "code": "P0BEE",
+      "description_en": "Drive Motor A Phase W Current Sensor Circuit Range/Performance",
+      "category": "P"
+    },
+    {
+      "code": "P0BEF",
+      "description_en": "Drive Motor A Phase W Current Sensor Circuit Low",
+      "category": "P"
+    },
+    {
+      "code": "P0BF0",
+      "description_en": "Drive Motor A Phase W Current Sensor Circuit High",
+      "category": "P"
+    },
+    {
+      "code": "P0BF1",
+      "description_en": "Drive Motor B Phase U Current Sensor Circuit",
+      "category": "P"
+    },
+    {
+      "code": "P0BF2",
+      "description_en": "Drive Motor B Phase U Current Sensor Circuit Range/Performance",
+      "category": "P"
+    },
+    {
+      "code": "P0BF3",
+      "description_en": "Drive Motor B Phase U Current Sensor Circuit Low",
+      "category": "P"
+    },
+    {
+      "code": "P0BF4",
+      "description_en": "Drive Motor B Phase U Current Sensor Circuit High",
+      "category": "P"
+    },
+    {
+      "code": "P0BF5",
+      "description_en": "Drive Motor B Phase V Current Sensor Circuit",
+      "category": "P"
+    },
+    {
+      "code": "P0BF6",
+      "description_en": "Drive Motor B Phase V Current Sensor Circuit Range/Performance",
+      "category": "P"
+    },
+    {
+      "code": "P0BF7",
+      "description_en": "Drive Motor B Phase V Current Sensor Circuit Low",
+      "category": "P"
+    },
+    {
+      "code": "P0BF8",
+      "description_en": "Drive Motor B Phase V Current Sensor Circuit High",
+      "category": "P"
+    },
+    {
+      "code": "P0BF9",
+      "description_en": "Drive Motor B Phase W Current Sensor Circuit",
+      "category": "P"
+    },
+    {
+      "code": "P0BFA",
+      "description_en": "Drive Motor B Phase W Current Sensor Circuit Range/Performance",
+      "category": "P"
+    },
+    {
+      "code": "P0BFB",
+      "description_en": "Drive Motor B Phase W Current Sensor Circuit Low",
+      "category": "P"
+    },
+    {
+      "code": "P0BFC",
+      "description_en": "Drive Motor B Phase W Current Sensor Circuit High",
+      "category": "P"
+    },
+    {
+      "code": "P0BFD",
+      "description_en": "Drive Motor A Phase U-V-W Current Sensor Correlation",
+      "category": "P"
+    },
+    {
+      "code": "P0BFE",
+      "description_en": "Drive Motor B Phase U-V-W Current Sensor Correlation",
+      "category": "P"
+    },
+    {
+      "code": "P0BFF",
+      "description_en": "Drive Motor A Current",
+      "category": "P"
+    },
+    {
+      "code": "P0C00",
+      "description_en": "Drive Motor A Current Low",
+      "category": "P"
+    },
+    {
+      "code": "P0C01",
+      "description_en": "Drive Motor A Current High",
+      "category": "P"
+    },
+    {
+      "code": "P0C02",
+      "description_en": "Drive Motor B Current",
+      "category": "P"
+    },
+    {
+      "code": "P0C03",
+      "description_en": "Drive Motor B Current Low",
+      "category": "P"
+    },
+    {
+      "code": "P0C04",
+      "description_en": "Drive Motor B Current High",
+      "category": "P"
+    },
+    {
+      "code": "P0C05",
+      "description_en": "Drive Motor A Phase U-V-W Circuit/Open",
+      "category": "P"
+    },
+    {
+      "code": "P0C06",
+      "description_en": "Drive Motor A Phase U-V-W Circuit Low",
+      "category": "P"
+    },
+    {
+      "code": "P0C07",
+      "description_en": "Drive Motor A Phase U-V-W Circuit High",
+      "category": "P"
+    },
+    {
+      "code": "P0C08",
+      "description_en": "Drive Motor B Phase U-V-W Circuit/Open",
+      "category": "P"
+    },
+    {
+      "code": "P0C09",
+      "description_en": "Drive Motor B Phase U-V-W Circuit Low",
+      "category": "P"
+    },
+    {
+      "code": "P0C0A",
+      "description_en": "Drive Motor B Phase U-V-W Circuit High",
+      "category": "P"
+    },
+    {
+      "code": "P0C0B",
+      "description_en": "Drive Motor A Inverter Power Supply Circuit/Open",
+      "category": "P"
+    },
+    {
+      "code": "P0C0C",
+      "description_en": "Drive Motor A Inverter Power Supply Circuit Low",
+      "category": "P"
+    },
+    {
+      "code": "P0C0D",
+      "description_en": "Drive Motor A Inverter Power Supply Circuit High",
+      "category": "P"
+    },
+    {
+      "code": "P0C0E",
+      "description_en": "Drive Motor B Inverter Power Supply Circuit/Open",
+      "category": "P"
+    },
+    {
+      "code": "P0C0F",
+      "description_en": "Drive Motor B Inverter Power Supply Circuit Low",
+      "category": "P"
+    },
+    {
+      "code": "P0C10",
+      "description_en": "Drive Motor B Inverter Power Supply Circuit High",
+      "category": "P"
+    },
+    {
+      "code": "P0C11",
+      "description_en": "Drive Motor A Inverter Phase U Over Temperature",
+      "category": "P"
+    },
+    {
+      "code": "P0C12",
+      "description_en": "Drive Motor A Inverter Phase V Over Temperature",
+      "category": "P"
+    },
+    {
+      "code": "P0C13",
+      "description_en": "Drive Motor A Inverter Phase W Over Temperature",
+      "category": "P"
+    },
+    {
+      "code": "P0C14",
+      "description_en": "Drive Motor B Inverter Phase U Over Temperature",
+      "category": "P"
+    },
+    {
+      "code": "P0C15",
+      "description_en": "Drive Motor B Inverter Phase V Over Temperature",
+      "category": "P"
+    },
+    {
+      "code": "P0C16",
+      "description_en": "Drive Motor B Inverter Phase W Over Temperature",
+      "category": "P"
+    },
+    {
+      "code": "P0C17",
+      "description_en": "Drive Motor A Position Sensor Not Learned",
+      "category": "P"
+    },
+    {
+      "code": "P0C18",
+      "description_en": "Drive Motor B Position Sensor Not Learned",
+      "category": "P"
+    },
+    {
+      "code": "P0C19",
+      "description_en": "Drive Motor A Torque Delivered Performance",
+      "category": "P"
+    },
+    {
+      "code": "P0C1A",
+      "description_en": "Drive Motor B Torque Delivered Performance",
+      "category": "P"
+    },
+    {
+      "code": "P0C1B",
+      "description_en": "Electric/Auxiliary Transmission Fluid Pump Control Module Internal Temperature Too High",
+      "category": "P"
+    },
+    {
+      "code": "P0C1C",
+      "description_en": "Electric/Auxiliary Transmission Fluid Pump Control Module Internal Temperature Sensor Circuit",
+      "category": "P"
+    },
+    {
+      "code": "P0C1D",
+      "description_en": "Electric/Auxiliary Transmission Fluid Pump Control Module Internal Temperature Sensor Circuit Range/Performance",
+      "category": "P"
+    },
+    {
+      "code": "P0C1E",
+      "description_en": "Electric/Auxiliary Transmission Fluid Pump Control Module Internal Temperature Sensor Circuit Low",
+      "category": "P"
+    },
+    {
+      "code": "P0C1F",
+      "description_en": "Electric/Auxiliary Transmission Fluid Pump Control Module Internal Temperature Sensor Circuit High",
+      "category": "P"
+    },
+    {
+      "code": "P0C20",
+      "description_en": "Electric/Auxiliary Transmission Fluid Pump Phase U-V-W Circuit/Open",
+      "category": "P"
+    },
+    {
+      "code": "P0C21",
+      "description_en": "Electric/Auxiliary Transmission Fluid Pump Phase U-V-W Circuit Low",
+      "category": "P"
+    },
+    {
+      "code": "P0C22",
+      "description_en": "Electric/Auxiliary Transmission Fluid Pump Phase U-V-W Circuit High",
+      "category": "P"
+    },
+    {
+      "code": "P0C23",
+      "description_en": "Electric/Auxiliary Transmission Fluid Pump Control Module Circuit/Open",
+      "category": "P"
+    },
+    {
+      "code": "P0C24",
+      "description_en": "Electric/Auxiliary Transmission Fluid Pump Control Module Circuit Low",
+      "category": "P"
+    },
+    {
+      "code": "P0C25",
+      "description_en": "Electric/Auxiliary Transmission Fluid Pump Control Module Circuit High",
+      "category": "P"
+    },
+    {
+      "code": "P0C26",
+      "description_en": "Electric/Auxiliary Transmission Fluid Pump A Motor Current",
+      "category": "P"
+    },
+    {
+      "code": "P0C27",
+      "description_en": "Electric/Auxiliary Transmission Fluid Pump A Motor Current Low",
+      "category": "P"
+    },
+    {
+      "code": "P0C28",
+      "description_en": "Electric/Auxiliary Transmission Fluid Pump A Motor Current High",
+      "category": "P"
+    },
+    {
+      "code": "P0C29",
+      "description_en": "Electric/Auxiliary Transmission Fluid Pump A Driver Circuit Performance",
+      "category": "P"
+    },
+    {
+      "code": "P0C2A",
+      "description_en": "Electric/Auxiliary Transmission Fluid Pump A Motor Stalled",
+      "category": "P"
+    },
+    {
+      "code": "P0C2B",
+      "description_en": "Electric/Auxiliary Transmission Fluid Pump Control Module Feedback Signal",
+      "category": "P"
+    },
+    {
+      "code": "P0C2C",
+      "description_en": "Electric/Auxiliary Transmission Fluid Pump Control Module Feedback Signal Range/Performance",
+      "category": "P"
+    },
+    {
+      "code": "P0C2D",
+      "description_en": "Electric/Auxiliary Transmission Fluid Pump Control Module Feedback Signal Low",
+      "category": "P"
+    },
+    {
+      "code": "P0C2E",
+      "description_en": "Electric/Auxiliary Transmission Fluid Pump Control Module Feedback Signal High",
+      "category": "P"
+    },
+    {
+      "code": "P0C2F",
+      "description_en": "Internal Control Module Drive Motor/Generator - Engine Speed Sensor Performance",
+      "category": "P"
+    },
+    {
+      "code": "P0C30",
+      "description_en": "Hybrid/EV Battery Pack State of Charge High",
+      "category": "P"
+    },
+    {
+      "code": "P0C31",
+      "description_en": "Inverter B Cooling System Performance",
+      "category": "P"
+    },
+    {
+      "code": "P0C32",
+      "description_en": "Hybrid/EV Battery Cooling System A Performance",
+      "category": "P"
+    },
+    {
+      "code": "P0C33",
+      "description_en": "Hybrid/EV Battery Temperature Sensor F Circuit",
+      "category": "P"
+    },
+    {
+      "code": "P0C34",
+      "description_en": "Hybrid/EV Battery Temperature Sensor F Circuit Range/Performance",
+      "category": "P"
+    },
+    {
+      "code": "P0C35",
+      "description_en": "Hybrid/EV Battery Temperature Sensor F Circuit Low",
+      "category": "P"
+    },
+    {
+      "code": "P0C36",
+      "description_en": "Hybrid/EV Battery Temperature Sensor F Circuit High",
+      "category": "P"
+    },
+    {
+      "code": "P0C37",
+      "description_en": "Hybrid/EV Battery Temperature Sensor F Circuit Intermittent/Erratic",
+      "category": "P"
+    },
+    {
+      "code": "P0C38",
+      "description_en": "DC/DC Converter Temperature Sensor A Circuit",
+      "category": "P"
+    },
+    {
+      "code": "P0C39",
+      "description_en": "DC/DC Converter Temperature Sensor A Range/Performance",
+      "category": "P"
+    },
+    {
+      "code": "P0C3A",
+      "description_en": "DC/DC Converter Temperature Sensor A Low",
+      "category": "P"
+    },
+    {
+      "code": "P0C3B",
+      "description_en": "DC/DC Converter Temperature Sensor A High",
+      "category": "P"
+    },
+    {
+      "code": "P0C3C",
+      "description_en": "DC/DC Converter Temperature Sensor A Intermittent/Erratic",
+      "category": "P"
+    },
+    {
+      "code": "P0C3D",
+      "description_en": "DC/DC Converter Temperature Sensor B Circuit",
+      "category": "P"
+    },
+    {
+      "code": "P0C3E",
+      "description_en": "DC/DC Converter Temperature Sensor B Range/Performance",
+      "category": "P"
+    },
+    {
+      "code": "P0C3F",
+      "description_en": "DC/DC Converter Temperature Sensor B Low",
+      "category": "P"
+    },
+    {
+      "code": "P0C40",
+      "description_en": "DC/DC Converter Temperature Sensor B High",
+      "category": "P"
+    },
+    {
+      "code": "P0C41",
+      "description_en": "DC/DC Converter Temperature Sensor B Intermittent/Erratic",
+      "category": "P"
+    },
+    {
+      "code": "P0C42",
+      "description_en": "Hybrid/EV Battery Pack Coolant Temperature Sensor A Circuit",
+      "category": "P"
+    },
+    {
+      "code": "P0C43",
+      "description_en": "Hybrid/EV Battery Pack Coolant Temperature Sensor A Circuit Range/Performance",
+      "category": "P"
+    },
+    {
+      "code": "P0C44",
+      "description_en": "Hybrid/EV Battery Pack Coolant Temperature Sensor A Circuit Low",
+      "category": "P"
+    },
+    {
+      "code": "P0C45",
+      "description_en": "Hybrid/EV Battery Pack Coolant Temperature Sensor A Circuit High",
+      "category": "P"
+    },
+    {
+      "code": "P0C46",
+      "description_en": "Hybrid/EV Battery Pack Coolant Temperature Sensor A Circuit Intermittent/Erratic",
+      "category": "P"
+    },
+    {
+      "code": "P0C47",
+      "description_en": "Hybrid/EV Battery Pack Coolant Pump A Control Circuit/Open",
+      "category": "P"
+    },
+    {
+      "code": "P0C48",
+      "description_en": "Hybrid/EV Battery Pack Coolant Pump A Control Circuit Low",
+      "category": "P"
+    },
+    {
+      "code": "P0C49",
+      "description_en": "Hybrid/EV Battery Pack Coolant Pump A Control Circuit High",
+      "category": "P"
+    },
+    {
+      "code": "P0C4A",
+      "description_en": "Hybrid/EV Battery Pack Coolant Pump A Control Performance",
+      "category": "P"
+    },
+    {
+      "code": "P0C4B",
+      "description_en": "Hybrid/EV Battery Pack Coolant Pump A Supply Voltage Circuit/Open",
+      "category": "P"
+    },
+    {
+      "code": "P0C4C",
+      "description_en": "Hybrid/EV Battery Pack Coolant Pump A Supply Voltage Circuit Low",
+      "category": "P"
+    },
+    {
+      "code": "P0C4D",
+      "description_en": "Hybrid/EV Battery Pack Coolant Pump A Supply Voltage Circuit High",
+      "category": "P"
+    },
+    {
+      "code": "P0C4E",
+      "description_en": "Drive Motor A Position Exceeded Learning Limit",
+      "category": "P"
+    },
+    {
+      "code": "P0C4F",
+      "description_en": "Drive Motor B Position Exceeded Learning Limit",
+      "category": "P"
+    },
+    {
+      "code": "P0C50",
+      "description_en": "Drive Motor A Position Sensor Circuit A",
+      "category": "P"
+    },
+    {
+      "code": "P0C51",
+      "description_en": "Drive Motor A Position Sensor Circuit A Range/Performance",
+      "category": "P"
+    },
+    {
+      "code": "P0C52",
+      "description_en": "Drive Motor A Position Sensor Circuit A Low",
+      "category": "P"
+    },
+    {
+      "code": "P0C53",
+      "description_en": "Drive Motor A Position Sensor Circuit A High",
+      "category": "P"
+    },
+    {
+      "code": "P0C54",
+      "description_en": "Drive Motor A Position Sensor Circuit A Intermittent/Erratic",
+      "category": "P"
+    },
+    {
+      "code": "P0C55",
+      "description_en": "Drive Motor B Position Sensor Circuit A",
+      "category": "P"
+    },
+    {
+      "code": "P0C56",
+      "description_en": "Drive Motor B Position Sensor Circuit A Range/Performance",
+      "category": "P"
+    },
+    {
+      "code": "P0C57",
+      "description_en": "Drive Motor B Position Sensor Circuit A Low",
+      "category": "P"
+    },
+    {
+      "code": "P0C58",
+      "description_en": "Drive Motor B Position Sensor Circuit A High",
+      "category": "P"
+    },
+    {
+      "code": "P0C59",
+      "description_en": "Drive Motor B Position Sensor Circuit A Intermittent/Erratic",
+      "category": "P"
+    },
+    {
+      "code": "P0C5A",
+      "description_en": "Drive Motor A Position Sensor Circuit B",
+      "category": "P"
+    },
+    {
+      "code": "P0C5B",
+      "description_en": "Drive Motor A Position Sensor Circuit B Range/Performance",
+      "category": "P"
+    },
+    {
+      "code": "P0C5C",
+      "description_en": "Drive Motor A Position Sensor Circuit B Low",
+      "category": "P"
+    },
+    {
+      "code": "P0C5D",
+      "description_en": "Drive Motor A Position Sensor Circuit B High",
+      "category": "P"
+    },
+    {
+      "code": "P0C5E",
+      "description_en": "Drive Motor A Position Sensor Circuit B Intermittent/Erratic",
+      "category": "P"
+    },
+    {
+      "code": "P0C5F",
+      "description_en": "Drive Motor B Position Sensor Circuit B",
+      "category": "P"
+    },
+    {
+      "code": "P0C60",
+      "description_en": "Drive Motor B Position Sensor Circuit B Range/Performance",
+      "category": "P"
+    },
+    {
+      "code": "P0C61",
+      "description_en": "Drive Motor B Position Sensor Circuit B Low",
+      "category": "P"
+    },
+    {
+      "code": "P0C62",
+      "description_en": "Drive Motor B Position Sensor Circuit B High",
+      "category": "P"
+    },
+    {
+      "code": "P0C63",
+      "description_en": "Drive Motor B Position Sensor Circuit B Intermittent/Erratic",
+      "category": "P"
+    },
+    {
+      "code": "P0C64",
+      "description_en": "Generator Position Sensor Circuit A",
+      "category": "P"
+    },
+    {
+      "code": "P0C65",
+      "description_en": "Generator Position Sensor Circuit A Range/Performance",
+      "category": "P"
+    },
+    {
+      "code": "P0C66",
+      "description_en": "Generator Position Sensor Circuit A Low",
+      "category": "P"
+    },
+    {
+      "code": "P0C67",
+      "description_en": "Generator Position Sensor Circuit A High",
+      "category": "P"
+    },
+    {
+      "code": "P0C68",
+      "description_en": "Generator Position Sensor Circuit A Intermittent/Erratic",
+      "category": "P"
+    },
+    {
+      "code": "P0C69",
+      "description_en": "Generator Position Sensor Circuit B",
+      "category": "P"
+    },
+    {
+      "code": "P0C6A",
+      "description_en": "Generator Position Sensor Circuit B Range/Performance",
+      "category": "P"
+    },
+    {
+      "code": "P0C6B",
+      "description_en": "Generator Position Sensor Circuit B Low",
+      "category": "P"
+    },
+    {
+      "code": "P0C6C",
+      "description_en": "Generator Position Sensor Circuit B High",
+      "category": "P"
+    },
+    {
+      "code": "P0C6D",
+      "description_en": "Generator Position Sensor Circuit B Intermittent/Erratic",
+      "category": "P"
+    },
+    {
+      "code": "P0C6E",
+      "description_en": "Hybrid/EV Battery Temperature Sensor A/B Correlation",
+      "category": "P"
+    },
+    {
+      "code": "P0C6F",
+      "description_en": "Hybrid/EV Battery Temperature Sensor B/C Correlation",
+      "category": "P"
+    },
+    {
+      "code": "P0C70",
+      "description_en": "Hybrid/EV Battery Temperature Sensor C/D Correlation",
+      "category": "P"
+    },
+    {
+      "code": "P0C71",
+      "description_en": "Hybrid/EV Battery Temperature Sensor D/E Correlation",
+      "category": "P"
+    },
+    {
+      "code": "P0C72",
+      "description_en": "Hybrid/EV Battery Temperature Sensor E/F Correlation",
+      "category": "P"
+    },
+    {
+      "code": "P0C73",
+      "description_en": "Motor Electronics Coolant Pump A Control Performance",
+      "category": "P"
+    },
+    {
+      "code": "P0C74",
+      "description_en": "Motor Electronics Coolant Pump B Control Performance",
+      "category": "P"
+    },
+    {
+      "code": "P0C75",
+      "description_en": "Hybrid/EV Battery System Discharge Time Too Short",
+      "category": "P"
+    },
+    {
+      "code": "P0C76",
+      "description_en": "Hybrid/EV Battery System Discharge Time Too Long",
+      "category": "P"
+    },
+    {
+      "code": "P0C77",
+      "description_en": "Hybrid/EV Battery System Precharge Time Too Short",
+      "category": "P"
+    },
+    {
+      "code": "P0C78",
+      "description_en": "Hybrid/EV Battery System Precharge Time Too Long",
+      "category": "P"
+    },
+    {
+      "code": "P0C79",
+      "description_en": "Drive Motor A Inverter Voltage Too High",
+      "category": "P"
+    },
+    {
+      "code": "P0C7A",
+      "description_en": "Drive Motor B Inverter Voltage Too High",
+      "category": "P"
+    },
+    {
+      "code": "P0C7B",
+      "description_en": "Generator Inverter Voltage Too High",
+      "category": "P"
+    },
+    {
+      "code": "P0C7C",
+      "description_en": "Hybrid/EV Battery Temperature Sensor G Circuit",
+      "category": "P"
+    },
+    {
+      "code": "P0C7D",
+      "description_en": "Hybrid/EV Battery Temperature Sensor G Circuit Range/Performance",
+      "category": "P"
+    },
+    {
+      "code": "P0C7E",
+      "description_en": "Hybrid/EV Battery Temperature Sensor G Circuit Low",
+      "category": "P"
+    },
+    {
+      "code": "P0C7F",
+      "description_en": "Hybrid/EV Battery Temperature Sensor G Circuit High",
+      "category": "P"
+    },
+    {
+      "code": "P0C80",
+      "description_en": "Hybrid/EV Battery Temperature Sensor G Circuit Intermittent/Erratic",
+      "category": "P"
+    },
+    {
+      "code": "P0C81",
+      "description_en": "Hybrid/EV Battery Temperature Sensor H Circuit",
+      "category": "P"
+    },
+    {
+      "code": "P0C82",
+      "description_en": "Hybrid/EV Battery Temperature Sensor H Circuit Range/Performance",
+      "category": "P"
+    },
+    {
+      "code": "P0C83",
+      "description_en": "Hybrid/EV Battery Temperature Sensor H Circuit Low",
+      "category": "P"
+    },
+    {
+      "code": "P0C84",
+      "description_en": "Hybrid/EV Battery Temperature Sensor H Circuit High",
+      "category": "P"
+    },
+    {
+      "code": "P0C85",
+      "description_en": "Hybrid/EV Battery Temperature Sensor H Circuit Intermittent/Erratic",
+      "category": "P"
+    },
+    {
+      "code": "P0C86",
+      "description_en": "Hybrid/EV Battery Temperature Sensor F/G Correlation",
+      "category": "P"
+    },
+    {
+      "code": "P0C87",
+      "description_en": "Hybrid/EV Battery Temperature Sensor G/H Correlation",
+      "category": "P"
+    }
+  ],
+  "content_checksum_sha256": "39a1a97e2fffbea44805ae23042020e77c5747254b8aff26b58b6d437010f17d"
+}

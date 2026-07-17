@@ -1,0 +1,6 @@
+FROM automotive-diagnostic-ai-backend:latest
+WORKDIR /app
+RUN pip install --no-cache-dir pytest httpx
+COPY app/tests ./app/tests
+ENV DATABASE_URL=sqlite:///./test.db
+CMD ["pytest", "-q"]

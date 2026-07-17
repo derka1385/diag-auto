@@ -1,0 +1,13 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "DiagPilot canonical OBD report",
+  "type": "object",
+  "required": ["schema_version", "vehicle", "scan"],
+  "properties": {
+    "schema_version": {"const": "1.0"},
+    "vehicle": {"type": "object"},
+    "scan": {"type": "object"}
+  },
+  "additionalProperties": false
+}
+
