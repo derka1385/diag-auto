@@ -4,23 +4,33 @@ export default {
   theme: {
     extend: {
       colors: {
-        canvas: "#0b1017",   // fond application (ardoise très sombre)
-        surface: "#131c28",  // cartes / panneaux
-        panel: "#1b2735",    // encarts, remplissages secondaires
-        line: "#2c3a4b",     // bordures marquées (feel outil)
-        primary: "#f5a524",  // accent ambre (scanner atelier)
-        warning: "#f59e0b",
-        danger: "#ef4444",
-        success: "#22c55e",
-        info: "#38bdf8",
-        muted: "#8a9bb0",
+        canvas: "#e7e9ec",   // bureau gris clair
+        surface: "#ffffff",  // panneaux blancs
+        panel: "#f1f3f5",    // encarts gris clair
+        line: "#c3cad2",     // bordures fines nettes
+        primary: "#1c5fb0",  // bleu logiciel classique
+        warning: "#b45309",
+        danger: "#c0392b",
+        success: "#1a7f37",
+        info: "#0b6aa2",
+        muted: "#5c6773",
+        ink: "#1a1f26",      // texte principal
       },
       fontFamily: {
-        mono: ["ui-monospace", "SFMono-Regular", "Menlo", "Consolas", "monospace"],
+        // Rendu natif "logiciel Windows" sur la cible tablette
+        ui: ['"Segoe UI"', "Tahoma", "Geneva", "Verdana", "sans-serif"],
+        mono: ['Consolas', '"Courier New"', "ui-monospace", "monospace"],
+      },
+      borderRadius: {
+        DEFAULT: "2px",
+        md: "2px",
+        lg: "2px",
+        xl: "3px",
+        "2xl": "3px",
       },
       boxShadow: {
-        panel: "0 10px 30px rgba(0,0,0,.35)",
-        inset: "inset 0 1px 0 rgba(255,255,255,.04)",
+        panel: "0 1px 2px rgba(16,24,40,.08)",
+        sunken: "inset 0 1px 2px rgba(16,24,40,.10)",
       },
     },
   },

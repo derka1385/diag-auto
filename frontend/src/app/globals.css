@@ -2,18 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
-:root { color-scheme: dark; }
+:root { color-scheme: light; }
 * { box-sizing: border-box; }
-html { background: #0b1017; }
+html { background: #e7e9ec; }
 body {
   margin: 0;
-  background:
-    radial-gradient(1200px 600px at 50% -200px, rgba(245,165,36,.06), transparent 70%),
-    #0b1017;
-  color: #eef3f9;
-  font-family: Inter, ui-sans-serif, system-ui, -apple-system, sans-serif;
-  font-size: 16px;
-  line-height: 1.55;
+  background: #e7e9ec;
+  color: #1a1f26;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
 }
 a { color: inherit; text-decoration: none; }
 button, input, textarea, select { font: inherit; }
@@ -22,46 +20,41 @@ button, a, input, textarea, select { touch-action: manipulation; }
 .focusable:focus-visible,
 button:focus-visible, a:focus-visible,
 input:focus-visible, textarea:focus-visible, select:focus-visible {
-  outline: 3px solid #f5a524;
-  outline-offset: 2px;
+  outline: 2px solid #1c5fb0;
+  outline-offset: 1px;
 }
 @media (prefers-reduced-motion: reduce) {
   * { scroll-behavior: auto !important; transition: none !important; animation: none !important; }
 }
 
 @layer components {
-  /* Panneau d'instrument : angles nets, bordure marquée, liseré haut discret */
+  /* Panneau logiciel : blanc, bordure fine, angles carrés */
   .card {
-    @apply relative rounded-lg border border-line bg-surface p-5 shadow-panel;
-    box-shadow: 0 10px 30px rgba(0,0,0,.35), inset 0 1px 0 rgba(255,255,255,.04);
-  }
-  .card::before {
-    content: "";
-    @apply pointer-events-none absolute inset-x-0 top-0 h-px rounded-t-lg;
-    background: linear-gradient(90deg, transparent, rgba(245,165,36,.35), transparent);
+    @apply rounded-[2px] border border-line bg-surface p-5 shadow-panel;
   }
 
-  /* Boutons type outil : coins courts, contraste élevé */
+  /* Boutons type application de bureau : carrés, compacts */
   .btn {
-    @apply inline-flex min-h-12 cursor-pointer items-center justify-center gap-2 rounded-md px-5 py-3 font-bold tracking-wide transition-colors disabled:cursor-not-allowed disabled:opacity-40;
+    @apply inline-flex min-h-11 cursor-pointer items-center justify-center gap-2 rounded-[2px] px-4 py-2.5 font-semibold transition-colors disabled:cursor-not-allowed disabled:opacity-40;
   }
-  .btn-primary { @apply btn bg-primary text-canvas hover:bg-amber-400; }
-  .btn-secondary { @apply btn border border-line bg-panel text-white hover:border-primary hover:text-primary; }
+  .btn-primary { @apply btn bg-primary text-white hover:bg-[#164e91]; }
+  .btn-secondary { @apply btn border border-line bg-surface text-ink hover:bg-panel hover:border-slate-400; }
 
-  /* Champs de saisie : lisibles, cadre net */
+  /* Champs : cadre net, léger effet enfoncé (input classique) */
   .field {
-    @apply min-h-12 w-full rounded-md border border-line bg-canvas px-4 py-3 text-white placeholder:text-slate-500;
+    @apply min-h-11 w-full rounded-[2px] border border-line bg-white px-3 py-2.5 text-ink placeholder:text-slate-400;
+    box-shadow: inset 0 1px 2px rgba(16,24,40,.08);
   }
-  .field:focus { @apply border-primary; }
+  .field:focus { @apply border-primary; box-shadow: inset 0 1px 2px rgba(16,24,40,.08), 0 0 0 2px rgba(28,95,176,.18); }
 
-  /* Libellés techniques compacts */
-  .label { @apply mb-2 block text-xs font-semibold uppercase tracking-wider text-slate-300; }
-  .eyebrow { @apply text-xs font-bold uppercase tracking-[.18em] text-primary; }
-  .badge { @apply inline-flex items-center gap-1.5 rounded border border-line bg-panel px-2.5 py-1 text-xs font-medium uppercase tracking-wide text-slate-200; }
+  /* Libellés sobres */
+  .label { @apply mb-1.5 block text-[13px] font-semibold text-slate-700; }
+  .eyebrow { @apply text-[11px] font-bold uppercase tracking-wider text-primary; }
+  .badge { @apply inline-flex items-center gap-1.5 rounded-[2px] border border-line bg-panel px-2 py-0.5 text-[11px] font-medium text-slate-700; }
 
-  /* Voyant d'état lumineux */
-  .led { @apply inline-block h-2.5 w-2.5 shrink-0 rounded-full; background: #22c55e; box-shadow: 0 0 7px rgba(34,197,94,.9); }
-  .led-amber { background: #f5a524; box-shadow: 0 0 7px rgba(245,165,36,.9); }
-  .led-red { background: #ef4444; box-shadow: 0 0 7px rgba(239,68,68,.9); }
-  .led-muted { background: #55697f; box-shadow: none; }
+  /* Voyants d'état discrets */
+  .led { @apply inline-block h-2 w-2 shrink-0 rounded-full; background: #1a7f37; }
+  .led-amber { background: #d97706; }
+  .led-red { background: #c0392b; }
+  .led-muted { background: #9aa5b1; }
 }
