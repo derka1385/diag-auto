@@ -37,9 +37,17 @@ def _gemini_response_payload(response):
         payload={**payload,"schemaVersion":"1.0"}
     return payload
 
+def _mock_interpretation(definition):
+    reliability=definition.get("definition_reliability"); description=definition.get("description")
+    if reliability=="generic_standard" and description: return description,"provided_by_database"
+    if description: return f"Définition constructeur indicative, non spécifique à ce véhicule et à confirmer : {description}","not_found"
+    return "Définition absente de la base technique locale ; code constructeur à interpréter selon la documentation du fabricant.","not_found"
+
 def _mock_analysis(context):
     codes=context.get("fault_codes",[]); definitions={x["code"]:x for x in context.get("technical_definitions",[])}; image_rows=context.get("images",[])
-    interpreted=[{"code":x["code"],"ecu":x.get("ecu"),"meaning":definitions.get(x["code"],{}).get("description") or "Définition absente de la base technique locale","sourceStatus":"provided_by_database" if definitions.get(x["code"],{}).get("description") else "not_found","relevance":"primary" if i==0 else "secondary"} for i,x in enumerate(codes)]
+    interpreted=[]
+    for i,x in enumerate(codes):
+        meaning,status=_mock_interpretation(definitions.get(x["code"],{})); interpreted.append({"code":x["code"],"ecu":x.get("ecu"),"meaning":meaning,"sourceStatus":status,"relevance":"primary" if i==0 else "secondary"})
     correlations=[]
     if len(codes)>1:correlations=[{"relatedCodes":[x["code"] for x in codes],"explanation":"Plusieurs codes sont présents simultanément ; leur lien doit être confirmé par les mesures et l’ordre d’apparition.","confidence":.45}]
     hypotheses=[{"id":"air-fuel-or-ignition","label":"Cause commune d’allumage ou de mélange à contrôler","component":None,"confidence":.62,"supportingEvidence":[f"Codes présents : {', '.join(x['code'] for x in codes)}"],"contradictingEvidence":["Aucun contrôle physique de confirmation"],"requiredConfirmation":["Contrôler les données figées et les paramètres de mélange"],"status":"possible"},{"id":"vehicle-specific-cause","label":"Cause spécifique au véhicule non documentée","component":None,"confidence":.25,"supportingEvidence":[],"contradictingEvidence":["Documentation constructeur absente"],"requiredConfirmation":["Consulter une source compatible avec la configuration confirmée"],"status":"unlikely"}]

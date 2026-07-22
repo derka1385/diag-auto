@@ -3,7 +3,7 @@ from pydantic import BaseModel,ConfigDict,Field,field_validator
 
 class Strict(BaseModel): model_config=ConfigDict(extra="forbid")
 class InterpretedFaultCode(Strict):
-    code:str; ecu:str|None=None; meaning:str; sourceStatus:Literal["provided_by_database","not_found"]; relevance:Literal["primary","secondary","consequence","unknown"]
+    code:str; ecu:str|None=None; meaning:str; sourceStatus:Literal["provided_by_database","ai_general_knowledge","not_found"]; relevance:Literal["primary","secondary","consequence","unknown"]
 class Correlation(Strict): relatedCodes:list[str]; explanation:str; confidence:float=Field(ge=0,le=1)
 class Hypothesis(Strict):
     id:str; label:str; component:str|None=None; confidence:float=Field(ge=0,le=1); supportingEvidence:list[str]; contradictingEvidence:list[str]; requiredConfirmation:list[str]; status:Literal["possible","likely","unlikely","confirmed","rejected"]
