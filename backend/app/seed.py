@@ -10,6 +10,8 @@ VEHICLE_ID="00000000-0000-0000-0000-000000000003"
 SOURCE_ID="00000000-0000-0000-0000-000000000004"
 CATALOG_SOURCE_ID="00000000-0000-0000-0000-000000000005"
 
+CATEGORY_BY_LETTER={"P":"powertrain","B":"body","C":"chassis","U":"network"}
+
 def import_dtc_catalog(db):
     candidates=[Path.cwd()/"data/fixtures/dtc_catalog.json",Path(__file__).resolve().parents[2]/"data/fixtures/dtc_catalog.json"]
     path=next((candidate for candidate in candidates if candidate.exists()),None)
@@ -22,13 +24,18 @@ def import_dtc_catalog(db):
     if not source:
         source=KnowledgeSource(id=CATALOG_SOURCE_ID,title=metadata["title"],source_type=metadata["source_type"],publisher=metadata["publisher"],version=metadata["source_commit"][:12],license_type=metadata["license_type"],source_url=metadata["source_url"],local_file_path="data/fixtures/dtc_catalog.json",checksum=payload["content_checksum_sha256"],trust_level=metadata["trust_level"],review_status=metadata["review_status"])
         db.add(source); db.flush()
+    existing={dtc.code:dtc for dtc in db.scalars(select(DiagnosticTroubleCode)).all()}
     imported=updated=0
     for definition in payload["definitions"]:
-        dtc=db.scalar(select(DiagnosticTroubleCode).where(DiagnosticTroubleCode.code==definition["code"]))
+        code=definition["code"].upper()
+        manufacturer_specific=bool(definition.get("manufacturer_specific", not definition.get("is_generic",True)))
+        category=CATEGORY_BY_LETTER.get(code[:1],"powertrain")
+        description=definition["description_en"][:300]
+        dtc=existing.get(code)
         if dtc:
-            dtc.generic_description=definition["description_en"]; dtc.source_id=source.id; dtc.manufacturer_specific=False; updated+=1
+            dtc.generic_description=description; dtc.source_id=source.id; dtc.manufacturer_specific=manufacturer_specific; dtc.category=category; updated+=1
         else:
-            db.add(DiagnosticTroubleCode(code=definition["code"],category="powertrain",generic_description=definition["description_en"],manufacturer_specific=False,affected_system="powertrain_unspecified",severity_hint="unknown",source_id=source.id)); imported+=1
+            db.add(DiagnosticTroubleCode(code=code,category=category,generic_description=description,manufacturer_specific=manufacturer_specific,affected_system="unspecified",severity_hint="unknown",source_id=source.id)); imported+=1
     return {"imported":imported,"updated":updated,"missing_fixture":False}
 
 def seed(db=None):
