@@ -14,6 +14,10 @@ class Settings(BaseSettings):
     vin_cache_ttl_days: int = 30
     vin_retention_days: int = 365
     vin_rate_limit_per_minute: int = 30
+    autoref_api_key: str = ""
+    autoref_api_url: str = "https://api-gateway.autoref.eu"
+    autoref_timeout_seconds: float = 15
+    autoref_max_candidates: int = 3
     registration_provider: str = "mock"
     registration_api_url: str = ""
     registration_api_key: str = ""
