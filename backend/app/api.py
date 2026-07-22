@@ -20,6 +20,14 @@ def owned_session(db,id,gid):
 def serialize(o):
     hidden={"vin","registration_encrypted","registration_fingerprint"} if isinstance(o,VehicleProfile) else set()
     return {c.name:getattr(o,c.name) for c in o.__table__.columns if c.name not in hidden}
+DTC_PATTERN=re.compile(r"[PBCU][0-9A-F]{4}")
+DTC_CATEGORY={"P":"powertrain","B":"body","C":"chassis","U":"network"}
+def recognize_dtc(code):
+    """Reconnaît tout code syntaxiquement valide par sa structure (catégorie + générique/constructeur),
+    même sans définition stockée. Un code valide n'est jamais 'inconnu'."""
+    code=(code or "").upper()
+    if not DTC_PATTERN.fullmatch(code): return None
+    return {"code":code,"category":DTC_CATEGORY[code[0]],"manufacturer_specific":code[1] not in "02","generic_description":None,"documented":False}
 
 @router.get("/health")
 def health(): return {"status":"ok","service":"diagpilot-api","llm_provider":settings.llm_provider}
@@ -45,12 +53,18 @@ def dtcs(db:Session=Depends(get_db)): return [serialize(x) for x in db.scalars(s
 @router.get("/dtcs/{code}")
 def dtc(code:str,db:Session=Depends(get_db)):
     d=db.scalar(select(DiagnosticTroubleCode).where(DiagnosticTroubleCode.code==code.upper()))
-    if not d: raise HTTPException(404,"Code DTC non supporté")
-    return serialize(d)
+    if d: return {**serialize(d),"documented":True}
+    recognized=recognize_dtc(code)
+    if recognized: return recognized
+    raise HTTPException(404,"Code DTC syntaxiquement invalide")
 @router.post("/dtcs/lookup")
 def lookup(data:DTCLookup,db:Session=Depends(get_db),gid:str=Depends(garage)):
     if not db.scalar(select(VehicleProfile).where(VehicleProfile.id==data.vehicle_id,VehicleProfile.garage_id==gid)): raise HTTPException(404,"Véhicule introuvable")
-    found=db.scalars(select(DiagnosticTroubleCode).where(DiagnosticTroubleCode.code.in_([x.upper() for x in data.codes]))).all(); return {"supported":[serialize(x) for x in found],"unsupported":sorted(set(x.upper() for x in data.codes)-{d.code for d in found})}
+    codes=list(dict.fromkeys(x.upper() for x in data.codes))
+    found=db.scalars(select(DiagnosticTroubleCode).where(DiagnosticTroubleCode.code.in_(codes))).all(); found_codes={d.code for d in found}
+    rest=[recognize_dtc(c) or {"code":c,"invalid":True} for c in codes if c not in found_codes]
+    undocumented=[r for r in rest if not r.get("invalid")]; invalid=sorted(r["code"] for r in rest if r.get("invalid"))
+    return {"supported":[{**serialize(x),"documented":True} for x in found],"undocumented":undocumented,"invalid":invalid,"unsupported":sorted([r["code"] for r in undocumented]+invalid)}
 
 @router.post("/diagnostic-sessions",status_code=201)
 def create_session(data:SessionCreate,db:Session=Depends(get_db),gid:str=Depends(garage)):
