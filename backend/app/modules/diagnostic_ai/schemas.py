@@ -16,7 +16,7 @@ class NextCheck(Strict):
     id:str; order:int=Field(ge=1); title:str; objective:str; prerequisites:list[str]; instructions:list[str]; safetyWarnings:list[str]; expectedResults:list[ExpectedResultAI]; requiredTools:list[str]; estimatedDifficulty:Literal["easy","intermediate","advanced"]
 class FinalConclusion(Strict): status:Literal["insufficient_information","testing_required","probable_cause_identified","cause_confirmed"]; summary:str
 class DiagnosticAnalysis(Strict):
-    schemaVersion:Literal["1.0"]; caseSummary:str; interpretedFaultCodes:list[InterpretedFaultCode]; correlations:list[Correlation]; hypotheses:list[Hypothesis]; imageEvidence:list[ImageEvidence]; urgency:Urgency; missingInformation:list[MissingInformation]; nextChecks:list[NextCheck]; finalConclusion:FinalConclusion; warnings:list[str]
+    schemaVersion:Literal["1.0"]; caseSummary:str; reasoningApproach:str; interpretedFaultCodes:list[InterpretedFaultCode]; correlations:list[Correlation]; hypotheses:list[Hypothesis]; imageEvidence:list[ImageEvidence]; urgency:Urgency; missingInformation:list[MissingInformation]; nextChecks:list[NextCheck]; finalConclusion:FinalConclusion; warnings:list[str]
     @field_validator("hypotheses")
     @classmethod
     def ranked(cls,value):
