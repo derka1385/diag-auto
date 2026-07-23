@@ -24,7 +24,7 @@ class DiagnosticAnalysis(Strict):
         return value
 
 class DiagnosticCreate(Strict):
-    vehicle_id:str; mileage:int|None=Field(default=None,ge=0); symptoms:str=Field(min_length=3,max_length=5000); circumstances:str=Field(default="",max_length=3000)
+    vehicle_id:str; mileage:int|None=Field(default=None,ge=0); symptoms:str=Field(default="",max_length=5000); circumstances:str=Field(default="",max_length=3000)
 class FaultCodeInput(Strict):
     code:str; ecu:str|None=Field(default=None,max_length=100); status:Literal["active","intermittent","stored","unknown"]="unknown"; freeze_frame:dict={}
     @field_validator("code")
