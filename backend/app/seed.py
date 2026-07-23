@@ -30,12 +30,15 @@ def import_dtc_catalog(db):
         code=definition["code"].upper()
         manufacturer_specific=bool(definition.get("manufacturer_specific", not definition.get("is_generic",True)))
         category=CATEGORY_BY_LETTER.get(code[:1],"powertrain")
-        description=definition["description_en"][:300]
+        description=(definition.get("description_en") or "")[:300]
+        tier=definition.get("confidence_tier","unknown")
+        fields=dict(generic_description=description,source_id=source.id,manufacturer_specific=manufacturer_specific,category=category,confidence_tier=tier,probable_family_fr=(definition.get("probable_family_fr") or None),control_points_fr=(definition.get("control_points_fr") or None),approximation_source_url=(definition.get("approximation_source_url") or None),approximation_method=(definition.get("approximation_method") or None))
         dtc=existing.get(code)
         if dtc:
-            dtc.generic_description=description; dtc.source_id=source.id; dtc.manufacturer_specific=manufacturer_specific; dtc.category=category; updated+=1
+            for key,value in fields.items():setattr(dtc,key,value)
+            updated+=1
         else:
-            db.add(DiagnosticTroubleCode(code=code,category=category,generic_description=description,manufacturer_specific=manufacturer_specific,affected_system="unspecified",severity_hint="unknown",source_id=source.id)); imported+=1
+            db.add(DiagnosticTroubleCode(code=code,affected_system="unspecified",severity_hint="unknown",**fields)); imported+=1
     return {"imported":imported,"updated":updated,"missing_fixture":False}
 
 def seed(db=None):

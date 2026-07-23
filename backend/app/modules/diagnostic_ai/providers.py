@@ -39,8 +39,13 @@ def _gemini_response_payload(response):
 
 def _mock_interpretation(definition):
     reliability=definition.get("definition_reliability"); description=definition.get("description")
+    family=definition.get("probable_family"); points=definition.get("control_points")
     if reliability=="generic_standard" and description: return description,"provided_by_database"
-    if description: return f"Définition constructeur indicative, non spécifique à ce véhicule et à confirmer : {description}","not_found"
+    if reliability=="manufacturer_exact_internet" and description: return f"Correspondance trouvée par recherche internet, non certifiée constructeur, à confirmer : {description}","not_found"
+    if reliability=="manufacturer_indicative" and description: return f"Définition constructeur indicative, non spécifique à ce véhicule et à confirmer : {description}","not_found"
+    if reliability=="approximation_family" and family:
+        base=f"Aucune définition disponible ; zone fonctionnelle probable seulement (à confirmer) : {family}."
+        return (base+f" Pistes de contrôle génériques : {points}" if points else base),"not_found"
     return "Définition absente de la base technique locale ; code constructeur à interpréter selon la documentation du fabricant.","not_found"
 
 def _mock_analysis(context):
