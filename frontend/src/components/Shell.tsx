@@ -1,7 +1,15 @@
+"use client";
+
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 import { SideNav } from "@/components/SideNav";
 
+const FULLSCREEN_ROUTES = ["/diagnostics/new"];
+
 export function Shell({ children }: { children: React.ReactNode }) {
+  const pathname = usePathname();
+  if (FULLSCREEN_ROUTES.includes(pathname)) return <>{children}</>;
+
   return (
     <div className="flex min-h-dvh flex-col">
       <a href="#main" className="sr-only focus:not-sr-only focus:fixed focus:left-4 focus:top-4 focus:z-50 focus:rounded-[2px] focus:bg-primary focus:p-3 focus:text-white">
