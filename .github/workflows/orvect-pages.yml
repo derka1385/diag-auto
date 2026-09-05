@@ -1,4 +1,5 @@
 name: Publish ORVECT landing
+# The deploy job always reads the isolated gh-pages branch; application sources stay private.
 
 on:
   push:
